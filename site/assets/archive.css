@@ -1,0 +1,381 @@
+.speakers-dialog {
+  width: min(1180px, calc(100vw - 32px));
+  max-width: none;
+  max-height: calc(100svh - 32px);
+  padding: 28px 36px;
+  border: 6px solid #896034;
+  box-shadow:
+    0 0 0 2px #e1b779,
+    0 20px 80px #0009;
+  background: #24343b;
+  color: #f1e4c8;
+  overflow-y: auto;
+}
+.speakers-dialog::backdrop {
+  background: #101d24cf;
+}
+.archive-standalone {
+  background: #24343b;
+  color: #f1e4c8;
+  min-height: 100svh;
+}
+.archive-page {
+  max-width: 1180px;
+  margin: auto;
+  padding: 32px;
+}
+.archive-header {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.archive-header h1 {
+  font: 500 clamp(28px, 3vw, 42px)/1.15 var(--serif);
+  margin: 8px 0 16px;
+  max-width: 800px;
+}
+.archive-header h1 span {
+  color: #e1b779;
+  white-space: nowrap;
+}
+.archive-header .eyebrow {
+  color: #e1b779;
+}
+.archive-close,
+.archive-back,
+.archive-pagination a,
+.year-arrow,
+.static-years a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid #ac8651;
+  color: #f1e4c8;
+  background: #1b2b32;
+  text-decoration: none;
+  font: 600 15px var(--sans);
+}
+.archive-close {
+  flex-shrink: 0;
+}
+.archive-intro {
+  max-width: 780px;
+  margin: 0 0 20px;
+  color: #e1dac9;
+}
+.archive-years {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  border-block: 1px solid #6c6954;
+}
+.year-select {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.year-select select {
+  font: 600 19px var(--serif);
+  background: #f1e4c8;
+  color: #24343b;
+  padding: 8px 12px;
+  min-height: 44px;
+  border: 2px solid #c88b3d;
+}
+.year-arrow {
+  min-width: 86px;
+}
+.is-disabled {
+  opacity: 0.45;
+}
+.archive-count {
+  color: #e1dac9;
+  font-size: 14px;
+  margin: 14px 0;
+}
+.plaques-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+}
+.event-plaque {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-height: 142px;
+  padding: 18px;
+  border: 5px ridge #e1b779;
+  background: #c99b58;
+  color: #24343b;
+  text-decoration: none;
+  box-shadow: 4px 5px #14232a;
+  position: relative;
+}
+.event-plaque::before,
+.event-plaque::after {
+  content: '';
+  width: 3px;
+  height: 3px;
+  background: #f1e4c8;
+  position: absolute;
+  top: 7px;
+}
+.event-plaque::before {
+  left: 7px;
+}
+.event-plaque::after {
+  right: 7px;
+}
+.event-plaque img,
+.detail-mug {
+  image-rendering: pixelated;
+}
+.event-plaque span {
+  font: 600 21px var(--serif);
+  text-transform: capitalize;
+}
+.event-plaque:hover {
+  background: #e1b779;
+}
+.archive-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+.archive-source-note {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #d0c5ae;
+  max-width: 850px;
+  margin: 24px 0 0;
+}
+.event-detail {
+  max-width: 850px;
+  margin: auto;
+  padding: 14px 0 24px;
+}
+.talk-date {
+  color: #e1b779;
+  font-size: 17px;
+}
+.detail-mug {
+  margin: 16px 0;
+}
+.event-detail h2 {
+  font: 500 24px var(--serif);
+}
+.speaker-names {
+  list-style: none;
+  padding: 0;
+  font: 500 25px/1.5 var(--serif);
+}
+.speaker-names small {
+  display: block;
+  font: 14px var(--sans);
+  color: #e1b779;
+}
+.source-event {
+  margin: 28px 0;
+}
+.event-detail .primary-link {
+  color: #24343b;
+  background: #f1e4c8;
+}
+.archive-back {
+  margin-top: 24px;
+}
+.static-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+}
+.static-years [aria-current] {
+  background: #c99b58;
+  color: #24343b;
+}
+.home-page .speakers-dialog :focus-visible,
+.archive-standalone :focus-visible {
+  outline: 3px solid #fff5d8;
+  outline-offset: 4px;
+}
+.speakers-dialog .event-plaque:focus-visible {
+  outline-color: #fff5d8;
+}
+@media (max-width: 850px) {
+  .plaques-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .speakers-dialog {
+    width: calc(100vw - 16px);
+    max-height: calc(100svh - 16px);
+    padding: 20px 16px;
+    border-width: 4px;
+  }
+  .archive-page {
+    padding: 20px 16px;
+  }
+  .archive-header {
+    flex-direction: column-reverse;
+    gap: 18px;
+  }
+  .archive-close {
+    align-self: flex-end;
+  }
+  .archive-header h1 {
+    font-size: 29px;
+  }
+  .plaques-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+  .event-plaque {
+    min-height: 132px;
+    padding: 12px;
+  }
+  .event-plaque span {
+    font-size: 18px;
+  }
+  .year-arrow {
+    min-width: 60px;
+    padding: 8px;
+  }
+  .archive-pagination {
+    flex-wrap: wrap;
+  }
+  .archive-pagination a {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+/* A board always reserves twelve cells; event count never changes its geometry. */
+.speakers-dialog {
+  height: min(820px, calc(100svh - 32px));
+  overflow: hidden;
+}
+#archive-content { height: 100%; min-height: 0; }
+.archive-board-view {
+  height: 100%; min-height: 0; display: grid; gap: 10px;
+  grid-template-rows: auto auto auto auto minmax(0, 1fr) auto auto;
+}
+.archive-detail-view { height: 100%; min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.archive-header { flex-direction: row; gap: 12px; min-width: 0; }
+.archive-header > div { min-width: 0; }
+.archive-header .eyebrow { margin: 0; font-size: 11px; }
+.archive-header h1 { margin: 6px 0 8px; font-size: clamp(23px, 3vw, 36px); overflow-wrap: anywhere; }
+.archive-close { align-self: flex-start; width: 44px; height: 44px; min-width: 44px; padding: 0; font-size: 28px; }
+.archive-board-view .archive-intro,
+.archive-board-view .archive-count,
+.archive-board-view .archive-source-note,
+.archive-board-view .archive-pagination { margin: 0; }
+.archive-board-view .archive-years { padding: 4px 0; }
+.archive-board-view .archive-source-note { font-size: 11px; }
+.plaques-grid { min-height: 0; grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.event-plaque { min-height: 0; min-width: 0; padding: 8px; gap: 4px; }
+.event-plaque img { width: auto; height: clamp(22px, 5svh, 48px); max-height: 45%; }
+.event-plaque span { font-size: clamp(13px, 2vw, 21px); }
+.plaque-slot { visibility: hidden; pointer-events: none; }
+.archive-pagination { min-height: 44px; flex-wrap: nowrap; }
+.archive-pagination > span { white-space: nowrap; }
+.event-detail { min-height: 0; overflow-y: auto; overscroll-behavior: contain; width: 100%; margin: 0 auto; padding: 8px 8px 24px; }
+.event-talk { margin: 28px 0; border-top: 1px solid #6c6954; padding-top: 20px; }
+.event-talk h2 { margin-top: 8px; }
+.video-links { padding-left: 20px; }
+.video-links a { color: #f1e4c8; min-height: 44px; display: inline-flex; align-items: center; }
+.video-links small { display: block; color: #d0c5ae; }
+.archive-page > .archive-board-view { min-height: 800px; height: calc(100svh - 64px); }
+.archive-page > .archive-detail-view { height: calc(100svh - 64px); min-height: 400px; }
+.archive-standalone .static-years { max-height: 96px; overflow: auto; }
+@media (max-width: 850px) {
+  .plaques-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(4, minmax(0, 1fr)); gap: 8px; }
+}
+@media (max-width: 520px) {
+  .speakers-dialog { height: calc(100svh - 16px); padding: 12px; }
+  .archive-board-view { gap: 6px; }
+  .archive-intro { font-size: 13px; line-height: 1.25; }
+  .archive-count { font-size: 12px; }
+  .event-plaque { padding: 4px; border-width: 3px; box-shadow: 2px 3px #14232a; }
+  .event-plaque span { font-size: 13px; }
+  .archive-years { gap: 6px; }
+  .year-select { gap: 6px; }
+  .year-select select { padding: 4px; font-size: 17px; }
+  .archive-pagination a { font-size: 11px; padding: 4px; }
+  .speaker-names { font-size: 20px; }
+  .archive-page > .archive-board-view { min-height: 700px; }
+}
+@media (max-height: 600px) and (min-width: 521px) {
+  .speakers-dialog { padding: 8px 16px; }
+  .archive-board-view { gap: 3px; grid-template-rows: auto auto auto minmax(0, 1fr) auto; }
+  .archive-board-view .archive-intro, .archive-board-view .archive-source-note { display: none; }
+  .archive-header h1 { font-size: 23px; margin: 0; }
+  .archive-header .eyebrow { font-size: 9px; }
+  .plaques-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-template-rows: repeat(3, minmax(0, 1fr)); gap: 6px; }
+  .event-plaque { flex-direction: row; padding: 2px; border-width: 3px; }
+  .event-plaque img { max-height: 80%; height: 24px; }
+  .event-plaque span { font-size: 13px; }
+}
+/* Person recognition and the separate VHS collection share fixed twelve-cell boards. */
+.person-plaque { display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; gap:6px; padding:8px; min-width:0; min-height:0; border:4px ridge #e1b779; background:#c99b58; color:#24343b; box-shadow:3px 4px #14232a; text-decoration:none; }
+.person-plaque > span:last-child { font:600 clamp(13px,1.7vw,20px)/1.15 var(--serif); overflow-wrap:anywhere; }
+.plaque-star { font-size:24px; line-height:1; }
+.person-plaque:hover { background:#e1b779; }
+.person-contribution { border-top:1px solid #6c6954; margin-block:24px; padding-top:16px; }
+.person-contribution li { margin-block:10px; }
+.person-detail { line-height:1.6; }
+.vhs-tape { min-width:0; min-height:0; border:3px solid #14232a; border-left:9px solid #101b20; box-shadow:3px 4px #111e25; background:#364850; color:#f1e4c8; padding:8px; display:flex; flex-direction:column; justify-content:center; gap:5px; text-decoration:none; }
+.vhs-tape:hover { background:#465961; }
+.vhs-date { background:#e1d6bc; color:#24343b; font-weight:700; padding:3px 5px; text-transform:capitalize; font-size:13px; }
+.vhs-title { font:500 clamp(11px,1.25vw,16px)/1.15 var(--serif); display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+.vhs-tape small { color:#e1b779; font-size:10px; }
+.video-selection li { margin-block:18px; }
+.video-selection ul { padding-left:18px; }
+.video-selection .primary-link { white-space:normal; }
+.crt-frame { background:#4a4035; border:8px ridge #b18651; padding:12px 12px 6px; box-shadow:0 8px #111e25; margin:12px auto 22px; }
+.crt-screen { position:relative; min-width:0; width:100%; background:#101b20; min-height:206px; aspect-ratio:16/9; display:grid; place-items:center; overflow:hidden; border:3px solid #18272e; }
+.crt-screen iframe { position:absolute; inset:0; min-width:0; max-width:100%; display:block; width:100%; height:100%; min-height:200px; border:0; }
+.crt-brand { display:block; color:#e1d6bc; font:600 10px/2 var(--sans); letter-spacing:2px; }
+.player-fallback { line-height:1.5; }
+.player-fallback a { font-weight:700; }
+.archive-page > .tv-watch-view { height:auto; min-height:80vh; }
+@media(max-width:520px) {
+ .person-plaque { padding:3px; border-width:3px; gap:3px; }
+ .person-plaque > span:last-child { font-size:12px; }
+ .plaque-star { font-size:18px; }
+ .vhs-tape { padding:4px; border-left-width:5px; gap:3px; }
+ .vhs-date { font-size:10px; padding:2px; }
+ .vhs-title { font-size:10px; -webkit-line-clamp:3; }
+ .vhs-tape small { font-size:8px; }
+ .crt-frame { padding:4px; border-width:4px; }
+}
+@media(max-height:600px) and (min-width:521px) {
+ .person-plaque { flex-direction:row; padding:2px; gap:4px; }
+ .person-plaque > span:last-child { font-size:12px; }
+ .plaque-star { font-size:16px; }
+ .vhs-tape { gap:2px; padding:3px; }
+ .vhs-date { font-size:10px; padding:1px; }
+ .vhs-title { font-size:10px; -webkit-line-clamp:1; }
+ .vhs-tape small { display:none; }
+}
+.archive-board-view .archive-count { min-height: 2.5em; }
+
+/* Direct links remain available on static pages without a working player. */
+.event-source-link, .youtube-secondary { display:inline-flex; align-items:center; min-height:44px; }
+.event-detail .watch-talk-title { font-size:1.1rem; }
+.mobile-video-fallback, .player-enhanced .static-video-fallback { display:none; }
+@media (max-width:850px) {
+  .mobile-video-fallback, .player-enhanced .static-video-fallback { display:block; }
+  .youtube-secondary { display:inline-flex; }
+}

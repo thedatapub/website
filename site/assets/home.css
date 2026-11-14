@@ -1,0 +1,391 @@
+@import url('./pub/barman-animation.css');
+
+/* The home is entirely the pub; editorial page chrome belongs to content routes. */
+.sr-only {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.home-page {
+  height: 100svh;
+  overflow: hidden;
+  background: var(--deep);
+}
+.pub-home,
+.stage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.bar-viewport {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  cursor: grab;
+  scroll-behavior: auto;
+}
+.bar-viewport::-webkit-scrollbar {
+  display: none;
+}
+.bar-viewport:focus-visible {
+  outline: 3px dashed var(--sand);
+  outline-offset: -7px;
+}
+.bar-viewport.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+}
+.stage {
+  --pixel-scale: 2;
+  --world-width: calc(var(--range-width) * var(--pixel-scale));
+  --world-height: 960px;
+  --world-top: calc((100svh - 960px) / 2);
+  --control-top: calc((100svh - 960px) / 2 + 715px);
+}
+.bar-range {
+  position: relative;
+  width: var(--world-width);
+  height: 100%;
+  margin-inline: auto;
+  overflow: clip;
+}
+.bar-world {
+  position: relative;
+  width: calc(var(--art-width) * var(--pixel-scale));
+  height: var(--world-height);
+  left: calc(-1 * var(--crop-left) * var(--pixel-scale));
+  top: var(--world-top);
+  isolation: isolate;
+  image-rendering: pixelated;
+}
+.bar-world::before,
+.bar-world::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  pointer-events: none;
+  image-rendering: pixelated;
+  background-repeat: repeat-y;
+}
+.bar-world::before {
+  bottom: 100%;
+  background-image: url('./pub/ceiling-edge.png');
+  background-size: 100% calc(8px * var(--pixel-scale));
+}
+.bar-world::after {
+  top: 100%;
+  background-image: url('./pub/floor-edge.png');
+  background-size: 100% calc(12px * var(--pixel-scale));
+}
+.bar-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+  user-select: none;
+}
+.barman-sprite {
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  image-rendering: pixelated;
+  background-image: url('./pub/barman-scene-sheet.png');
+  background-size: 800% 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0;
+}
+/* The baked first frame remains visible before JS, with motion off, and on load failure. */
+[data-motion='full'] .barman-sprite {
+  display: block;
+  animation: barman-mouth-blink 6.5s steps(1, end) infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-motion='full'] .barman-sprite {
+    display: none;
+    animation: none;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  [data-motion='full']:has(dialog[open]) .barman-sprite {
+    animation-play-state: paused;
+  }
+}
+.pub-sign {
+  position: absolute;
+  transform: none;
+  padding: 0;
+  text-decoration: none;
+}
+.scene-prop,
+.team-board {
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.scene-prop img,
+.team-board img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+.scene-decoration {
+  pointer-events: none;
+  user-select: none;
+  cursor: inherit;
+}
+.scene-hint {
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border: 2px solid #79552c;
+  background: var(--sand);
+  color: var(--navy);
+  white-space: nowrap;
+  font: 600 13px var(--sans);
+  opacity: var(--scene-hint-opacity, 0);
+  pointer-events: none;
+}
+.home-page :focus-visible {
+  outline: 3px solid var(--sand);
+  outline-offset: 4px;
+}
+.home-page dialog :focus-visible,
+.menu-panel :focus-visible {
+  outline-color: #985021;
+}
+/* One transient state for every real object, including the baked pub sign.
+   Labels never enlarge the hit area; touch never acquires emulated hover. */
+.home-page .scene-hotspot {
+  --scene-hint-opacity: 0;
+  --scene-outline: transparent;
+  min-width: 44px;
+  min-height: 44px;
+  outline: 3px solid var(--scene-outline);
+  outline-offset: 4px;
+}
+.home-page:not(:has(dialog[open])):not([data-scene-input='pointer']) .scene-hotspot:focus-visible {
+  --scene-hint-opacity: 1;
+  --scene-outline: var(--sand);
+}
+@media (hover: hover) and (pointer: fine) {
+  .home-page:not(:has(dialog[open])) .scene-hotspot:hover {
+    --scene-hint-opacity: 1;
+    --scene-outline: var(--sand);
+  }
+}
+.counter-note {
+  position: absolute;
+  left: 50%;
+  top: 74.5%;
+  transform: translate(-50%, -50%);
+  width: min(242px, calc(100vw - 70px));
+  background: var(--sand);
+  border: 2px solid #654630;
+  box-shadow: 4px 4px #3c302a;
+  color: var(--navy);
+  text-align: center;
+  padding: 9px 8px;
+  margin: 0;
+  pointer-events: none;
+}
+.counter-note > span {
+  display: block;
+  font-size: 9px;
+  color: #5c4e38;
+}
+.counter-note strong {
+  display: block;
+  font: 600 12px/1.5 var(--sans);
+  margin-top: 2px;
+}
+.counter-note strong > span {
+  font-size: 15px;
+  margin-left: 4px;
+}
+.camera-pan-controls {
+  position: absolute;
+  left: max(18px, env(safe-area-inset-left));
+  bottom: 12%;
+  display: flex;
+  gap: 9px;
+  z-index: 2;
+}
+.camera-pan-controls button,
+.pub-menu > summary {
+  min-height: 46px;
+  min-width: 46px;
+  border: 2px solid #654630;
+  background: var(--sand);
+  box-shadow: 3px 3px #3c302a;
+  color: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.camera-pan-controls button {
+  font: 600 24px var(--sans);
+  padding: 0 8px;
+}
+.camera-pan-controls button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.camera-pan-controls button:hover:enabled,
+.pub-menu > summary:hover {
+  background: #f0d2a0;
+}
+.pub-menu {
+  position: absolute;
+  right: max(18px, env(safe-area-inset-right));
+  bottom: 12%;
+  z-index: 4;
+}
+.pub-menu > summary {
+  list-style: none;
+  gap: 18px;
+  padding: 0 13px;
+  font: 600 13px var(--sans);
+}
+.pub-menu > summary::-webkit-details-marker {
+  display: none;
+}
+.pub-menu > summary > span {
+  font-size: 20px;
+  line-height: 1;
+}
+.menu-panel {
+  position: absolute;
+  bottom: calc(100% + 12px);
+  right: 0;
+  width: min(350px, calc(100vw - 36px));
+  max-height: calc(88svh - 70px);
+  overflow: auto;
+  background: var(--paper);
+  color: var(--navy);
+  border: 1px solid #bca37a;
+  padding: 22px;
+  box-shadow: 5px 5px #17272e66;
+  cursor: auto;
+}
+.menu-panel > .eyebrow {
+  color: #73502d;
+  margin: 0 0 12px;
+}
+.menu-panel nav {
+  display: grid;
+}
+.menu-panel nav > a {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 48px;
+  border-top: 1px solid var(--line);
+  text-decoration: none;
+  font-weight: 600;
+}
+.menu-panel nav > a > span:last-child {
+  margin-left: auto;
+}
+.menu-panel nav > a:hover {
+  text-decoration: underline;
+}
+.menu-options {
+  display: grid;
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+  margin-top: 8px;
+}
+.menu-options button {
+  min-height: 44px;
+  text-align: left;
+  border: 0;
+  background: none;
+  padding: 0;
+  font-size: 13px;
+}
+.menu-options button > span {
+  float: right;
+}
+.menu-options button:hover {
+  text-decoration: underline;
+}
+.menu-panel #discovery {
+  font-size: 11px;
+  color: #5d625b;
+  border-top: 1px solid var(--line);
+  padding-top: 13px;
+  margin: 8px 0 0;
+}
+@media (max-width: 700px) {
+  .camera-pan-controls {
+    left: 14px;
+    gap: 7px;
+  }
+  .pub-menu {
+    right: 14px;
+  }
+  .pub-menu > summary {
+    font-size: 12px;
+    gap: 12px;
+    padding: 0 11px;
+  }
+  .counter-note {
+    padding: 7px;
+  }
+  .menu-panel {
+    padding: 18px;
+  }
+}
+@media (max-height: 500px) {
+  .counter-note {
+    display: none;
+  }
+  .camera-pan-controls,
+  .pub-menu {
+    bottom: 6%;
+  }
+  .menu-panel {
+    max-height: calc(94svh - 90px);
+  }
+}
+
+/* UI plaques remain on the counter while all artwork shares one integer zoom. */
+.counter-note {
+  width: min(210px, calc(100vw - 88px));
+  padding: 6px 9px;
+  font: 600 11px/1.5 var(--sans);
+}
+.camera-pan-controls,
+.pub-menu {
+  top: var(--control-top);
+  bottom: auto;
+}
+@media (max-height: 639px) {
+  .stage {
+    --pixel-scale: 1;
+    --world-height: 480px;
+    --world-top: calc((100svh - 480px) / 2);
+    --control-top: calc((100svh - 480px) / 2 + 346px);
+  }
+}

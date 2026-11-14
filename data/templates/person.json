@@ -1,0 +1,32 @@
+{
+  "id": "carlos-alberto-haro",
+  "name": "Carlos Alberto Haro",
+  "identityBasis": "La ficha de octubre de 2026 menciona expresamente su participación de julio de 2023. El CV profesional compartido por Pedro identifica el mismo nombre y trabajo en Santander; los enlaces se atribuyen desde ese CV.",
+  "identityReview": "reviewed_join",
+  "bio": {
+    "text": "Experiencia en ciencia de datos, ingeniería de software e ingeniería de datos. En octubre de 2026 fue presentado como AI Engineer en Santander México.",
+    "asOf": "2026-10-21",
+    "evidenceUrl": "https://www.meetup.com/thedatapub/events/316979242/"
+  },
+  "links": [
+    {
+      "label": "Sitio profesional / CV",
+      "url": "https://h1sort.com/cv/",
+      "evidenceUrl": "https://h1sort.com/cv/"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/h1sort",
+      "evidenceUrl": "https://h1sort.com/cv/"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/h1sort",
+      "evidenceUrl": "https://h1sort.com/cv/"
+    }
+  ],
+  "aliases": [
+    "Carlos Alberto Haro"
+  ],
+  "previousIds": []
+}

@@ -1,0 +1,2654 @@
+{
+  "schemaVersion": 1,
+  "talks": [
+    {
+      "id": "312943510-1",
+      "eventId": "312943510",
+      "title": "Building trustworthy AI products that scale",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "andrew-dumit-312943510"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Andrew Dumit"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "313303117-1",
+      "eventId": "313303117",
+      "title": "La personalidad jurídica de la IA",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "luis-raul-gonzalez-romo-313303117"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Luis Raúl González Romo"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "313843763-1",
+      "eventId": "313843763",
+      "title": "Fundamentos que mueven millones: una lección de humildad técnica",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "diego-halffter-313843763"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Diego Halffter"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "314758353-1",
+      "eventId": "314758353",
+      "title": "La importancia de NLP tradicional en la era de la IA generativa",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-vargas-314758353"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Vargas"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "315795851-1",
+      "eventId": "315795851",
+      "title": "El científico de datos en la era de la IA generativa",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "emilio-herreman-315795851"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Emilio Herreman"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "316589287-1",
+      "eventId": "316589287",
+      "title": "Text to SQL: de la ficción a la realidad en el contexto de agentes conversacionales",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "diana-nadia-tamayo-celada-316589287"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Diana Nadia Tamayo Celada"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "316979242-1",
+      "eventId": "316979242",
+      "title": "Post AI Data Stack: ¿Qué cambió en la era de GPT?",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-alberto-haro"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Alberto Haro"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "305725636-1",
+      "eventId": "305725636",
+      "title": "Predicciones de riesgo global: Segundo lugar del Factored Datathon 2024",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "cesar-arroyo-cardenas-305725636"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "César Arroyo Cárdenas"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "306155338-1",
+      "eventId": "306155338",
+      "title": "ML Informed Financial Assistance to Prevent Homelessness",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "kasun-amarasinghe-306155338"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Kasun Amarasinghe"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "306706829-1",
+      "eventId": "306706829",
+      "title": "Before jumping to Large Language Models",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "liliana-millan-nunez-306706829"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Liliana Millán Núñez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "307168945-1",
+      "eventId": "307168945",
+      "title": "Responsible AI to Benefit Society, Use Cases and Lessons Learned",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "kit-rodolfa-307168945"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Kit Rodolfa"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "308576232-1",
+      "eventId": "308576232",
+      "title": "Sinapsis - Transformando la Implementación de la IA",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "natalia-osorio-308576232"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Natalia Osorio"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "309399047-1",
+      "eventId": "309399047",
+      "title": "Modelar con intención, decisiones que transforman",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "mauricio-porte-309399047"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Mauricio Porte"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "310362200-1",
+      "eventId": "310362200",
+      "title": "¿Puede la GenIA razonar? Un enfoque lógico-matemático",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-alfonso-ruiz-guido"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alfonso Ruiz"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "311027455-1",
+      "eventId": "311027455",
+      "title": "Integración de Rust y Python con PyO3",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "hermilo-cortes-gonzalez"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Hermilio Cortés"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "311481364-1",
+      "eventId": "311481364",
+      "title": "Motor de crédito impulsado por IA en Bankaya",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "francys-lanza-garcia-311481364"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Francys Lanza García"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "312082041-1",
+      "eventId": "312082041",
+      "title": "ML para fortalecer decisiones de negocio",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "joel-menendez-ramirez-312082041"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Joel Menéndez Ramírez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "298681493-1",
+      "eventId": "298681493",
+      "title": "Eficacia de la creatividad en la industria publicitaria mediante IA y el Análisis de Correlación Canónica.",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "hugo-pimentel-298681493"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Hugo Pimentel"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "299239582-1",
+      "eventId": "299239582",
+      "title": "Adaptación de Dominio - Generalizando modelos de Visión Computacional",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-lopez-299239582"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos López"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "300443920-1",
+      "eventId": "300443920",
+      "title": "Construyendo MLOps, de Startup a Unicornio",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "oscar-armas-300443920"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Oscar Armas"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "301041360-1",
+      "eventId": "301041360",
+      "title": "Virtualización y Contenedores en Cómputo Científico",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "hermilo-cortes-gonzalez"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Hermilo Cortés González"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "301686739-1",
+      "eventId": "301686739",
+      "title": "Optimización de portafolios de inversión con Python",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "ismael-medina-munoz-301686739"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Ismael Medina Muñoz"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "302389948-1",
+      "eventId": "302389948",
+      "title": "Entendiendo las limitaciones de la resiliencia comunitaria",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jose-ramirez-marquez-302389948"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "José Ramirez-Marquez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "302874514-1",
+      "eventId": "302874514",
+      "title": "Data Pub Agosto: Introducción a la Inteligencia Artificial Generativa",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "javier-luraschi"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Javier Luraschi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "303534797-1",
+      "eventId": "303534797",
+      "title": "Data Pub Septiembre: Aplicaciones financieras de los Autoencoders",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "gerardo-hernandez-del-valle-303534797"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Gerardo Hernandez del Valle"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "304051496-1",
+      "eventId": "304051496",
+      "title": "Data Pub Octubre: Ciencia de datos para PYMES",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jose-manuel-barrera-304051496"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jose Manuel Barrera"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "304462001-1",
+      "eventId": "304462001",
+      "title": "Data Pub Noviembre: Diseño de aplicaciones con Large Language Models (LLMs)",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-de-unanue"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo De Unánue"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "291052514-1",
+      "eventId": "291052514",
+      "title": "Ciencia de Datos Multi-Industria (mis cicatrices y consejos para la práctica)",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jose-gustavo-fuentes-291052514"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "José Gustavo Fuentes"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "291693761-1",
+      "eventId": "291693761",
+      "title": "Reinforcement Learning: desde videojuegos hasta salud pública.",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "fernanda-a-durand-291693761"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Fernanda A. Durand"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "292875985-1",
+      "eventId": "292875985",
+      "title": "Ciencia de Datos para la planeación de ciudades sostenibles",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "roberto-ponce-292875985"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Roberto Ponce"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "294441567-1",
+      "eventId": "294441567",
+      "title": "El Stack Moderno de Ingeniería de Datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-alberto-haro"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Alberto Haro"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "295515370-1",
+      "eventId": "295515370",
+      "title": "Dr. Charlatan's Snake Oil Data o El peligro de las narrativas falsas",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "oliver-lopez-corona-295515370"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Oliver López-Corona"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "296847536-1",
+      "eventId": "296847536",
+      "title": "Ciencia de Datos y Crimen Organizado",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "fernanda-sobrino-macias-296847536"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Fernanda Sobrino Macias"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "283305502-1",
+      "eventId": "283305502",
+      "title": "Mejores Prácticas en Machine Learning",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "anders-christiansen-283305502"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Anders Christiansen"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "284039805-1",
+      "eventId": "284039805",
+      "title": "Data Science relevante en el negocio: Retos y Estrategia",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "isidoro-garcia-urquieta-284039805"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Isidoro Garcia Urquieta"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "284722367-1",
+      "eventId": "284722367",
+      "title": "The Data Pub Marzo: Creación y crecimiento de equipos para productos de datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "sebastian-perez-saaibi-284722367"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Sebastián Pérez Saaibi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "285405789-1",
+      "eventId": "285405789",
+      "title": "Incertidumbre radical",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "edmundo-molina-285405789"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Edmundo Molina"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "286013745-1",
+      "eventId": "286013745",
+      "title": "Considera Julia, un brillante futuro para la ciencia de datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "miguel-raz-guzman-286013745"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Miguel Raz Guzmán"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "286623333-1",
+      "eventId": "286623333",
+      "title": "El uso de Ciencia de Datos en política pública",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-de-unanue"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo de Unánue Tiscareño"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "287208054-1",
+      "eventId": "287208054",
+      "title": "Identifying Legislative Communities of Interest Using Contact Graphs (Charla en idioma inglés)",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "james-syme-287208054"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "James Syme"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "287873923-1",
+      "eventId": "287873923",
+      "title": "Inteligencia Artificial, ética y cuidado del adulto mayor",
+      "kind": "Charla",
+      "speakerScope": "event",
+      "speakerIds": [],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "María de Lourdes Martínez Villaseñor",
+          "Alejandro Alayola Sansores"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "287873923-2",
+      "eventId": "287873923",
+      "title": "La importancia de la Inteligencia Artificial en la enseñanza de las ciencias de la salud",
+      "kind": "Charla",
+      "speakerScope": "event",
+      "speakerIds": [],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "María de Lourdes Martínez Villaseñor",
+          "Alejandro Alayola Sansores"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "288624957-1",
+      "eventId": "288624957",
+      "title": "Uso de Deep Learning para resolver problemas en salud",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "alfonso-gastelum-strozzi-288624957"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alfonso Gastélum Strozzi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "289279649-1",
+      "eventId": "289279649",
+      "title": "Cultura Data Driven para una eficiente estrategia de datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "dante-tellez-289279649"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Dante Tellez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "289778122-1",
+      "eventId": "289778122",
+      "title": "Estado y futuro de la Inteligencia Artificial en México",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "leon-palafox"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "León Palafox"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "276057096-1",
+      "eventId": "276057096",
+      "title": "Ciencia de datos reproducible y confiable con Ploomber",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "eduardo-blancas-reyes-276057096"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Eduardo Blancas Reyes"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "276057096-2",
+      "eventId": "276057096",
+      "title": "La maldición de la dimensión y NLP",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-alfonso-ruiz-guido"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Alfonso Ruiz Guido"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "276581681-1",
+      "eventId": "276581681",
+      "title": "Detectando niveles de ocupación en lugares cerrados usando variables ambientales",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "hector-g-ceballos-276581681"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Héctor G. Ceballos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "277258356-1",
+      "eventId": "277258356",
+      "title": "NeuralODEs, Entrenamiento de sistemas de Ecuaciones Diferenciales",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "luz-mariana-blaz-277258356"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Luz Mariana Blaz"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "277258356-2",
+      "eventId": "277258356",
+      "title": "Introducción a DVC",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "ramon-valles-277258356"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Ramón Valles"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "278381927-1",
+      "eventId": "278381927",
+      "title": "Data Science: Fundamentos para los Recién Llegados",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "ian-castillo-278381927"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Ian Castillo"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "279081489-1",
+      "eventId": "279081489",
+      "title": "Graph Machine Learning - The Next Frontier in AI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "alejandro-correa-bahnsen-279081489",
+        "luisa-fernanda-roa-ballen-279081489"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alejandro Correa Bahnsen",
+          "Luisa Fernanda Roa Ballén"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "279433662-1",
+      "eventId": "279433662",
+      "title": "Los retos en los conteos rápidos del INE: caso elecciones 2021",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "teresa-ortiz-279433662",
+        "michelle-anzarut-279433662"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Teresa Ortiz",
+          "Michelle Anzarut"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "280284690-1",
+      "eventId": "280284690",
+      "title": "Ciencia de Datos con Tecnologías Web",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "javier-luraschi"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Javier Luraschi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "280945606-1",
+      "eventId": "280945606",
+      "title": "Hacking proteins one byte at the time",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "fabien-plisson-280945606"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Fabien Plisson"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "281606223-1",
+      "eventId": "281606223",
+      "title": "Ética en la Inteligencia Artificial",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "leonardo-garrido-281606223"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Leonardo Garrido"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "282068179-1",
+      "eventId": "282068179",
+      "title": "Haz un servicio de ML fácilmente con FastAPI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "sebastian-ramirez-282068179"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Sebastián Ramirez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "282493104-1",
+      "eventId": "282493104",
+      "title": "Data lakes con AWS - de lo transaccional a lo analítico",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "268864390-1",
+      "eventId": "268864390",
+      "title": "Qué es y por qué debe importarte la neutralidad de la red?",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "luis-fernando-garcia-268864390"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Luis Fernando García"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "268864390-2",
+      "eventId": "268864390",
+      "title": "Data Science VS Net Neutrality",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "268864390-3",
+      "eventId": "268864390",
+      "title": "A.M.A.",
+      "kind": "Conversación",
+      "speakerScope": "session",
+      "speakerIds": [
+        "luis-fernando-garcia-268864390",
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Luis Fernando García",
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "272801508-1",
+      "eventId": "272801508",
+      "title": "COVID-19: Una historia de datos de la batalla por México",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "guillermo-de-anda-jauregui-272801508"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Guillermo de Anda Jáuregui"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "272801508-2",
+      "eventId": "272801508",
+      "title": "Una aplicación de Ciencia de Datos para identificar posibles actos de corrupción",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "brenda-jimenez-272801508"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Brenda Jimenez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "274920199-1",
+      "eventId": "274920199",
+      "title": "Detectando Evasión Fiscal con Inteligencia Artificial y Ciencia de Redes",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-gershenson-274920199"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Gershenson"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "261298503-1",
+      "eventId": "261298503",
+      "title": "Analizando Música Electrónica con CNN",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "enrique-bonilla-261298503"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Enrique Bonilla"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "262223305-1",
+      "eventId": "262223305",
+      "title": "Neuroscience-inspired AI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "miguel-nunez-ochoa-262223305"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Miguel Núñez Ochoa"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "263067477-1",
+      "eventId": "263067477",
+      "title": "Data al volante",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jorge-rotter-263067477"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jorge Rotter"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "264908622-1",
+      "eventId": "264908622",
+      "title": "Sparklyr + TensorFlow + RStudio",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "javier-luraschi"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Javier Luraschi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "264908819-1",
+      "eventId": "264908819",
+      "title": "Intro to Hamiltonian Monte Carlo + STAN",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "michael-betancourt-264908819"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Michael Betancourt"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "265704111-1",
+      "eventId": "265704111",
+      "title": "Boosting: ¿de dónde viene y cuándo lo uso?",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-alfonso-ruiz-guido"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alfonso Ruiz Guido"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "265704111-2",
+      "eventId": "265704111",
+      "title": "Ciencia de Datos desde las trincheras",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "julio-retiz-265704111"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Julio Retiz"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "266658024-1",
+      "eventId": "266658024",
+      "title": "Calibración de modelos climáticos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "alfredo-garbuno-266658024"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alfredo Garbuno"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "266658024-2",
+      "eventId": "266658024",
+      "title": "Statistics VS Deep Learning para series de tiempo",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "franck-enriquez-266658024"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Franck Enriquez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "247796907-1",
+      "eventId": "247796907",
+      "title": "TuEleccion: Sesgos periodísticos hacia 2018",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "augusto-sagaon-247796907",
+        "alfredo-lozano-247796907"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Augusto Sagaón",
+          "Alfredo Lozano"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "247796907-2",
+      "eventId": "247796907",
+      "title": "Redistritación Electoral más Justa",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jorge-rotter-247796907",
+        "saul-alvarez-247796907"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jorge Rotter",
+          "Saúl Álvarez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "249335412-1",
+      "eventId": "249335412",
+      "title": "The Open Source Masters",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "will-wolf-249335412"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Will Wolf"
+        ],
+        "moderatorNames": []
+      },
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=lBho-kM71D0",
+          "title": "The Data Pub | The Open Source Masters - Will Wolf",
+          "publisher": "Software Guru",
+          "publisherUrl": "https://www.youtube.com/@softwareguru",
+          "evidenceUrl": "https://sg.com.mx/buzz/ponencias/data-pub/open-source-masters?language=en",
+          "matchBasis": "Publisher page embeds the video and links the same Meetup event, with matching talk title/speaker.",
+          "checkedAt": "2026-11-14",
+          "playbackVerified": false
+        }
+      ]
+    },
+    {
+      "id": "249335412-2",
+      "eventId": "249335412",
+      "title": "El pipeline de Verificado19S",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "paco-mekler-249335412"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Paco Mekler"
+        ],
+        "moderatorNames": []
+      },
+      "videos": [
+        {
+          "url": "https://www.youtube.com/watch?v=kYzCRUdlOmE",
+          "title": "The Data Pub |  El pipeline de Verificado19S - Paco Mekler",
+          "publisher": "Software Guru",
+          "publisherUrl": "https://www.youtube.com/@softwareguru",
+          "evidenceUrl": "https://sg.com.mx/buzz/ponencias/data-pub/el-pipeline-de-verificado19s",
+          "matchBasis": "Publisher page embeds the video and links the same Meetup event, with matching talk title/speaker.",
+          "checkedAt": "2026-11-14",
+          "playbackVerified": false
+        }
+      ]
+    },
+    {
+      "id": "236892156-1",
+      "eventId": "236892156",
+      "title": "R a Escala con Microsoft R Server",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "vianey-juarez-236892156"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Vianey Juárez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "236892156-2",
+      "eventId": "236892156",
+      "title": "Carga, procesamiento y limpieza de TB con Sparklyr",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "javier-luraschi"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Javier Lureschi"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "236892156-3",
+      "eventId": "236892156",
+      "title": "El smog que respiramos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-perez-236892156"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Pérez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-1",
+      "eventId": "238067916",
+      "title": "De cuando te vienen persiguiendo de veracruz por buscar la verdad",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Chucho Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-2",
+      "eventId": "238067916",
+      "title": "¿Qué le hace falta al infoactivismo para ser chingón?",
+      "kind": "Panel",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos",
+        "sergio-araiza-238067916",
+        "kennia-velazquez-238067916"
+      ],
+      "moderatorIds": [
+        "luisa-ortiz-238067916"
+      ],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Chucho Ramos",
+          "Luisa Ortiz",
+          "Sergio Araiza",
+          "Kennia Velázquez"
+        ],
+        "moderatorNames": [
+          "Luisa Ortiz"
+        ]
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-3",
+      "eventId": "238067916",
+      "title": "Ojo Público",
+      "kind": "Presentación de proyecto",
+      "speakerScope": "session",
+      "speakerIds": [
+        "nelly-luna-238067916"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Nelly Luna"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-4",
+      "eventId": "238067916",
+      "title": "PODER",
+      "kind": "Presentación de proyecto",
+      "speakerScope": "session",
+      "speakerIds": [
+        "edouard-martin-borregon-238067916"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Edouard Martín-Borregón"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-5",
+      "eventId": "238067916",
+      "title": "Transparencia Presupuestaria",
+      "kind": "Presentación de proyecto",
+      "speakerScope": "session",
+      "speakerIds": [
+        "lorena-rivero-238067916"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Lorena Rivero"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "238067916-6",
+      "eventId": "238067916",
+      "title": "¿Cómo Ayuda la Ciencia de Datos al Periodismo?",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "liliana-millan-238067916"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Liliana Millán"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "239277059-1",
+      "eventId": "239277059",
+      "title": "Por qué México debe convertirse en polo de Ciencia de Datos y Machine Learning?",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Chucho Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "239277059-2",
+      "eventId": "239277059",
+      "title": "Prevención de Crimen con Poisson",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "stephane-keil-239277059"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Stephane Keil"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "239277059-3",
+      "eventId": "239277059",
+      "title": "Cómo Emprender con Datos y No Morir en el Intento",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "edwin-chazaro-239277059"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Edwin Cházaro"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "239277059-4",
+      "eventId": "239277059",
+      "title": "Contraejemplos y Equivocaciones del ML y AI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "rodrigo-aguilar-239277059"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Rodrigo Aguilar"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "240096460-1",
+      "eventId": "240096460",
+      "title": "Transparencia Algorítmica: Por qué es importante?",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Chucho Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "240096460-2",
+      "eventId": "240096460",
+      "title": "Bayesian Statistics + Probabilistic Programming: cómo dejé de preocuparme y amar la incertidumbre'",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-martinez"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo Martínez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "240096460-3",
+      "eventId": "240096460",
+      "title": "Cuerpo, Mente, Fuego y Matemáticas: Machine Learning en la era de Watson, SpaceX y Google",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "leon-palafox"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "León Palafox"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241092259-1",
+      "eventId": "241092259",
+      "title": "Case Study: orquestación de servicios con Kubernetes",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "domingo-suarez-241092259"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Domingo Suárez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241092259-2",
+      "eventId": "241092259",
+      "title": "Open Source VS Comercial para un stack de analítica",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "guillermo-martinez-241092259"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Guillermo Martínez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241092259-3",
+      "eventId": "241092259",
+      "title": "Uso de Ciencia de Datos para enfermedades crónicas",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "sergio-chavez-241092259"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Sergio Chávez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-1",
+      "eventId": "241731977",
+      "title": "Transparencia Algorítmica",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "irving-wilmer-241731977"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Irving Wilmer"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-2",
+      "eventId": "241731977",
+      "title": "Implicaciones Sociales de los Algoritmos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "miguel-escalante-241731977"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Miguel Escalante"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-3",
+      "eventId": "241731977",
+      "title": "Mintiendo con Visualización de Datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "irving-morales"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Irving Morales"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-4",
+      "eventId": "241731977",
+      "title": "Protegiendo nuestra Huella Digital",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "juan-manuel-casanueva-241731977"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Juan Manuel Casanueva"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-5",
+      "eventId": "241731977",
+      "title": "El Otro Carril: De la AI a la Human AI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "yadir-sanchez-241731977"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Yadir Sánchez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "241731977-6",
+      "eventId": "241731977",
+      "title": "Soluciones para convivencia virtuosa con los algoritmos",
+      "kind": "Panel",
+      "speakerScope": "session",
+      "speakerIds": [],
+      "moderatorIds": [
+        "andrea-fernandez-conde"
+      ],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Andrea Fernández"
+        ],
+        "moderatorNames": [
+          "Andrea Fernández"
+        ]
+      },
+      "videos": []
+    },
+    {
+      "id": "245189875-1",
+      "eventId": "245189875",
+      "title": "Data Science and Public Policy",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "rayid-ghani-245189875"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Rayid Ghani"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "245189875-2",
+      "eventId": "245189875",
+      "title": "DAMUS.org",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "gaby-otero-245189875"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Gaby Otero"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228110998-1",
+      "eventId": "228110998",
+      "title": "Creando Economía con Datos Abiertos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "angel-rodriguez-aquino-228110998"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Ángel Rodríguez Aquino"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228110998-2",
+      "eventId": "228110998",
+      "title": "Ingeniería de Datos para Medios Digitales",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "fernando-cisneros-228110998"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Fernando Cisneros"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228110998-3",
+      "eventId": "228110998",
+      "title": "Empresas de software internacionales en México y su relación con el gobierno",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "marco-galicia-228110998"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Marco Galicia"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228965323-1",
+      "eventId": "228965323",
+      "title": "Eiya App: Venciendo el tráfico urbano",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "alfonso-maytorena-228965323"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Alfonso Maytorena"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228965323-2",
+      "eventId": "228965323",
+      "title": "Diseño basado en evidencia",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "sandra-bermudez-228965323"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Sandra Bermúdez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "228965323-3",
+      "eventId": "228965323",
+      "title": "De Magia y Cajas Negras",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jose-carlos-mendez-228965323"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "José Carlos Méndez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "230028956-1",
+      "eventId": "230028956",
+      "title": "Big Data, Big Flops: El gag reel de los algoritmos",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "230028956-2",
+      "eventId": "230028956",
+      "title": "Ciencia de Datos: Proyectos para un mejor gobierno",
+      "kind": "Presentación de proyecto",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-de-unanue"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo de Unánue"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "230028956-3",
+      "eventId": "230028956",
+      "title": "Técnica de Aprendizaje Profundo para entender texto utilizando sólo caracteres como características",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "daniel-zenteno-230028956"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Daniel Zenteno"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "230028956-4",
+      "eventId": "230028956",
+      "title": "Yo creador",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "edgar-pichardo-230028956"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Edgar Pichardo"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231035607-1",
+      "eventId": "231035607",
+      "title": "Las Locas, Locas Aplicaciones del Análisis de Datos",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231035607-2",
+      "eventId": "231035607",
+      "title": "Data + Storytelling: Retos para Dar Voz (que todos entiendan) al Análisis de Datos",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "lilia-saul-231035607"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Lilia Saúl"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231035607-3",
+      "eventId": "231035607",
+      "title": "Ciencia de Datos: De la Academia a la Industria",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "ben-tovar-cisneros-231035607"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Ben Tovar Cisneros"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231756826-1",
+      "eventId": "231756826",
+      "title": "Intro a Stats & Data Science para Programmers, Devs y otr@s Matachistes.",
+      "kind": "Taller",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-martinez"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo Martínez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231678424-1",
+      "eventId": "231678424",
+      "title": "Sobrevuelo de los Meetups de Datos en CDMX",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231678424-2",
+      "eventId": "231678424",
+      "title": "Procuración de Justicia con Ciencia de Datos: Lejos del Minority Report",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "andrea-fernandez-conde"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Andrea Fernández Conde"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "231678424-3",
+      "eventId": "231678424",
+      "title": "El Bronco invade Facebook: GLMs para Evaluación de Social Media como Estrategia de Comunicación en Campaña",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "carlos-toxtli-231678424"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Carlos Toxtli"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "232620085-1",
+      "eventId": "232620085",
+      "title": "(No) Supervisado",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jose-carlos-mendez-232620085"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jose Carlos Mendez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "232620085-2",
+      "eventId": "232620085",
+      "title": "Data Science para Telcos: Mejorando el Servicio sin ver el Search History",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "kael-huerta-acuna"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Kael Huerta Acuña"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "232620085-3",
+      "eventId": "232620085",
+      "title": "Datos Seguros e Inmunidad Artificial",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "fernando-esponda-232620085"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Fernando Esponda"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "232091670-1",
+      "eventId": "232091670",
+      "title": "2a Fecha: Intro a Stats & Data Science para Programmers, Devs y Matachistes",
+      "kind": "Taller",
+      "speakerScope": "session",
+      "speakerIds": [
+        "adolfo-martinez"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Adolfo Martínez"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233149109-1",
+      "eventId": "233149109",
+      "title": "Big Data Analytics con Azure",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "amin-espinoza"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Amin Espinoza"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233149109-2",
+      "eventId": "233149109",
+      "title": "Análisis de Redes de Ciudades Mexicanas",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "irving-morales"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Irving Morales"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233149109-3",
+      "eventId": "233149109",
+      "title": "Qué *** están pensando los seguidores de Trump?",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "moi-arizpe-233149109"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Moi Arizpe"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233977988-1",
+      "eventId": "233977988",
+      "title": "El triste caso de la org que quería inteligencia sin data",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233977988-2",
+      "eventId": "233977988",
+      "title": "Data Governance: Prerrequisito para Data Science",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [],
+      "moderatorIds": [],
+      "otherSpeakers": [
+        {
+          "name": "Data Management Association capítulo mexicano",
+          "reason": "La fuente atribuye una intervención a una organización, sin identificar una persona."
+        }
+      ],
+      "provenance": {
+        "speakerNames": [
+          "Data Management Association capítulo mexicano"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "233977988-3",
+      "eventId": "233977988",
+      "title": "Data Science para Telcos: Mejorando el Servicio sin Meterse al Search History",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "kael-huerta-acuna"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Kael Huerta"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "234838438-1",
+      "eventId": "234838438",
+      "title": "DataViz Chingona Con PowerBI",
+      "kind": "Apertura",
+      "speakerScope": "session",
+      "speakerIds": [
+        "amin-espinoza"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Amín Espinoza"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "234838438-2",
+      "eventId": "234838438",
+      "title": "Clasificación y Filtering para Detección de Anomalías en Precios de Bienes Raíces.",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "mario-gamboa-234838438"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Mario Gamboa"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "234838438-3",
+      "eventId": "234838438",
+      "title": "MAD-Mex: Máquinas Protegiendo el Ambiente",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "amaury-gutierrez-234838438",
+        "julian-equihua-234838438"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Amaury Gutiérrez",
+          "Julián Equihua"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "227040566-1",
+      "eventId": "227040566",
+      "title": "Big Data, Big Disappointment",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jesus-ramos"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jesús Ramos"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "227040566-2",
+      "eventId": "227040566",
+      "title": "Transporte Seguro en México con R + INEGI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "jessica-barbosa-227040566"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Jessica Barbosa"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    },
+    {
+      "id": "227040566-3",
+      "eventId": "227040566",
+      "title": "Desmitificando Focos Criminales con R + INEGI",
+      "kind": "Charla",
+      "speakerScope": "session",
+      "speakerIds": [
+        "miguel-escalante-227040566"
+      ],
+      "moderatorIds": [],
+      "otherSpeakers": [],
+      "provenance": {
+        "speakerNames": [
+          "Miguel Escalante"
+        ],
+        "moderatorNames": []
+      },
+      "videos": []
+    }
+  ]
+}

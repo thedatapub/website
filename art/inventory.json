@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "character": "Barman",
+  "masters": [
+    {
+      "durations": [
+        100
+      ],
+      "frames": 1,
+      "height": 360,
+      "layers": [
+        "00_wall_and_floor_base",
+        "05_wall_light_pools",
+        "10_woodwork_and_window",
+        "20_library_books",
+        "21_shelves_and_bottles",
+        "30_identity_sign",
+        "31_bulletin_calendar",
+        "40_brass_lamps",
+        "60_counter_carved_base",
+        "61_counter_wood_grain",
+        "70_counter_objects",
+        "80_front_stools"
+      ],
+      "metadataRenamed": false,
+      "path": "art/source/bar-environment.aseprite",
+      "tags": [],
+      "width": 640,
+      "sha256": "0027a9d31e24b2ba08347bc3c7c0637a1902adf3d9d60d03480e528bc54f2e75",
+      "bytes": 32277
+    },
+    {
+      "durations": [
+        1000,
+        1000
+      ],
+      "frames": 2,
+      "height": 32,
+      "layers": [
+        "10_cream_contour_and_handle",
+        "20_foam_clusters"
+      ],
+      "metadataRenamed": false,
+      "path": "art/source/beer-mug.aseprite",
+      "tags": [
+        "counter-left-handle",
+        "apron-right-handle"
+      ],
+      "width": 28,
+      "sha256": "d6d94ad48d7b0e38735533f74bdb5e31a4496baa5487348fcfc367a7cdc35648",
+      "bytes": 1243
+    },
+    {
+      "durations": [
+        2800,
+        140,
+        160,
+        120,
+        2980,
+        80,
+        120,
+        100
+      ],
+      "frames": 8,
+      "height": 144,
+      "layers": [
+        "10_cotton_shoulders_upperarms_elbows",
+        "20_neck_face_planes_and_ear",
+        "30_swept_curls_sideburns_and_beard",
+        "35_mouth_inside_fixed_goatee",
+        "40_collars_apron_straps_and_brass",
+        "50_eyes_glasses_nose_and_blink",
+        "54_static_mustache_center_bridge",
+        "60_apron_stein_emblem",
+        "70_counter_contact_shadows",
+        "80_connected_forearms_wrists_and_hands"
+      ],
+      "metadataRenamed": false,
+      "path": "art/source/barman.aseprite",
+      "tags": [
+        "resting_static",
+        "small_mouth_motion",
+        "discrete_blink"
+      ],
+      "width": 136,
+      "sha256": "b0b7fb1f8bce0ceb6b943a744162f361267f7b31eebec3f890b0a46e0e3f171e",
+      "bytes": 38143
+    },
+    {
+      "durations": [
+        100
+      ],
+      "frames": 1,
+      "height": 26,
+      "layers": [
+        "B11_mug_and_laurels_native"
+      ],
+      "metadataRenamed": false,
+      "path": "art/source/apron-emblem.aseprite",
+      "tags": [],
+      "width": 32,
+      "sha256": "6ffa8a1cab12f6f05445066b905887658911c8c2abab0d543977e40334cc36ff",
+      "bytes": 691
+    },
+    {
+      "durations": [
+        2800,
+        140,
+        160,
+        120,
+        2980,
+        80,
+        120,
+        100
+      ],
+      "frames": 8,
+      "height": 480,
+      "layers": [
+        "00_approved_wall_and_floor",
+        "05_approved_light_pools",
+        "10_woodwork_and_window",
+        "20_library_books",
+        "21_shelves_and_bottles",
+        "30_identity_sign",
+        "31_bulletin_calendar",
+        "40_approved_brass_lamps",
+        "50_barman_native_1x",
+        "50_barman_native_1x/10_cotton_shoulders_upperarms_elbows",
+        "50_barman_native_1x/20_neck_face_planes_and_ear",
+        "50_barman_native_1x/30_swept_curls_sideburns_and_beard",
+        "50_barman_native_1x/35_mouth_inside_fixed_goatee",
+        "50_barman_native_1x/40_collars_apron_straps_and_brass",
+        "50_barman_native_1x/50_eyes_glasses_nose_and_blink",
+        "50_barman_native_1x/54_static_mustache_center_bridge",
+        "50_barman_native_1x/60_apron_stein_emblem",
+        "60_counter_carved_base",
+        "61_counter_wood_grain",
+        "70_approved_objects_without_old_mugs",
+        "70_wing_reading",
+        "70_tap_stem_base_and_contact",
+        "71_beer_mugs_native_1x",
+        "72_70_counter_contact_shadows",
+        "72_80_connected_forearms_wrists_and_hands",
+        "80_front_stools"
+      ],
+      "metadataRenamed": true,
+      "path": "art/source/bar-scene.aseprite",
+      "tags": [],
+      "width": 1920,
+      "sha256": "28fb08d363a57dd6ab985879a827a78f7e7eb4b4a65d2f32130923c51dc20b5a",
+      "bytes": 820206
+    }
+  ],
+  "supportingSources": [
+    "art/source/palette.gpl",
+    "art/source/environment-layers.txt"
+  ],
+  "runtimeExportManifest": "art/export-manifest.json",
+  "environmentGuard": "art/environment-baseline.json",
+  "authoredRuntimeArtwork": [
+    "site/assets/pub/team-board.svg",
+    "site/assets/pub/speakers-board.svg",
+    "site/assets/pub/beer-token.svg",
+    "site/assets/mark.svg"
+  ],
+  "tools": [
+    "art/tools/export-scene.mjs",
+    "art/tools/export-scene.lua",
+    "art/tools/verify-environment.mjs",
+    "art/tools/create-barman.lua",
+    "art/tools/compose-scene.lua",
+    "art/tools/verify-anatomy.lua"
+  ]
+}

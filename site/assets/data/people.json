@@ -1,0 +1,4370 @@
+{
+  "schemaVersion": 3,
+  "checkedAt": "2026-11-14",
+  "sourceHashes": {
+    "people": "9b7fa1e0e84abdf75ade248390a1fa240ad37e5579f8580e03c5dfed4ab26482",
+    "events": "0db306866e5385d783bcaf7f42ddf3e517aaa5c20ec0e0c816ee52a466c57c99",
+    "talks": "d22703da4bf9ec7e007ab280d1a2dfe4c0eec1dcdb14d7200f04ca41199dc55a",
+    "articles": "b6adf8adbad16f5d139621bd4c0cbc3db2c8ce8eeb83bb418fd7334a44e94f8c"
+  },
+  "people": [
+    {
+      "id": "jesus-ramos",
+      "name": "Jesús Ramos",
+      "identityBasis": "Las agendas enlazan o nombran @xuxoramos; la biografía de 2021 identifica al cofundador de The Data Pub. Solo se incluyen intervenciones del programa.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Ingeniero en Sistemas Computacionales y maestro en Computational Finance. Su semblanza de 2021 lo presenta como cofundador de The Data Pub y docente de arquitecturas de datos.",
+        "asOf": "2021-12-15",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/282493104/"
+      },
+      "links": [
+        {
+          "label": "X / Twitter",
+          "url": "https://twitter.com/xuxoramos",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/227040566/"
+        }
+      ],
+      "aliases": [
+        "Chucho Ramos",
+        "Jesús Ramos"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "227040566",
+          "nameInSource": "Jesús Ramos",
+          "date": "2015-12-15",
+          "year": 2015,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/227040566/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "227040566-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "230028956",
+          "nameInSource": "Jesús Ramos",
+          "date": "2016-04-21",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/230028956/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "230028956-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "231035607",
+          "nameInSource": "Jesús Ramos",
+          "date": "2016-05-26",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231035607/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231035607-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "231678424",
+          "nameInSource": "Jesús Ramos",
+          "date": "2016-06-30",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231678424/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231678424-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "233977988",
+          "nameInSource": "Jesús Ramos",
+          "date": "2016-09-29",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/233977988/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "233977988-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "238067916",
+          "nameInSource": "Chucho Ramos",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-1",
+            "238067916-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "239277059",
+          "nameInSource": "Chucho Ramos",
+          "date": "2017-04-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/239277059/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "239277059-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "240096460",
+          "nameInSource": "Chucho Ramos",
+          "date": "2017-05-31",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/240096460/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "240096460-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "268864390",
+          "nameInSource": "Jesús Ramos",
+          "date": "2020-02-27",
+          "year": 2020,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/268864390/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "268864390-2",
+            "268864390-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "282493104",
+          "nameInSource": "Jesús Ramos",
+          "date": "2021-12-15",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/282493104/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "282493104-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021,
+        2020,
+        2017,
+        2016,
+        2015
+      ],
+      "articles": []
+    },
+    {
+      "id": "jessica-barbosa-227040566",
+      "name": "Jessica Barbosa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jessica Barbosa"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "227040566",
+          "nameInSource": "Jessica Barbosa",
+          "date": "2015-12-15",
+          "year": 2015,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/227040566/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "227040566-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2015
+      ],
+      "articles": []
+    },
+    {
+      "id": "miguel-escalante-227040566",
+      "name": "Miguel Escalante",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Escalante"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "227040566",
+          "nameInSource": "Miguel Escalante",
+          "date": "2015-12-15",
+          "year": 2015,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/227040566/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "227040566-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2015
+      ],
+      "articles": []
+    },
+    {
+      "id": "angel-rodriguez-aquino-228110998",
+      "name": "Ángel Rodríguez Aquino",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ángel Rodríguez Aquino"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228110998",
+          "nameInSource": "Ángel Rodríguez Aquino",
+          "date": "2016-01-25",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228110998/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228110998-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "fernando-cisneros-228110998",
+      "name": "Fernando Cisneros",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernando Cisneros"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228110998",
+          "nameInSource": "Fernando Cisneros",
+          "date": "2016-01-25",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228110998/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228110998-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "marco-galicia-228110998",
+      "name": "Marco Galicia",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Marco Galicia"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228110998",
+          "nameInSource": "Marco Galicia",
+          "date": "2016-01-25",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228110998/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228110998-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "alfonso-maytorena-228965323",
+      "name": "Alfonso Maytorena",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Maytorena"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228965323",
+          "nameInSource": "Alfonso Maytorena",
+          "date": "2016-02-29",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228965323/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228965323-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "sandra-bermudez-228965323",
+      "name": "Sandra Bermúdez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sandra Bermúdez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228965323",
+          "nameInSource": "Sandra Bermúdez",
+          "date": "2016-02-29",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228965323/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228965323-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "jose-carlos-mendez-228965323",
+      "name": "José Carlos Méndez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Carlos Méndez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "228965323",
+          "nameInSource": "José Carlos Méndez",
+          "date": "2016-02-29",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/228965323/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "228965323-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "adolfo-de-unanue",
+      "name": "Adolfo de Unánue",
+      "identityBasis": "La biografía de 2022 une el nombre completo y abreviado y documenta la dirección de la maestría de ITAM citada en 2016, además de la Escuela de Gobierno citada en 2024.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Doctor en Física Teórica. La semblanza de 2022 describe su trabajo en ciencia de datos para políticas públicas y la creación del Centro de Ciencia de Datos del ITAM.",
+        "asOf": "2022-06-23",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/286623333/"
+      },
+      "links": [],
+      "aliases": [
+        "Adolfo de Unánue Tiscareño",
+        "Adolfo De Unánue",
+        "Adolfo de Unánue"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "230028956",
+          "nameInSource": "Adolfo de Unánue",
+          "date": "2016-04-21",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/230028956/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "230028956-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "286623333",
+          "nameInSource": "Adolfo de Unánue Tiscareño",
+          "date": "2022-06-23",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/286623333/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "286623333-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "304462001",
+          "nameInSource": "Adolfo De Unánue",
+          "date": "2024-11-27",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/304462001/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "304462001-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024,
+        2022,
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "daniel-zenteno-230028956",
+      "name": "Daniel Zenteno",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Daniel Zenteno"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "230028956",
+          "nameInSource": "Daniel Zenteno",
+          "date": "2016-04-21",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/230028956/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "230028956-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "edgar-pichardo-230028956",
+      "name": "Edgar Pichardo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edgar Pichardo"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "230028956",
+          "nameInSource": "Edgar Pichardo",
+          "date": "2016-04-21",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/230028956/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "230028956-4"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "lilia-saul-231035607",
+      "name": "Lilia Saúl",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Lilia Saúl"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "231035607",
+          "nameInSource": "Lilia Saúl",
+          "date": "2016-05-26",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231035607/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231035607-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "ben-tovar-cisneros-231035607",
+      "name": "Ben Tovar Cisneros",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ben Tovar Cisneros"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "231035607",
+          "nameInSource": "Ben Tovar Cisneros",
+          "date": "2016-05-26",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231035607/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231035607-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "adolfo-martinez",
+      "name": "Adolfo Martínez",
+      "identityBasis": "Biografías coincidentes: Matemáticas Aplicadas en ITAM y proyectos en Metros Cúbicos, Grupo Expansión y finanzas; las dos fichas de 2016 repiten la semblanza.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Matemático aplicado por el ITAM, con experiencia en estadística, análisis de datos y desarrollo. Las fichas de 2016 describen proyectos para Metros Cúbicos, Grupo Expansión y piggo.mx.",
+        "asOf": "2016-06-25",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/231756826/"
+      },
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/arinarmo",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/240096460/"
+        }
+      ],
+      "aliases": [
+        "Adolfo Martínez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "231756826",
+          "nameInSource": "Adolfo Martínez",
+          "date": "2016-06-25",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231756826/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231756826-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "232091670",
+          "nameInSource": "Adolfo Martínez",
+          "date": "2016-07-30",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/232091670/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "232091670-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "240096460",
+          "nameInSource": "Adolfo Martínez",
+          "date": "2017-05-31",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/240096460/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "240096460-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017,
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "andrea-fernandez-conde",
+      "name": "Andrea Fernández Conde",
+      "identityBasis": "Ambas agendas atribuyen @feranimal y trabajo en INEGI.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Andrea Fernández",
+        "Andrea Fernández Conde"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "231678424",
+          "nameInSource": "Andrea Fernández Conde",
+          "date": "2016-06-30",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231678424/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231678424-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "241731977",
+          "nameInSource": "Andrea Fernández",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-6"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Moderación"
+          ]
+        }
+      ],
+      "years": [
+        2017,
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-toxtli-231678424",
+      "name": "Carlos Toxtli",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Toxtli"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "231678424",
+          "nameInSource": "Carlos Toxtli",
+          "date": "2016-06-30",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/231678424/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "231678424-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "jose-carlos-mendez-232620085",
+      "name": "Jose Carlos Mendez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jose Carlos Mendez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "232620085",
+          "nameInSource": "Jose Carlos Mendez",
+          "date": "2016-07-28",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/232620085/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "232620085-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "kael-huerta-acuna",
+      "name": "Kael Huerta Acuña",
+      "identityBasis": "Las dos agendas atribuyen @KaelHuerta, Toptal y la misma charla; las biografías dan el nombre completo.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kael Huerta",
+        "Kael Huerta Acuña"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "232620085",
+          "nameInSource": "Kael Huerta Acuña",
+          "date": "2016-07-28",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/232620085/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "232620085-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "233977988",
+          "nameInSource": "Kael Huerta",
+          "date": "2016-09-29",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/233977988/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "233977988-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "fernando-esponda-232620085",
+      "name": "Fernando Esponda",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernando Esponda"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "232620085",
+          "nameInSource": "Fernando Esponda",
+          "date": "2016-07-28",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/232620085/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "232620085-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "amin-espinoza",
+      "name": "Amin Espinoza",
+      "identityBasis": "Ambas agendas de 2016 identifican al Technical Evangelist de Microsoft; la segunda proporciona @aminespinoza.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Amín Espinoza",
+        "Amin Espinoza"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "233149109",
+          "nameInSource": "Amin Espinoza",
+          "date": "2016-08-24",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/233149109/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "233149109-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "234838438",
+          "nameInSource": "Amín Espinoza",
+          "date": "2016-10-27",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/234838438/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "234838438-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "irving-morales",
+      "name": "Irving Morales",
+      "identityBasis": "Ambas agendas atribuyen @moaimx y Morlan al ponente.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Irving Morales"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "233149109",
+          "nameInSource": "Irving Morales",
+          "date": "2016-08-24",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/233149109/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "233149109-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "241731977",
+          "nameInSource": "Irving Morales",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017,
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "moi-arizpe-233149109",
+      "name": "Moi Arizpe",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Moi Arizpe"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "233149109",
+          "nameInSource": "Moi Arizpe",
+          "date": "2016-08-24",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/233149109/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "233149109-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "mario-gamboa-234838438",
+      "name": "Mario Gamboa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Mario Gamboa"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "234838438",
+          "nameInSource": "Mario Gamboa",
+          "date": "2016-10-27",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/234838438/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "234838438-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "amaury-gutierrez-234838438",
+      "name": "Amaury Gutiérrez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Amaury Gutiérrez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "234838438",
+          "nameInSource": "Amaury Gutiérrez",
+          "date": "2016-10-27",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/234838438/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "234838438-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "julian-equihua-234838438",
+      "name": "Julián Equihua",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Julián Equihua"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "234838438",
+          "nameInSource": "Julián Equihua",
+          "date": "2016-10-27",
+          "year": 2016,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/234838438/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "234838438-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2016
+      ],
+      "articles": []
+    },
+    {
+      "id": "vianey-juarez-236892156",
+      "name": "Vianey Juárez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Vianey Juárez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "236892156",
+          "nameInSource": "Vianey Juárez",
+          "date": "2017-01-26",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/236892156/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "236892156-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "javier-luraschi",
+      "name": "Javier Luraschi",
+      "identityBasis": "Las fichas identifican al ingeniero de RStudio, creador de sparklyr, autor de Mastering Spark with R y posteriormente fundador de Hal9.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Fundador de Hal9 y autor de Mastering Spark with R. Su semblanza de 2021 menciona su trabajo previo en RStudio, Microsoft Research y SAP.",
+        "asOf": "2021-08-26",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/280284690/"
+      },
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/javierluraschi/",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/264908622/"
+        }
+      ],
+      "aliases": [
+        "Javier Lureschi",
+        "Javier Luraschi"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "236892156",
+          "nameInSource": "Javier Lureschi",
+          "date": "2017-01-26",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/236892156/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "236892156-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "264908622",
+          "nameInSource": "Javier Luraschi",
+          "date": "2019-09-24",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/264908622/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "264908622-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "280284690",
+          "nameInSource": "Javier Luraschi",
+          "date": "2021-08-26",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/280284690/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "280284690-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "302874514",
+          "nameInSource": "Javier Luraschi",
+          "date": "2024-08-28",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/302874514/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "302874514-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024,
+        2021,
+        2019,
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-perez-236892156",
+      "name": "Carlos Pérez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Pérez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "236892156",
+          "nameInSource": "Carlos Pérez",
+          "date": "2017-01-26",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/236892156/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "236892156-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "luisa-ortiz-238067916",
+      "name": "Luisa Ortiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luisa Ortiz"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Luisa Ortiz",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Moderación"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "sergio-araiza-238067916",
+      "name": "Sergio Araiza",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sergio Araiza"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Sergio Araiza",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "kennia-velazquez-238067916",
+      "name": "Kennia Velázquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kennia Velázquez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Kennia Velázquez",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "nelly-luna-238067916",
+      "name": "Nelly Luna",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Nelly Luna"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Nelly Luna",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "edouard-martin-borregon-238067916",
+      "name": "Edouard Martín-Borregón",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edouard Martín-Borregón"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Edouard Martín-Borregón",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-4"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "lorena-rivero-238067916",
+      "name": "Lorena Rivero",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Lorena Rivero"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Lorena Rivero",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-5"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "liliana-millan-238067916",
+      "name": "Liliana Millán",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Liliana Millán"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "238067916",
+          "nameInSource": "Liliana Millán",
+          "date": "2017-03-16",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/238067916/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "238067916-6"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "stephane-keil-239277059",
+      "name": "Stephane Keil",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Stephane Keil"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "239277059",
+          "nameInSource": "Stephane Keil",
+          "date": "2017-04-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/239277059/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "239277059-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "edwin-chazaro-239277059",
+      "name": "Edwin Cházaro",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edwin Cházaro"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "239277059",
+          "nameInSource": "Edwin Cházaro",
+          "date": "2017-04-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/239277059/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "239277059-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "rodrigo-aguilar-239277059",
+      "name": "Rodrigo Aguilar",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Rodrigo Aguilar"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "239277059",
+          "nameInSource": "Rodrigo Aguilar",
+          "date": "2017-04-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/239277059/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "239277059-4"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "leon-palafox",
+      "name": "León Palafox",
+      "identityBasis": "La ficha de 2022 anuncia explícitamente el regreso del Dr. León Palafox, ponente anunciado en 2017.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "León Palafox"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "240096460",
+          "nameInSource": "León Palafox",
+          "date": "2017-05-31",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/240096460/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "240096460-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "289778122",
+          "nameInSource": "León Palafox",
+          "date": "2022-11-23",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/289778122/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "289778122-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022,
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "domingo-suarez-241092259",
+      "name": "Domingo Suárez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Domingo Suárez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241092259",
+          "nameInSource": "Domingo Suárez",
+          "date": "2017-06-29",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241092259/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241092259-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "guillermo-martinez-241092259",
+      "name": "Guillermo Martínez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Guillermo Martínez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241092259",
+          "nameInSource": "Guillermo Martínez",
+          "date": "2017-06-29",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241092259/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241092259-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "sergio-chavez-241092259",
+      "name": "Sergio Chávez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sergio Chávez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241092259",
+          "nameInSource": "Sergio Chávez",
+          "date": "2017-06-29",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241092259/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241092259-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "irving-wilmer-241731977",
+      "name": "Irving Wilmer",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Irving Wilmer"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241731977",
+          "nameInSource": "Irving Wilmer",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "miguel-escalante-241731977",
+      "name": "Miguel Escalante",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Escalante"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241731977",
+          "nameInSource": "Miguel Escalante",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "juan-manuel-casanueva-241731977",
+      "name": "Juan Manuel Casanueva",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Juan Manuel Casanueva"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241731977",
+          "nameInSource": "Juan Manuel Casanueva",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-4"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "yadir-sanchez-241731977",
+      "name": "Yadir Sánchez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Yadir Sánchez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "241731977",
+          "nameInSource": "Yadir Sánchez",
+          "date": "2017-07-27",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/241731977/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "241731977-5"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "rayid-ghani-245189875",
+      "name": "Rayid Ghani",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Rayid Ghani"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "245189875",
+          "nameInSource": "Rayid Ghani",
+          "date": "2017-11-23",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/245189875/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "245189875-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "gaby-otero-245189875",
+      "name": "Gaby Otero",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Gaby Otero"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "245189875",
+          "nameInSource": "Gaby Otero",
+          "date": "2017-11-23",
+          "year": 2017,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/245189875/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "245189875-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2017
+      ],
+      "articles": []
+    },
+    {
+      "id": "augusto-sagaon-247796907",
+      "name": "Augusto Sagaón",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Augusto Sagaón"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "247796907",
+          "nameInSource": "Augusto Sagaón",
+          "date": "2018-02-22",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/247796907/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "247796907-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "alfredo-lozano-247796907",
+      "name": "Alfredo Lozano",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfredo Lozano"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "247796907",
+          "nameInSource": "Alfredo Lozano",
+          "date": "2018-02-22",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/247796907/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "247796907-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "jorge-rotter-247796907",
+      "name": "Jorge Rotter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jorge Rotter"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "247796907",
+          "nameInSource": "Jorge Rotter",
+          "date": "2018-02-22",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/247796907/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "247796907-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "saul-alvarez-247796907",
+      "name": "Saúl Álvarez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Saúl Álvarez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "247796907",
+          "nameInSource": "Saúl Álvarez",
+          "date": "2018-02-22",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/247796907/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "247796907-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "will-wolf-249335412",
+      "name": "Will Wolf",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [
+        {
+          "label": "Sitio profesional",
+          "url": "http://willwolf.io/about/",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/"
+        }
+      ],
+      "aliases": [
+        "Will Wolf"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "249335412",
+          "nameInSource": "Will Wolf",
+          "date": "2018-04-04",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "249335412-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "paco-mekler-249335412",
+      "name": "Paco Mekler",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [
+        {
+          "label": "X / Twitter",
+          "url": "https://twitter.com/meklerg",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/"
+        }
+      ],
+      "aliases": [
+        "Paco Mekler"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "249335412",
+          "nameInSource": "Paco Mekler",
+          "date": "2018-04-04",
+          "year": 2018,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "249335412-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2018
+      ],
+      "articles": []
+    },
+    {
+      "id": "enrique-bonilla-261298503",
+      "name": "Enrique Bonilla",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Enrique Bonilla"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "261298503",
+          "nameInSource": "Enrique Bonilla",
+          "date": "2019-05-15",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/261298503/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "261298503-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "miguel-nunez-ochoa-262223305",
+      "name": "Miguel Núñez Ochoa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Núñez Ochoa"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "262223305",
+          "nameInSource": "Miguel Núñez Ochoa",
+          "date": "2019-06-27",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/262223305/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "262223305-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "jorge-rotter-263067477",
+      "name": "Jorge Rotter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jorge Rotter"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "263067477",
+          "nameInSource": "Jorge Rotter",
+          "date": "2019-07-25",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/263067477/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "263067477-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "michael-betancourt-264908819",
+      "name": "Michael Betancourt",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Michael Betancourt"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "264908819",
+          "nameInSource": "Michael Betancourt",
+          "date": "2019-09-26",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/264908819/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "264908819-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-alfonso-ruiz-guido",
+      "name": "Carlos Alfonso Ruiz Guido",
+      "identityBasis": "Ambas fichas atribuyen la dirección de la Escuela/Colegio de Matemáticas Bourbaki; Carlos Alfonso Ruiz Guido queda separado por falta de evidencia adicional.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Ruiz",
+        "Alfonso Ruiz Guido"
+      ],
+      "previousIds": [
+        "alfonso-ruiz-guido",
+        "carlos-alfonso-ruiz-guido-276057096"
+      ],
+      "appearances": [
+        {
+          "eventId": "265704111",
+          "nameInSource": "Alfonso Ruiz Guido",
+          "date": "2019-10-24",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/265704111/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "265704111-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "276057096",
+          "nameInSource": "Carlos Alfonso Ruiz Guido",
+          "date": "2021-02-04",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/276057096/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "276057096-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "310362200",
+          "nameInSource": "Alfonso Ruiz",
+          "date": "2025-08-21",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/310362200/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "310362200-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025,
+        2021,
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "julio-retiz-265704111",
+      "name": "Julio Retiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Julio Retiz"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "265704111",
+          "nameInSource": "Julio Retiz",
+          "date": "2019-10-24",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/265704111/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "265704111-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "alfredo-garbuno-266658024",
+      "name": "Alfredo Garbuno",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfredo Garbuno"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "266658024",
+          "nameInSource": "Alfredo Garbuno",
+          "date": "2019-11-28",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/266658024/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "266658024-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "franck-enriquez-266658024",
+      "name": "Franck Enriquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Franck Enriquez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "266658024",
+          "nameInSource": "Franck Enriquez",
+          "date": "2019-11-28",
+          "year": 2019,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/266658024/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "266658024-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2019
+      ],
+      "articles": []
+    },
+    {
+      "id": "luis-fernando-garcia-268864390",
+      "name": "Luis Fernando García",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luis Fernando García"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "268864390",
+          "nameInSource": "Luis Fernando García",
+          "date": "2020-02-27",
+          "year": 2020,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/268864390/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "268864390-1",
+            "268864390-3"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2020
+      ],
+      "articles": []
+    },
+    {
+      "id": "guillermo-de-anda-jauregui-272801508",
+      "name": "Guillermo de Anda Jáuregui",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Guillermo de Anda Jáuregui"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "272801508",
+          "nameInSource": "Guillermo de Anda Jáuregui",
+          "date": "2020-09-02",
+          "year": 2020,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/272801508/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "272801508-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2020
+      ],
+      "articles": []
+    },
+    {
+      "id": "brenda-jimenez-272801508",
+      "name": "Brenda Jimenez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Brenda Jimenez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "272801508",
+          "nameInSource": "Brenda Jimenez",
+          "date": "2020-09-02",
+          "year": 2020,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/272801508/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "272801508-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2020
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-gershenson-274920199",
+      "name": "Carlos Gershenson",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Gershenson"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "274920199",
+          "nameInSource": "Carlos Gershenson",
+          "date": "2020-12-09",
+          "year": 2020,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/274920199/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "274920199-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2020
+      ],
+      "articles": []
+    },
+    {
+      "id": "eduardo-blancas-reyes-276057096",
+      "name": "Eduardo Blancas Reyes",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Eduardo Blancas Reyes"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "276057096",
+          "nameInSource": "Eduardo Blancas Reyes",
+          "date": "2021-02-04",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/276057096/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "276057096-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "hector-g-ceballos-276581681",
+      "name": "Héctor G. Ceballos",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Héctor G. Ceballos"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "276581681",
+          "nameInSource": "Héctor G. Ceballos",
+          "date": "2021-03-03",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/276581681/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "276581681-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "luz-mariana-blaz-277258356",
+      "name": "Luz Mariana Blaz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luz Mariana Blaz"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "277258356",
+          "nameInSource": "Luz Mariana Blaz",
+          "date": "2021-04-15",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/277258356/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "277258356-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "ramon-valles-277258356",
+      "name": "Ramón Valles",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ramón Valles"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "277258356",
+          "nameInSource": "Ramón Valles",
+          "date": "2021-04-15",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/277258356/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "277258356-2"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "ian-castillo-278381927",
+      "name": "Ian Castillo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ian Castillo"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "278381927",
+          "nameInSource": "Ian Castillo",
+          "date": "2021-05-26",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/278381927/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "278381927-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "alejandro-correa-bahnsen-279081489",
+      "name": "Alejandro Correa Bahnsen",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alejandro Correa Bahnsen"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "279081489",
+          "nameInSource": "Alejandro Correa Bahnsen",
+          "date": "2021-06-30",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/279081489/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "279081489-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "luisa-fernanda-roa-ballen-279081489",
+      "name": "Luisa Fernanda Roa Ballén",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luisa Fernanda Roa Ballén"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "279081489",
+          "nameInSource": "Luisa Fernanda Roa Ballén",
+          "date": "2021-06-30",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/279081489/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "279081489-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "teresa-ortiz-279433662",
+      "name": "Teresa Ortiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Teresa Ortiz"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "279433662",
+          "nameInSource": "Teresa Ortiz",
+          "date": "2021-07-15",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/279433662/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "279433662-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "michelle-anzarut-279433662",
+      "name": "Michelle Anzarut",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Michelle Anzarut"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "279433662",
+          "nameInSource": "Michelle Anzarut",
+          "date": "2021-07-15",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/279433662/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "279433662-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "fabien-plisson-280945606",
+      "name": "Fabien Plisson",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fabien Plisson"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "280945606",
+          "nameInSource": "Fabien Plisson",
+          "date": "2021-09-29",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/280945606/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "280945606-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "leonardo-garrido-281606223",
+      "name": "Leonardo Garrido",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Leonardo Garrido"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "281606223",
+          "nameInSource": "Leonardo Garrido",
+          "date": "2021-10-28",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/281606223/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "281606223-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "sebastian-ramirez-282068179",
+      "name": "Sebastián Ramirez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sebastián Ramirez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "282068179",
+          "nameInSource": "Sebastián Ramirez",
+          "date": "2021-11-18",
+          "year": 2021,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/282068179/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "282068179-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2021
+      ],
+      "articles": []
+    },
+    {
+      "id": "anders-christiansen-283305502",
+      "name": "Anders Christiansen",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Anders Christiansen"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "283305502",
+          "nameInSource": "Anders Christiansen",
+          "date": "2022-01-20",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/283305502/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "283305502-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "isidoro-garcia-urquieta-284039805",
+      "name": "Isidoro Garcia Urquieta",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Isidoro Garcia Urquieta"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "284039805",
+          "nameInSource": "Isidoro Garcia Urquieta",
+          "date": "2022-02-24",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/284039805/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "284039805-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "sebastian-perez-saaibi-284722367",
+      "name": "Sebastián Pérez Saaibi",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sebastián Pérez Saaibi"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "284722367",
+          "nameInSource": "Sebastián Pérez Saaibi",
+          "date": "2022-03-24",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/284722367/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "284722367-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "edmundo-molina-285405789",
+      "name": "Edmundo Molina",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edmundo Molina"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "285405789",
+          "nameInSource": "Edmundo Molina",
+          "date": "2022-04-28",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/285405789/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "285405789-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "miguel-raz-guzman-286013745",
+      "name": "Miguel Raz Guzmán",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Raz Guzmán"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "286013745",
+          "nameInSource": "Miguel Raz Guzmán",
+          "date": "2022-05-26",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/286013745/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "286013745-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "james-syme-287208054",
+      "name": "James Syme",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "James Syme"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "287208054",
+          "nameInSource": "James Syme",
+          "date": "2022-07-28",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/287208054/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "287208054-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "maria-de-lourdes-martinez-villasenor-287873923",
+      "name": "María de Lourdes Martínez Villaseñor",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "María de Lourdes Martínez Villaseñor"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "287873923",
+          "nameInSource": "María de Lourdes Martínez Villaseñor",
+          "date": "2022-08-25",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/287873923/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [],
+          "scope": "event",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "alejandro-alayola-sansores-287873923",
+      "name": "Alejandro Alayola Sansores",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alejandro Alayola Sansores"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "287873923",
+          "nameInSource": "Alejandro Alayola Sansores",
+          "date": "2022-08-25",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/287873923/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [],
+          "scope": "event",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "alfonso-gastelum-strozzi-288624957",
+      "name": "Alfonso Gastélum Strozzi",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Gastélum Strozzi"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "288624957",
+          "nameInSource": "Alfonso Gastélum Strozzi",
+          "date": "2022-09-29",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/288624957/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "288624957-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "dante-tellez-289279649",
+      "name": "Dante Tellez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Dante Tellez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "289279649",
+          "nameInSource": "Dante Tellez",
+          "date": "2022-10-27",
+          "year": 2022,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/289279649/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "289279649-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2022
+      ],
+      "articles": []
+    },
+    {
+      "id": "jose-gustavo-fuentes-291052514",
+      "name": "José Gustavo Fuentes",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Gustavo Fuentes"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "291052514",
+          "nameInSource": "José Gustavo Fuentes",
+          "date": "2023-01-25",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/291052514/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "291052514-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "fernanda-a-durand-291693761",
+      "name": "Fernanda A. Durand",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernanda A. Durand"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "291693761",
+          "nameInSource": "Fernanda A. Durand",
+          "date": "2023-02-22",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/291693761/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "291693761-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "roberto-ponce-292875985",
+      "name": "Roberto Ponce",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Roberto Ponce"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "292875985",
+          "nameInSource": "Roberto Ponce",
+          "date": "2023-04-26",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/292875985/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "292875985-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-alberto-haro",
+      "name": "Carlos Alberto Haro",
+      "identityBasis": "La ficha de octubre de 2026 menciona expresamente su participación de julio de 2023. El CV profesional compartido por Pedro identifica el mismo nombre y trabajo en Santander; los enlaces se atribuyen desde ese CV.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Experiencia en ciencia de datos, ingeniería de software e ingeniería de datos. En octubre de 2026 fue presentado como AI Engineer en Santander México.",
+        "asOf": "2026-10-21",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/316979242/"
+      },
+      "links": [
+        {
+          "label": "Sitio profesional / CV",
+          "url": "https://h1sort.com/cv/",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/h1sort",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/h1sort",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        }
+      ],
+      "aliases": [
+        "Carlos Alberto Haro"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "294441567",
+          "nameInSource": "Carlos Alberto Haro",
+          "date": "2023-07-05",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/294441567/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "294441567-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "316979242",
+          "nameInSource": "Carlos Alberto Haro",
+          "date": "2026-10-21",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/316979242/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "316979242-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026,
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "oliver-lopez-corona-295515370",
+      "name": "Oliver López-Corona",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Oliver López-Corona"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "295515370",
+          "nameInSource": "Oliver López-Corona",
+          "date": "2023-08-30",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/295515370/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "295515370-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "fernanda-sobrino-macias-296847536",
+      "name": "Fernanda Sobrino Macias",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernanda Sobrino Macias"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "296847536",
+          "nameInSource": "Fernanda Sobrino Macias",
+          "date": "2023-11-01",
+          "year": 2023,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/296847536/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "296847536-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2023
+      ],
+      "articles": []
+    },
+    {
+      "id": "hugo-pimentel-298681493",
+      "name": "Hugo Pimentel",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Hugo Pimentel"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "298681493",
+          "nameInSource": "Hugo Pimentel",
+          "date": "2024-01-31",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/298681493/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "298681493-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-lopez-299239582",
+      "name": "Carlos López",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos López"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "299239582",
+          "nameInSource": "Carlos López",
+          "date": "2024-02-28",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/299239582/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "299239582-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "oscar-armas-300443920",
+      "name": "Oscar Armas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Oscar Armas"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "300443920",
+          "nameInSource": "Oscar Armas",
+          "date": "2024-04-24",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/300443920/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "300443920-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "hermilo-cortes-gonzalez",
+      "name": "Hermilo Cortés González",
+      "identityBasis": "Fusión editorial indicada por Pedro de los registros anunciados como Hermilo Cortés González (mayo de 2024) y Hermilio Cortés (septiembre de 2025). Se conservan los nombres y atribuciones de cada programación original.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Hermilio Cortés",
+        "Hermilo Cortés González"
+      ],
+      "previousIds": [
+        "hermilo-cortes-gonzalez-301041360",
+        "hermilio-cortes-311027455"
+      ],
+      "appearances": [
+        {
+          "eventId": "301041360",
+          "nameInSource": "Hermilo Cortés González",
+          "date": "2024-05-29",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/301041360/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "301041360-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        },
+        {
+          "eventId": "311027455",
+          "nameInSource": "Hermilio Cortés",
+          "date": "2025-09-24",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/311027455/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "311027455-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025,
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "ismael-medina-munoz-301686739",
+      "name": "Ismael Medina Muñoz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ismael Medina Muñoz"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "301686739",
+          "nameInSource": "Ismael Medina Muñoz",
+          "date": "2024-06-26",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/301686739/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "301686739-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "jose-ramirez-marquez-302389948",
+      "name": "José Ramirez-Marquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Ramirez-Marquez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "302389948",
+          "nameInSource": "José Ramirez-Marquez",
+          "date": "2024-07-29",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/302389948/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "302389948-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "gerardo-hernandez-del-valle-303534797",
+      "name": "Gerardo Hernandez del Valle",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Gerardo Hernandez del Valle"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "303534797",
+          "nameInSource": "Gerardo Hernandez del Valle",
+          "date": "2024-09-25",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/303534797/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "303534797-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "jose-manuel-barrera-304051496",
+      "name": "Jose Manuel Barrera",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jose Manuel Barrera"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "304051496",
+          "nameInSource": "Jose Manuel Barrera",
+          "date": "2024-10-30",
+          "year": 2024,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/304051496/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "304051496-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2024
+      ],
+      "articles": []
+    },
+    {
+      "id": "cesar-arroyo-cardenas-305725636",
+      "name": "César Arroyo Cárdenas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "César Arroyo Cárdenas"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "305725636",
+          "nameInSource": "César Arroyo Cárdenas",
+          "date": "2025-01-29",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/305725636/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "305725636-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "kasun-amarasinghe-306155338",
+      "name": "Kasun Amarasinghe",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kasun Amarasinghe"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "306155338",
+          "nameInSource": "Kasun Amarasinghe",
+          "date": "2025-02-27",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/306155338/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "306155338-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "liliana-millan-nunez-306706829",
+      "name": "Liliana Millán Núñez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Liliana Millán Núñez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "306706829",
+          "nameInSource": "Liliana Millán Núñez",
+          "date": "2025-03-27",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/306706829/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "306706829-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "kit-rodolfa-307168945",
+      "name": "Kit Rodolfa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kit Rodolfa"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "307168945",
+          "nameInSource": "Kit Rodolfa",
+          "date": "2025-04-24",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/307168945/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "307168945-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "natalia-osorio-308576232",
+      "name": "Natalia Osorio",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Natalia Osorio"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "308576232",
+          "nameInSource": "Natalia Osorio",
+          "date": "2025-06-25",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/308576232/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "308576232-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "mauricio-porte-309399047",
+      "name": "Mauricio Porte",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Mauricio Porte"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "309399047",
+          "nameInSource": "Mauricio Porte",
+          "date": "2025-07-30",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/309399047/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "309399047-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "francys-lanza-garcia-311481364",
+      "name": "Francys Lanza García",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Francys Lanza García"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "311481364",
+          "nameInSource": "Francys Lanza García",
+          "date": "2025-10-29",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/311481364/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "311481364-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "joel-menendez-ramirez-312082041",
+      "name": "Joel Menéndez Ramírez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Joel Menéndez Ramírez"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "312082041",
+          "nameInSource": "Joel Menéndez Ramírez",
+          "date": "2025-12-03",
+          "year": 2025,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/312082041/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "312082041-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2025
+      ],
+      "articles": []
+    },
+    {
+      "id": "andrew-dumit-312943510",
+      "name": "Andrew Dumit",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Andrew Dumit"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "312943510",
+          "nameInSource": "Andrew Dumit",
+          "date": "2026-01-29",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/312943510/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "312943510-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    },
+    {
+      "id": "luis-raul-gonzalez-romo-313303117",
+      "name": "Luis Raúl González Romo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luis Raúl González Romo"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "313303117",
+          "nameInSource": "Luis Raúl González Romo",
+          "date": "2026-02-25",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/313303117/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "313303117-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    },
+    {
+      "id": "diego-halffter-313843763",
+      "name": "Diego Halffter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Diego Halffter"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "313843763",
+          "nameInSource": "Diego Halffter",
+          "date": "2026-03-25",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/313843763/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "313843763-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    },
+    {
+      "id": "carlos-vargas-314758353",
+      "name": "Carlos Vargas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Vargas"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "314758353",
+          "nameInSource": "Carlos Vargas",
+          "date": "2026-05-27",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/314758353/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "314758353-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    },
+    {
+      "id": "emilio-herreman-315795851",
+      "name": "Emilio Herreman",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Emilio Herreman"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "315795851",
+          "nameInSource": "Emilio Herreman",
+          "date": "2026-07-29",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/315795851/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "315795851-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    },
+    {
+      "id": "diana-nadia-tamayo-celada-316589287",
+      "name": "Diana Nadia Tamayo Celada",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Diana Nadia Tamayo Celada"
+      ],
+      "previousIds": [],
+      "appearances": [
+        {
+          "eventId": "316589287",
+          "nameInSource": "Diana Nadia Tamayo Celada",
+          "date": "2026-09-30",
+          "year": 2026,
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/316589287/",
+          "status": "announced_not_attendance_verified",
+          "talkIds": [
+            "316589287-1"
+          ],
+          "scope": "talk",
+          "roles": [
+            "Ponencia"
+          ]
+        }
+      ],
+      "years": [
+        2026
+      ],
+      "articles": []
+    }
+  ],
+  "excluded": [
+    {
+      "eventId": "233977988",
+      "name": "Data Management Association capítulo mexicano",
+      "reason": "La fuente atribuye una intervención a una organización, sin identificar una persona."
+    }
+  ],
+  "unresolvedVariants": [
+    [
+      "liliana-millan-238067916",
+      "liliana-millan-nunez-306706829"
+    ],
+    [
+      "jose-carlos-mendez-228965323",
+      "jose-carlos-mendez-232620085"
+    ],
+    [
+      "jorge-rotter-247796907",
+      "jorge-rotter-263067477"
+    ],
+    [
+      "miguel-escalante-227040566",
+      "miguel-escalante-241731977"
+    ]
+  ]
+}
