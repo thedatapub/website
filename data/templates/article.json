@@ -1,0 +1,31 @@
+{
+  "id": "primer-post",
+  "kind": "local",
+  "slug": "primer-post",
+  "title": "Primer post: ¡The Data Pub tiene nuevo sitio!",
+  "date": "2026-05-11",
+  "summary": "El anuncio de una nueva casa para las publicaciones y los encuentros de la comunidad.",
+  "note": "Publicación histórica, adaptada del anuncio original. Los planes descritos corresponden a mayo de 2026; esta entrada no confirma que se hayan lanzado.",
+  "blocks": [
+    {
+      "title": "Una nueva casa para el pub",
+      "paragraphs": [
+        "En mayo de 2026, The Data Pub presentó un sitio que buscaba representar mejor a su comunidad y dejar atrás una página básica. La renovación usaba Hugo y páginas estáticas para ofrecer una experiencia más rápida."
+      ]
+    },
+    {
+      "title": "Más espacio para compartir",
+      "paragraphs": [
+        "El anuncio incorporaba un blog para resúmenes de encuentros, tutoriales y aportaciones de la comunidad, además de información de eventos conectada con sus plataformas."
+      ]
+    },
+    {
+      "title": "Los planes de aquel momento",
+      "paragraphs": [
+        "El equipo adelantaba una newsletter, una plataforma de eventos adicional a Meetup y contenido especial para sus participantes habituales. Invitaba a seguir los canales de la comunidad para conocer las novedades."
+      ]
+    }
+  ],
+  "authorIds": [],
+  "authorLabel": "The Data Pub"
+}

@@ -1,0 +1,13 @@
+00_wall_and_floor_base
+05_wall_light_pools
+10_woodwork_and_window
+20_library_books
+21_shelves_and_bottles
+30_identity_sign
+31_bulletin_calendar
+40_brass_lamps
+60_counter_carved_base
+61_counter_wood_grain
+70_counter_objects
+80_front_stools
+

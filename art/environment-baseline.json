@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "algorithm": "sha256",
+  "pixelFormat": "RGBA8",
+  "ordering": "row-major-y-x",
+  "width": 1920,
+  "height": 480,
+  "excludedRectangle": {
+    "x": 899,
+    "y": 171,
+    "width": 188,
+    "height": 144
+  },
+  "pixelCount": 894528,
+  "sha256": "1e764b336f2516897a1dc5f54975a0ffb22a0518095079e28bba966e4a5c6171",
+  "provenance": {
+    "path": "site/assets/pub/bar-panorama.png",
+    "sha256": "00e6719ea2a904bce66bdcfc5350b64dd90ddd76d4c5b7bc602edb6a49958ba7",
+    "size": 41528
+  },
+  "coverage": "All frame-1 pixels outside [899,1087) x [171,315), exactly the former per-pixel comparison. No image bytes retained."
+}

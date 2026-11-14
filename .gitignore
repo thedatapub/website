@@ -1,0 +1,10 @@
+node_modules/
+artifacts/
+.DS_Store
+playwright-report/
+test-results/
+
+# Local backup/verification records; keep usage and technical docs tracked.
+/docs/CLEANUP.md
+/docs/collection-verification.json
+/docs/local-reports/

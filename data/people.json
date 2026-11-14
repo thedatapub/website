@@ -1,0 +1,1507 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-14",
+  "source": "Public Meetup descriptions retrieved 2026-11-12; no attendance verification.",
+  "people": [
+    {
+      "id": "jesus-ramos",
+      "name": "Jesús Ramos",
+      "identityBasis": "Las agendas enlazan o nombran @xuxoramos; la biografía de 2021 identifica al cofundador de The Data Pub. Solo se incluyen intervenciones del programa.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Ingeniero en Sistemas Computacionales y maestro en Computational Finance. Su semblanza de 2021 lo presenta como cofundador de The Data Pub y docente de arquitecturas de datos.",
+        "asOf": "2021-12-15",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/282493104/"
+      },
+      "links": [
+        {
+          "label": "X / Twitter",
+          "url": "https://twitter.com/xuxoramos",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/227040566/"
+        }
+      ],
+      "aliases": [
+        "Chucho Ramos",
+        "Jesús Ramos"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jessica-barbosa-227040566",
+      "name": "Jessica Barbosa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jessica Barbosa"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "miguel-escalante-227040566",
+      "name": "Miguel Escalante",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Escalante"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "angel-rodriguez-aquino-228110998",
+      "name": "Ángel Rodríguez Aquino",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ángel Rodríguez Aquino"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "fernando-cisneros-228110998",
+      "name": "Fernando Cisneros",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernando Cisneros"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "marco-galicia-228110998",
+      "name": "Marco Galicia",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Marco Galicia"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alfonso-maytorena-228965323",
+      "name": "Alfonso Maytorena",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Maytorena"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "sandra-bermudez-228965323",
+      "name": "Sandra Bermúdez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sandra Bermúdez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jose-carlos-mendez-228965323",
+      "name": "José Carlos Méndez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Carlos Méndez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "adolfo-de-unanue",
+      "name": "Adolfo de Unánue",
+      "identityBasis": "La biografía de 2022 une el nombre completo y abreviado y documenta la dirección de la maestría de ITAM citada en 2016, además de la Escuela de Gobierno citada en 2024.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Doctor en Física Teórica. La semblanza de 2022 describe su trabajo en ciencia de datos para políticas públicas y la creación del Centro de Ciencia de Datos del ITAM.",
+        "asOf": "2022-06-23",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/286623333/"
+      },
+      "links": [],
+      "aliases": [
+        "Adolfo de Unánue Tiscareño",
+        "Adolfo De Unánue",
+        "Adolfo de Unánue"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "daniel-zenteno-230028956",
+      "name": "Daniel Zenteno",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Daniel Zenteno"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "edgar-pichardo-230028956",
+      "name": "Edgar Pichardo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edgar Pichardo"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "lilia-saul-231035607",
+      "name": "Lilia Saúl",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Lilia Saúl"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "ben-tovar-cisneros-231035607",
+      "name": "Ben Tovar Cisneros",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ben Tovar Cisneros"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "adolfo-martinez",
+      "name": "Adolfo Martínez",
+      "identityBasis": "Biografías coincidentes: Matemáticas Aplicadas en ITAM y proyectos en Metros Cúbicos, Grupo Expansión y finanzas; las dos fichas de 2016 repiten la semblanza.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Matemático aplicado por el ITAM, con experiencia en estadística, análisis de datos y desarrollo. Las fichas de 2016 describen proyectos para Metros Cúbicos, Grupo Expansión y piggo.mx.",
+        "asOf": "2016-06-25",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/231756826/"
+      },
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/arinarmo",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/240096460/"
+        }
+      ],
+      "aliases": [
+        "Adolfo Martínez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "andrea-fernandez-conde",
+      "name": "Andrea Fernández Conde",
+      "identityBasis": "Ambas agendas atribuyen @feranimal y trabajo en INEGI.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Andrea Fernández",
+        "Andrea Fernández Conde"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-toxtli-231678424",
+      "name": "Carlos Toxtli",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Toxtli"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jose-carlos-mendez-232620085",
+      "name": "Jose Carlos Mendez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jose Carlos Mendez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "kael-huerta-acuna",
+      "name": "Kael Huerta Acuña",
+      "identityBasis": "Las dos agendas atribuyen @KaelHuerta, Toptal y la misma charla; las biografías dan el nombre completo.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kael Huerta",
+        "Kael Huerta Acuña"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "fernando-esponda-232620085",
+      "name": "Fernando Esponda",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernando Esponda"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "amin-espinoza",
+      "name": "Amin Espinoza",
+      "identityBasis": "Ambas agendas de 2016 identifican al Technical Evangelist de Microsoft; la segunda proporciona @aminespinoza.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Amín Espinoza",
+        "Amin Espinoza"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "irving-morales",
+      "name": "Irving Morales",
+      "identityBasis": "Ambas agendas atribuyen @moaimx y Morlan al ponente.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Irving Morales"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "moi-arizpe-233149109",
+      "name": "Moi Arizpe",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Moi Arizpe"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "mario-gamboa-234838438",
+      "name": "Mario Gamboa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Mario Gamboa"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "amaury-gutierrez-234838438",
+      "name": "Amaury Gutiérrez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Amaury Gutiérrez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "julian-equihua-234838438",
+      "name": "Julián Equihua",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Julián Equihua"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "vianey-juarez-236892156",
+      "name": "Vianey Juárez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Vianey Juárez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "javier-luraschi",
+      "name": "Javier Luraschi",
+      "identityBasis": "Las fichas identifican al ingeniero de RStudio, creador de sparklyr, autor de Mastering Spark with R y posteriormente fundador de Hal9.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Fundador de Hal9 y autor de Mastering Spark with R. Su semblanza de 2021 menciona su trabajo previo en RStudio, Microsoft Research y SAP.",
+        "asOf": "2021-08-26",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/280284690/"
+      },
+      "links": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/javierluraschi/",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/264908622/"
+        }
+      ],
+      "aliases": [
+        "Javier Lureschi",
+        "Javier Luraschi"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-perez-236892156",
+      "name": "Carlos Pérez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Pérez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "luisa-ortiz-238067916",
+      "name": "Luisa Ortiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luisa Ortiz"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "sergio-araiza-238067916",
+      "name": "Sergio Araiza",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sergio Araiza"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "kennia-velazquez-238067916",
+      "name": "Kennia Velázquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kennia Velázquez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "nelly-luna-238067916",
+      "name": "Nelly Luna",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Nelly Luna"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "edouard-martin-borregon-238067916",
+      "name": "Edouard Martín-Borregón",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edouard Martín-Borregón"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "lorena-rivero-238067916",
+      "name": "Lorena Rivero",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Lorena Rivero"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "liliana-millan-238067916",
+      "name": "Liliana Millán",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Liliana Millán"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "stephane-keil-239277059",
+      "name": "Stephane Keil",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Stephane Keil"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "edwin-chazaro-239277059",
+      "name": "Edwin Cházaro",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edwin Cházaro"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "rodrigo-aguilar-239277059",
+      "name": "Rodrigo Aguilar",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Rodrigo Aguilar"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "leon-palafox",
+      "name": "León Palafox",
+      "identityBasis": "La ficha de 2022 anuncia explícitamente el regreso del Dr. León Palafox, ponente anunciado en 2017.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "León Palafox"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "domingo-suarez-241092259",
+      "name": "Domingo Suárez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Domingo Suárez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "guillermo-martinez-241092259",
+      "name": "Guillermo Martínez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Guillermo Martínez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "sergio-chavez-241092259",
+      "name": "Sergio Chávez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sergio Chávez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "irving-wilmer-241731977",
+      "name": "Irving Wilmer",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Irving Wilmer"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "miguel-escalante-241731977",
+      "name": "Miguel Escalante",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Escalante"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "juan-manuel-casanueva-241731977",
+      "name": "Juan Manuel Casanueva",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Juan Manuel Casanueva"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "yadir-sanchez-241731977",
+      "name": "Yadir Sánchez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Yadir Sánchez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "rayid-ghani-245189875",
+      "name": "Rayid Ghani",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Rayid Ghani"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "gaby-otero-245189875",
+      "name": "Gaby Otero",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Gaby Otero"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "augusto-sagaon-247796907",
+      "name": "Augusto Sagaón",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Augusto Sagaón"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alfredo-lozano-247796907",
+      "name": "Alfredo Lozano",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfredo Lozano"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jorge-rotter-247796907",
+      "name": "Jorge Rotter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jorge Rotter"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "saul-alvarez-247796907",
+      "name": "Saúl Álvarez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Saúl Álvarez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "will-wolf-249335412",
+      "name": "Will Wolf",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [
+        {
+          "label": "Sitio profesional",
+          "url": "http://willwolf.io/about/",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/"
+        }
+      ],
+      "aliases": [
+        "Will Wolf"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "paco-mekler-249335412",
+      "name": "Paco Mekler",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [
+        {
+          "label": "X / Twitter",
+          "url": "https://twitter.com/meklerg",
+          "evidenceUrl": "https://www.meetup.com/thedatapub/events/249335412/"
+        }
+      ],
+      "aliases": [
+        "Paco Mekler"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "enrique-bonilla-261298503",
+      "name": "Enrique Bonilla",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Enrique Bonilla"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "miguel-nunez-ochoa-262223305",
+      "name": "Miguel Núñez Ochoa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Núñez Ochoa"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jorge-rotter-263067477",
+      "name": "Jorge Rotter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "unresolved_same_name",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jorge Rotter"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "michael-betancourt-264908819",
+      "name": "Michael Betancourt",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Michael Betancourt"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-alfonso-ruiz-guido",
+      "name": "Carlos Alfonso Ruiz Guido",
+      "identityBasis": "Ambas fichas atribuyen la dirección de la Escuela/Colegio de Matemáticas Bourbaki; Carlos Alfonso Ruiz Guido queda separado por falta de evidencia adicional.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Ruiz",
+        "Alfonso Ruiz Guido"
+      ],
+      "previousIds": ["alfonso-ruiz-guido","carlos-alfonso-ruiz-guido-276057096"]
+    },
+    {
+      "id": "julio-retiz-265704111",
+      "name": "Julio Retiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Julio Retiz"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alfredo-garbuno-266658024",
+      "name": "Alfredo Garbuno",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfredo Garbuno"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "franck-enriquez-266658024",
+      "name": "Franck Enriquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Franck Enriquez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "luis-fernando-garcia-268864390",
+      "name": "Luis Fernando García",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luis Fernando García"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "guillermo-de-anda-jauregui-272801508",
+      "name": "Guillermo de Anda Jáuregui",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Guillermo de Anda Jáuregui"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "brenda-jimenez-272801508",
+      "name": "Brenda Jimenez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Brenda Jimenez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-gershenson-274920199",
+      "name": "Carlos Gershenson",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Gershenson"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "eduardo-blancas-reyes-276057096",
+      "name": "Eduardo Blancas Reyes",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Eduardo Blancas Reyes"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "hector-g-ceballos-276581681",
+      "name": "Héctor G. Ceballos",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Héctor G. Ceballos"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "luz-mariana-blaz-277258356",
+      "name": "Luz Mariana Blaz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luz Mariana Blaz"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "ramon-valles-277258356",
+      "name": "Ramón Valles",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ramón Valles"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "ian-castillo-278381927",
+      "name": "Ian Castillo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ian Castillo"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alejandro-correa-bahnsen-279081489",
+      "name": "Alejandro Correa Bahnsen",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alejandro Correa Bahnsen"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "luisa-fernanda-roa-ballen-279081489",
+      "name": "Luisa Fernanda Roa Ballén",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luisa Fernanda Roa Ballén"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "teresa-ortiz-279433662",
+      "name": "Teresa Ortiz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Teresa Ortiz"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "michelle-anzarut-279433662",
+      "name": "Michelle Anzarut",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Michelle Anzarut"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "fabien-plisson-280945606",
+      "name": "Fabien Plisson",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fabien Plisson"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "leonardo-garrido-281606223",
+      "name": "Leonardo Garrido",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Leonardo Garrido"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "sebastian-ramirez-282068179",
+      "name": "Sebastián Ramirez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sebastián Ramirez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "anders-christiansen-283305502",
+      "name": "Anders Christiansen",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Anders Christiansen"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "isidoro-garcia-urquieta-284039805",
+      "name": "Isidoro Garcia Urquieta",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Isidoro Garcia Urquieta"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "sebastian-perez-saaibi-284722367",
+      "name": "Sebastián Pérez Saaibi",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Sebastián Pérez Saaibi"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "edmundo-molina-285405789",
+      "name": "Edmundo Molina",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Edmundo Molina"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "miguel-raz-guzman-286013745",
+      "name": "Miguel Raz Guzmán",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Miguel Raz Guzmán"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "james-syme-287208054",
+      "name": "James Syme",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "James Syme"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "maria-de-lourdes-martinez-villasenor-287873923",
+      "name": "María de Lourdes Martínez Villaseñor",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "María de Lourdes Martínez Villaseñor"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alejandro-alayola-sansores-287873923",
+      "name": "Alejandro Alayola Sansores",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alejandro Alayola Sansores"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "alfonso-gastelum-strozzi-288624957",
+      "name": "Alfonso Gastélum Strozzi",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Alfonso Gastélum Strozzi"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "dante-tellez-289279649",
+      "name": "Dante Tellez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Dante Tellez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jose-gustavo-fuentes-291052514",
+      "name": "José Gustavo Fuentes",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Gustavo Fuentes"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "fernanda-a-durand-291693761",
+      "name": "Fernanda A. Durand",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernanda A. Durand"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "roberto-ponce-292875985",
+      "name": "Roberto Ponce",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Roberto Ponce"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-alberto-haro",
+      "name": "Carlos Alberto Haro",
+      "identityBasis": "La ficha de octubre de 2026 menciona expresamente su participación de julio de 2023. El CV profesional compartido por Pedro identifica el mismo nombre y trabajo en Santander; los enlaces se atribuyen desde ese CV.",
+      "identityReview": "reviewed_join",
+      "bio": {
+        "text": "Experiencia en ciencia de datos, ingeniería de software e ingeniería de datos. En octubre de 2026 fue presentado como AI Engineer en Santander México.",
+        "asOf": "2026-10-21",
+        "evidenceUrl": "https://www.meetup.com/thedatapub/events/316979242/"
+      },
+      "links": [
+        {
+          "label": "Sitio profesional / CV",
+          "url": "https://h1sort.com/cv/",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/h1sort",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        },
+        {
+          "label": "GitHub",
+          "url": "https://github.com/h1sort",
+          "evidenceUrl": "https://h1sort.com/cv/"
+        }
+      ],
+      "aliases": [
+        "Carlos Alberto Haro"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "oliver-lopez-corona-295515370",
+      "name": "Oliver López-Corona",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Oliver López-Corona"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "fernanda-sobrino-macias-296847536",
+      "name": "Fernanda Sobrino Macias",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Fernanda Sobrino Macias"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "hugo-pimentel-298681493",
+      "name": "Hugo Pimentel",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Hugo Pimentel"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-lopez-299239582",
+      "name": "Carlos López",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos López"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "oscar-armas-300443920",
+      "name": "Oscar Armas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Oscar Armas"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "hermilo-cortes-gonzalez",
+      "name": "Hermilo Cortés González",
+      "identityBasis": "Fusión editorial indicada por Pedro de los registros anunciados como Hermilo Cortés González (mayo de 2024) y Hermilio Cortés (septiembre de 2025). Se conservan los nombres y atribuciones de cada programación original.",
+      "identityReview": "reviewed_join",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Hermilio Cortés",
+        "Hermilo Cortés González"
+      ],
+      "previousIds": [
+        "hermilo-cortes-gonzalez-301041360",
+        "hermilio-cortes-311027455"
+      ]
+    },
+    {
+      "id": "ismael-medina-munoz-301686739",
+      "name": "Ismael Medina Muñoz",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Ismael Medina Muñoz"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jose-ramirez-marquez-302389948",
+      "name": "José Ramirez-Marquez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "José Ramirez-Marquez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "gerardo-hernandez-del-valle-303534797",
+      "name": "Gerardo Hernandez del Valle",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Gerardo Hernandez del Valle"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "jose-manuel-barrera-304051496",
+      "name": "Jose Manuel Barrera",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Jose Manuel Barrera"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "cesar-arroyo-cardenas-305725636",
+      "name": "César Arroyo Cárdenas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "César Arroyo Cárdenas"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "kasun-amarasinghe-306155338",
+      "name": "Kasun Amarasinghe",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kasun Amarasinghe"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "liliana-millan-nunez-306706829",
+      "name": "Liliana Millán Núñez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Liliana Millán Núñez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "kit-rodolfa-307168945",
+      "name": "Kit Rodolfa",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Kit Rodolfa"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "natalia-osorio-308576232",
+      "name": "Natalia Osorio",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Natalia Osorio"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "mauricio-porte-309399047",
+      "name": "Mauricio Porte",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Mauricio Porte"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "francys-lanza-garcia-311481364",
+      "name": "Francys Lanza García",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Francys Lanza García"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "joel-menendez-ramirez-312082041",
+      "name": "Joel Menéndez Ramírez",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Joel Menéndez Ramírez"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "andrew-dumit-312943510",
+      "name": "Andrew Dumit",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Andrew Dumit"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "luis-raul-gonzalez-romo-313303117",
+      "name": "Luis Raúl González Romo",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Luis Raúl González Romo"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "diego-halffter-313843763",
+      "name": "Diego Halffter",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Diego Halffter"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "carlos-vargas-314758353",
+      "name": "Carlos Vargas",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Carlos Vargas"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "emilio-herreman-315795851",
+      "name": "Emilio Herreman",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Emilio Herreman"
+      ],
+      "previousIds": []
+    },
+    {
+      "id": "diana-nadia-tamayo-celada-316589287",
+      "name": "Diana Nadia Tamayo Celada",
+      "identityBasis": "Registro de persona anunciada en una ficha pública; sin unión inferida con otras identidades.",
+      "identityReview": "single_source",
+      "bio": null,
+      "links": [],
+      "aliases": [
+        "Diana Nadia Tamayo Celada"
+      ],
+      "previousIds": []
+    }
+  ],
+  "unresolvedVariants": [
+    [
+      "liliana-millan-238067916",
+      "liliana-millan-nunez-306706829"
+    ],
+    [
+      "jose-carlos-mendez-228965323",
+      "jose-carlos-mendez-232620085"
+    ],
+    [
+      "jorge-rotter-247796907",
+      "jorge-rotter-263067477"
+    ],
+    [
+      "miguel-escalante-227040566",
+      "miguel-escalante-241731977"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "the-data-pub",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The Data Pub \u2014 an original static pixel pub with a continuous horizontal camera",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "data:talks": "node scripts/import-talks.mjs",
+    "art:export": "node art/tools/export-scene.mjs",
+    "art:components": "node art/tools/export-scene.mjs",
+    "dev": "bun scripts/serve.ts",
+    "test": "node --test tests/*.test.mjs",
+    "test:preview": "node scripts/test-preview.mjs",
+    "test:browser": "node scripts/test-browser.mjs",
+    "test:hotspots": "node scripts/test-hotspots-browser.mjs",
+    "test:framing": "node scripts/test-scene-framing.mjs",
+    "test:archive": "node scripts/test-archive-browser.mjs",
+    "test:content": "node scripts/test-content-browser.mjs",
+    "test:agenda": "node scripts/test-agenda-browser.mjs",
+    "data:people": "node scripts/import-people.mjs",
+    "test:youtube": "node scripts/test-youtube-live.mjs",
+    "test:people-edit": "node scripts/test-people-edit.mjs",
+    "data:build": "node scripts/import-people.mjs",
+    "test:data-edit": "node scripts/test-normalized-edit.mjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "playwright": "1.65.0"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "sourceScale": 1,
+  "sources": {
+    "art/source/bar-scene.aseprite": "28fb08d363a57dd6ab985879a827a78f7e7eb4b4a65d2f32130923c51dc20b5a",
+    "art/source/barman.aseprite": "b0b7fb1f8bce0ceb6b943a744162f361267f7b31eebec3f890b0a46e0e3f171e",
+    "art/source/bar-environment.aseprite": "0027a9d31e24b2ba08347bc3c7c0637a1902adf3d9d60d03480e528bc54f2e75",
+    "art/source/beer-mug.aseprite": "d6d94ad48d7b0e38735533f74bdb5e31a4496baa5487348fcfc367a7cdc35648",
+    "art/source/apron-emblem.aseprite": "6ffa8a1cab12f6f05445066b905887658911c8c2abab0d543977e40334cc36ff",
+    "art/environment-baseline.json": "e69995c6064af84800420f955b3cf77159e3c4f286f8d7fe0d18f459337fbf8a"
+  },
+  "durations": [
+    2800,
+    140,
+    160,
+    120,
+    2980,
+    80,
+    120,
+    100
+  ],
+  "props": {
+    "events": {
+      "height": 161,
+      "width": 127,
+      "x": 1508,
+      "y": 103
+    },
+    "library": {
+      "height": 167,
+      "width": 119,
+      "x": 348,
+      "y": 99
+    }
+  },
+  "verification": "8 approved frames recompose exactly; only eyes and mouth animate; rest patch matches base; legacy changes restricted to barman/tap and removed prop layers",
+  "assets": {
+    "bar-base.png": {
+      "width": 1920,
+      "height": 480,
+      "sha256": "020f25eeb4b6d13982c2f02dd3767a30e3b4cc9fb72ed000bcb5147483baadd3"
+    },
+    "library-prop.png": {
+      "width": 119,
+      "height": 167,
+      "sha256": "d4e0d02e72891b27ea63cf5b66766101e61089e2c777fcc43c6418f67b6d7c35"
+    },
+    "events-prop.png": {
+      "width": 127,
+      "height": 161,
+      "sha256": "0cbee3c480fb3560f55a3c1c33538d5b6216e86904ecae9f406909ff2c26d0bc"
+    },
+    "barman-scene-sheet.png": {
+      "width": 1088,
+      "height": 144,
+      "sha256": "f3209353f46c1bcbd02d33e526bb38c6ae3cc7296d89ed4ae8c766f18752758f"
+    },
+    "ceiling-edge.png": {
+      "width": 1920,
+      "height": 8,
+      "sha256": "391c91ebf91f0a440ab22c673a7866e6191aa7246878ed1a49be0e5b31fbba9c"
+    },
+    "floor-edge.png": {
+      "width": 1920,
+      "height": 12,
+      "sha256": "1fbb59e577804e0630cd7c751bc41856521a7a8cba84998f3dab0b94038a57e4"
+    }
+  }
+}

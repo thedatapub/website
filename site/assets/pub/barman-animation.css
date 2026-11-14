@@ -1,0 +1,12 @@
+/* Generated from the approved Aseprite frame durations; run bun run art:components. */
+@keyframes barman-mouth-blink {
+  0% { background-position-x: 0%; }
+  43.07692307692308% { background-position-x: 14.285714285714285%; }
+  45.230769230769226% { background-position-x: 28.57142857142857%; }
+  47.69230769230769% { background-position-x: 42.857142857142854%; }
+  49.53846153846154% { background-position-x: 57.14285714285714%; }
+  95.38461538461539% { background-position-x: 71.42857142857143%; }
+  96.61538461538461% { background-position-x: 85.71428571428571%; }
+  98.46153846153847% { background-position-x: 100%; }
+  100% { background-position-x: 0%; }
+}

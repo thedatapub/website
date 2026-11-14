@@ -1,0 +1,1403 @@
+{
+  "snapshotDate": "2026-11-12",
+  "events": [
+    {
+      "event_id": "227040566",
+      "title": "The Data Pub Diciembre 2015",
+      "date": "2015-12-15",
+      "start_datetime": "2015-12-15T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/227040566/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos",
+        "Jessica Barbosa",
+        "Miguel Escalante"
+      ],
+      "session_evidence": [
+        "Big Data, Big Disappointment",
+        "Transporte Seguro en México con R + INEGI",
+        "Desmitificando Focos Criminales con R + INEGI"
+      ]
+    },
+    {
+      "event_id": "228110998",
+      "title": "The Data Pub Enero 2016",
+      "date": "2016-01-25",
+      "start_datetime": "2016-01-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/228110998/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Ángel Rodríguez Aquino",
+        "Fernando Cisneros",
+        "Marco Galicia"
+      ],
+      "session_evidence": [
+        "Creando Economía con Datos Abiertos",
+        "Ingeniería de Datos para Medios Digitales",
+        "Empresas de software internacionales en México y su relación con el gobierno"
+      ]
+    },
+    {
+      "event_id": "228965323",
+      "title": "The Data Pub Febrero 2016",
+      "date": "2016-02-29",
+      "start_datetime": "2016-02-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/228965323/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alfonso Maytorena",
+        "Sandra Bermúdez",
+        "José Carlos Méndez"
+      ],
+      "session_evidence": [
+        "Eiya App: Venciendo el tráfico urbano",
+        "Diseño basado en evidencia",
+        "De Magia y Cajas Negras"
+      ]
+    },
+    {
+      "event_id": "230028956",
+      "title": "The Data Pub Abril 2016",
+      "date": "2016-04-21",
+      "start_datetime": "2016-04-21T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/230028956/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos",
+        "Adolfo de Unánue",
+        "Daniel Zenteno",
+        "Edgar Pichardo"
+      ],
+      "session_evidence": [
+        "Big Data, Big Flops: El gag reel de los algoritmos",
+        "Ciencia de Datos: Proyectos para un mejor gobierno",
+        "Técnica de Aprendizaje Profundo para entender texto utilizando sólo caracteres como características",
+        "Yo creador"
+      ]
+    },
+    {
+      "event_id": "231035607",
+      "title": "The Data Pub Mayo 2016",
+      "date": "2016-05-26",
+      "start_datetime": "2016-05-26T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/231035607/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos",
+        "Lilia Saúl",
+        "Ben Tovar Cisneros"
+      ],
+      "session_evidence": [
+        "Las Locas, Locas Aplicaciones del Análisis de Datos",
+        "Data + Storytelling: Retos para Dar Voz (que todos entiendan) al Análisis de Datos",
+        "Ciencia de Datos: De la Academia a la Industria"
+      ]
+    },
+    {
+      "event_id": "231756826",
+      "title": "Intro a Stats & Data Science para Programmers, Devs y otr@s Matachistes.",
+      "date": "2016-06-25",
+      "start_datetime": "2016-06-25T10:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/231756826/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Adolfo Martínez"
+      ],
+      "session_evidence": [
+        "Intro a Stats & Data Science para Programmers, Devs y otr@s Matachistes."
+      ]
+    },
+    {
+      "event_id": "231678424",
+      "title": "The Data Pub Junio 2016",
+      "date": "2016-06-30",
+      "start_datetime": "2016-06-30T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/231678424/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos",
+        "Andrea Fernández Conde",
+        "Carlos Toxtli"
+      ],
+      "session_evidence": [
+        "Sobrevuelo de los Meetups de Datos en CDMX",
+        "Procuración de Justicia con Ciencia de Datos: Lejos del Minority Report",
+        "El Bronco invade Facebook: GLMs para Evaluación de Social Media como Estrategia de Comunicación en Campaña"
+      ]
+    },
+    {
+      "event_id": "232620085",
+      "title": "The Data Pub Julio 2016",
+      "date": "2016-07-28",
+      "start_datetime": "2016-07-28T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/232620085/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jose Carlos Mendez",
+        "Kael Huerta Acuña",
+        "Fernando Esponda"
+      ],
+      "session_evidence": [
+        "(No) Supervisado",
+        "Data Science para Telcos: Mejorando el Servicio sin ver el Search History",
+        "Datos Seguros e Inmunidad Artificial"
+      ]
+    },
+    {
+      "event_id": "232091670",
+      "title": "2a Fecha: Intro a Stats & Data Science para Programmers, Devs y Matachistes",
+      "date": "2016-07-30",
+      "start_datetime": "2016-07-30T10:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/232091670/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Adolfo Martínez"
+      ],
+      "session_evidence": [
+        "2a Fecha: Intro a Stats & Data Science para Programmers, Devs y Matachistes"
+      ]
+    },
+    {
+      "event_id": "233149109",
+      "title": "The Data Pub Agosto 2016: Data Rumble!",
+      "date": "2016-08-24",
+      "start_datetime": "2016-08-24T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/233149109/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Amin Espinoza",
+        "Irving Morales",
+        "Moi Arizpe"
+      ],
+      "session_evidence": [
+        "Big Data Analytics con Azure",
+        "Análisis de Redes de Ciudades Mexicanas",
+        "Qué *** están pensando los seguidores de Trump?"
+      ]
+    },
+    {
+      "event_id": "233977988",
+      "title": "The Data Pub Septiembre 2016: No Governance, No Galaxy",
+      "date": "2016-09-29",
+      "start_datetime": "2016-09-29T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/233977988/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos",
+        "Data Management Association capítulo mexicano",
+        "Kael Huerta"
+      ],
+      "session_evidence": [
+        "El triste caso de la org que quería inteligencia sin data",
+        "Data Governance: Prerrequisito para Data Science",
+        "Data Science para Telcos: Mejorando el Servicio sin Meterse al Search History"
+      ]
+    },
+    {
+      "event_id": "234838438",
+      "title": "The Data Pub Octubre 2016: Máquinas Protegiendo el Ambiente",
+      "date": "2016-10-27",
+      "start_datetime": "2016-10-27T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/234838438/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Amín Espinoza",
+        "Mario Gamboa",
+        "Amaury Gutiérrez",
+        "Julián Equihua"
+      ],
+      "session_evidence": [
+        "DataViz Chingona Con PowerBI",
+        "Clasificación y Filtering para Detección de Anomalías en Precios de Bienes Raíces.",
+        "MAD-Mex: Máquinas Protegiendo el Ambiente"
+      ]
+    },
+    {
+      "event_id": "236892156",
+      "title": "The Data Pub 1er Aniversario! #Datamales!",
+      "date": "2017-01-26",
+      "start_datetime": "2017-01-26T19:30:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/236892156/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Vianey Juárez",
+        "Javier Lureschi",
+        "Carlos Pérez"
+      ],
+      "session_evidence": [
+        "R a Escala con Microsoft R Server",
+        "Carga, procesamiento y limpieza de TB con Sparklyr",
+        "El smog que respiramos"
+      ]
+    },
+    {
+      "event_id": "238067916",
+      "title": "The Data Pub Marzo: Datos + Sociedad = Infoactivismo",
+      "date": "2017-03-16",
+      "start_datetime": "2017-03-16T19:30:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/238067916/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Chucho Ramos",
+        "Luisa Ortiz",
+        "Sergio Araiza",
+        "Kennia Velázquez",
+        "Nelly Luna",
+        "Edouard Martín-Borregón",
+        "Lorena Rivero",
+        "Liliana Millán"
+      ],
+      "session_evidence": [
+        "De cuando te vienen persiguiendo de veracruz por buscar la verdad",
+        "¿Qué le hace falta al infoactivismo para ser chingón?",
+        "Ojo Público",
+        "PODER",
+        "Transparencia Presupuestaria",
+        "¿Cómo Ayuda la Ciencia de Datos al Periodismo?"
+      ]
+    },
+    {
+      "event_id": "239277059",
+      "title": "The Data Pub Abril: Emprendiendo con Machine Learning y AI",
+      "date": "2017-04-27",
+      "start_datetime": "2017-04-27T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/239277059/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Chucho Ramos",
+        "Stephane Keil",
+        "Edwin Cházaro",
+        "Rodrigo Aguilar"
+      ],
+      "session_evidence": [
+        "Por qué México debe convertirse en polo de Ciencia de Datos y Machine Learning?",
+        "Prevención de Crimen con Poisson",
+        "Cómo Emprender con Datos y No Morir en el Intento",
+        "Contraejemplos y Equivocaciones del ML y AI"
+      ]
+    },
+    {
+      "event_id": "240096460",
+      "title": "The Data Pub Mayo: Hardcore Science!",
+      "date": "2017-05-31",
+      "start_datetime": "2017-05-31T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/240096460/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Chucho Ramos",
+        "Adolfo Martínez",
+        "León Palafox"
+      ],
+      "session_evidence": [
+        "Transparencia Algorítmica: Por qué es importante?",
+        "Bayesian Statistics + Probabilistic Programming: cómo dejé de preocuparme y amar la incertidumbre'",
+        "Cuerpo, Mente, Fuego y Matemáticas: Machine Learning en la era de Watson, SpaceX y Google"
+      ]
+    },
+    {
+      "event_id": "241092259",
+      "title": "The Data Pub Junio: Commercial VS Open Source",
+      "date": "2017-06-29",
+      "start_datetime": "2017-06-29T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/241092259/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Domingo Suárez",
+        "Guillermo Martínez",
+        "Sergio Chávez"
+      ],
+      "session_evidence": [
+        "Case Study: orquestación de servicios con Kubernetes",
+        "Open Source VS Comercial para un stack de analítica",
+        "Uso de Ciencia de Datos para enfermedades crónicas"
+      ]
+    },
+    {
+      "event_id": "241731977",
+      "title": "The Data Pub Julio: Machine + Data Ethics",
+      "date": "2017-07-27",
+      "start_datetime": "2017-07-27T19:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/241731977/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Irving Wilmer",
+        "Miguel Escalante",
+        "Irving Morales",
+        "Juan Manuel Casanueva",
+        "Yadir Sánchez",
+        "Andrea Fernández"
+      ],
+      "session_evidence": [
+        "Transparencia Algorítmica",
+        "Implicaciones Sociales de los Algoritmos",
+        "Mintiendo con Visualización de Datos",
+        "Protegiendo nuestra Huella Digital",
+        "El Otro Carril: De la AI a la Human AI",
+        "Soluciones para convivencia virtuosa con los algoritmos"
+      ]
+    },
+    {
+      "event_id": "245189875",
+      "title": "The Data Pub Noviembre: Data Science + Política Pública",
+      "date": "2017-11-23",
+      "start_datetime": "2017-11-23T19:30:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/245189875/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Rayid Ghani",
+        "Gaby Otero"
+      ],
+      "session_evidence": [
+        "Data Science and Public Policy",
+        "DAMUS.org"
+      ]
+    },
+    {
+      "event_id": "247796907",
+      "title": "The Data Pub Febrero: Data Science + Elecciones!",
+      "date": "2018-02-22",
+      "start_datetime": "2018-02-22T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/247796907/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Augusto Sagaón",
+        "Alfredo Lozano",
+        "Jorge Rotter",
+        "Saúl Álvarez"
+      ],
+      "session_evidence": [
+        "TuEleccion: Sesgos periodísticos hacia 2018",
+        "Redistritación Electoral más Justa"
+      ]
+    },
+    {
+      "event_id": "249335412",
+      "title": "The Data Pub Abril: Open Source Master's in ML",
+      "date": "2018-04-04",
+      "start_datetime": "2018-04-04T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/249335412/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Will Wolf",
+        "Paco Mekler"
+      ],
+      "session_evidence": [
+        "The Open Source Masters",
+        "El pipeline de Verificado19S"
+      ]
+    },
+    {
+      "event_id": "261298503",
+      "title": "The Data Pub Mayo: ¡We're back!",
+      "date": "2019-05-15",
+      "start_datetime": "2019-05-15T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/261298503/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Enrique Bonilla"
+      ],
+      "session_evidence": [
+        "Analizando Música Electrónica con CNN"
+      ]
+    },
+    {
+      "event_id": "262223305",
+      "title": "The Data Pub Junio: Neuroscience-inspired AI",
+      "date": "2019-06-27",
+      "start_datetime": "2019-06-27T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/262223305/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Miguel Núñez Ochoa"
+      ],
+      "session_evidence": [
+        "Neuroscience-inspired AI"
+      ]
+    },
+    {
+      "event_id": "263067477",
+      "title": "The Data Pub Julio: ¡Data al volante!",
+      "date": "2019-07-25",
+      "start_datetime": "2019-07-25T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/263067477/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jorge Rotter"
+      ],
+      "session_evidence": [
+        "Data al volante"
+      ]
+    },
+    {
+      "event_id": "264908622",
+      "title": "Data Bar Hopping, Día 1: Sparklyr + TensorFlow + R",
+      "date": "2019-09-24",
+      "start_datetime": "2019-09-24T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/264908622/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Javier Luraschi"
+      ],
+      "session_evidence": [
+        "Sparklyr + TensorFlow + RStudio"
+      ]
+    },
+    {
+      "event_id": "264908819",
+      "title": "Data Bar Hopping, Día 2: Intro a Hamiltonian Monte Carlo + STAN",
+      "date": "2019-09-26",
+      "start_datetime": "2019-09-26T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/264908819/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Michael Betancourt"
+      ],
+      "session_evidence": [
+        "Intro to Hamiltonian Monte Carlo + STAN"
+      ]
+    },
+    {
+      "event_id": "265704111",
+      "title": "The Data Pub Octubre: Data Science IRL :D",
+      "date": "2019-10-24",
+      "start_datetime": "2019-10-24T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/265704111/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alfonso Ruiz Guido",
+        "Julio Retiz"
+      ],
+      "session_evidence": [
+        "Boosting: ¿de dónde viene y cuándo lo uso?",
+        "Ciencia de Datos desde las trincheras"
+      ]
+    },
+    {
+      "event_id": "266658024",
+      "title": "The Data Pub Noviembre: Old ML vs New ML",
+      "date": "2019-11-28",
+      "start_datetime": "2019-11-28T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/266658024/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alfredo Garbuno",
+        "Franck Enriquez"
+      ],
+      "session_evidence": [
+        "Calibración de modelos climáticos",
+        "Statistics VS Deep Learning para series de tiempo"
+      ]
+    },
+    {
+      "event_id": "268864390",
+      "title": "The Data Pub Febrero: Net Neutrality VS Data Science",
+      "date": "2020-02-27",
+      "start_datetime": "2020-02-27T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/268864390/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Luis Fernando García",
+        "Jesús Ramos"
+      ],
+      "session_evidence": [
+        "Qué es y por qué debe importarte la neutralidad de la red?",
+        "Data Science VS Net Neutrality",
+        "A.M.A."
+      ]
+    },
+    {
+      "event_id": "272801508",
+      "title": "The Data Pub Septiembre: COVID-19 en México & Combate a la Corrupción",
+      "date": "2020-09-02",
+      "start_datetime": "2020-09-02T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/272801508/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Guillermo de Anda Jáuregui",
+        "Brenda Jimenez"
+      ],
+      "session_evidence": [
+        "COVID-19: Una historia de datos de la batalla por México",
+        "Una aplicación de Ciencia de Datos para identificar posibles actos de corrupción"
+      ]
+    },
+    {
+      "event_id": "274920199",
+      "title": "The Data Pub Diciembre: Detectando Evasión Fiscal con IA y Ciencia de Redes",
+      "date": "2020-12-09",
+      "start_datetime": "2020-12-09T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/274920199/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Carlos Gershenson"
+      ],
+      "session_evidence": [
+        "Detectando Evasión Fiscal con Inteligencia Artificial y Ciencia de Redes"
+      ]
+    },
+    {
+      "event_id": "276057096",
+      "title": "The Data Pub Febrero: DS con Ploomber y la maldición de la dimensión y NLP",
+      "date": "2021-02-04",
+      "start_datetime": "2021-02-04T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/276057096/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Eduardo Blancas Reyes",
+        "Carlos Alfonso Ruiz Guido"
+      ],
+      "session_evidence": [
+        "Ciencia de datos reproducible y confiable con Ploomber",
+        "La maldición de la dimensión y NLP"
+      ]
+    },
+    {
+      "event_id": "276581681",
+      "title": "The Data Pub Marzo: Detectando niveles de ocupación usando variables ambientales",
+      "date": "2021-03-03",
+      "start_datetime": "2021-03-03T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/276581681/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Héctor G. Ceballos"
+      ],
+      "session_evidence": [
+        "Detectando niveles de ocupación en lugares cerrados usando variables ambientales"
+      ]
+    },
+    {
+      "event_id": "277258356",
+      "title": "The Data Pub Abril: DVC y NeuralODEs",
+      "date": "2021-04-15",
+      "start_datetime": "2021-04-15T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/277258356/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Luz Mariana Blaz",
+        "Ramón Valles"
+      ],
+      "session_evidence": [
+        "NeuralODEs, Entrenamiento de sistemas de Ecuaciones Diferenciales",
+        "Introducción a DVC"
+      ]
+    },
+    {
+      "event_id": "278381927",
+      "title": "The Data Pub Mayo: Data Science: Fundamentos para los Recién Llegados",
+      "date": "2021-05-26",
+      "start_datetime": "2021-05-26T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/278381927/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Ian Castillo"
+      ],
+      "session_evidence": [
+        "Data Science: Fundamentos para los Recién Llegados"
+      ]
+    },
+    {
+      "event_id": "279081489",
+      "title": "The Data Pub Junio: Graph Machine Learning - The Next Frontier in AI",
+      "date": "2021-06-30",
+      "start_datetime": "2021-06-30T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/279081489/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alejandro Correa Bahnsen",
+        "Luisa Fernanda Roa Ballén"
+      ],
+      "session_evidence": [
+        "Graph Machine Learning - The Next Frontier in AI"
+      ]
+    },
+    {
+      "event_id": "279433662",
+      "title": "The Data Pub Julio: Los retos en los conteos rápidos del INE",
+      "date": "2021-07-15",
+      "start_datetime": "2021-07-15T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/279433662/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Teresa Ortiz",
+        "Michelle Anzarut"
+      ],
+      "session_evidence": [
+        "Los retos en los conteos rápidos del INE: caso elecciones 2021"
+      ]
+    },
+    {
+      "event_id": "280284690",
+      "title": "The Data Pub Agosto: Ciencia de Datos usando Tecnologías Web",
+      "date": "2021-08-26",
+      "start_datetime": "2021-08-26T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/280284690/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Javier Luraschi"
+      ],
+      "session_evidence": [
+        "Ciencia de Datos con Tecnologías Web"
+      ]
+    },
+    {
+      "event_id": "280945606",
+      "title": "The Data Pub Septiembre: Hacking proteins one byte at the time",
+      "date": "2021-09-29",
+      "start_datetime": "2021-09-29T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/280945606/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Fabien Plisson"
+      ],
+      "session_evidence": [
+        "Hacking proteins one byte at the time"
+      ]
+    },
+    {
+      "event_id": "281606223",
+      "title": "The Data Pub Octubre: Ética en la Inteligencia Artificial",
+      "date": "2021-10-28",
+      "start_datetime": "2021-10-28T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/281606223/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Leonardo Garrido"
+      ],
+      "session_evidence": [
+        "Ética en la Inteligencia Artificial"
+      ]
+    },
+    {
+      "event_id": "282068179",
+      "title": "The Data Pub Noviembre: Haz un servicio de ML fácilmente con FastAPI",
+      "date": "2021-11-18",
+      "start_datetime": "2021-11-18T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/282068179/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Sebastián Ramirez"
+      ],
+      "session_evidence": [
+        "Haz un servicio de ML fácilmente con FastAPI"
+      ]
+    },
+    {
+      "event_id": "282493104",
+      "title": "The Data Pub Diciembre: Data lakes con AWS - de lo transaccional a lo analítico",
+      "date": "2021-12-15",
+      "start_datetime": "2021-12-15T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/282493104/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jesús Ramos"
+      ],
+      "session_evidence": [
+        "Data lakes con AWS - de lo transaccional a lo analítico"
+      ]
+    },
+    {
+      "event_id": "283305502",
+      "title": "The Data Pub Enero: Mejores Prácticas en Machine Learning",
+      "date": "2022-01-20",
+      "start_datetime": "2022-01-20T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/283305502/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Anders Christiansen"
+      ],
+      "session_evidence": [
+        "Mejores Prácticas en Machine Learning"
+      ]
+    },
+    {
+      "event_id": "284039805",
+      "title": "The Data Pub Febrero: Data Science relevante en el negocio, Retos y Estrategia",
+      "date": "2022-02-24",
+      "start_datetime": "2022-02-24T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/284039805/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Isidoro Garcia Urquieta"
+      ],
+      "session_evidence": [
+        "Data Science relevante en el negocio: Retos y Estrategia"
+      ]
+    },
+    {
+      "event_id": "284722367",
+      "title": "The Data Pub Marzo: Creación y crecimiento de equipos para productos de datos",
+      "date": "2022-03-24",
+      "start_datetime": "2022-03-24T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/284722367/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Sebastián Pérez Saaibi"
+      ],
+      "session_evidence": [
+        "The Data Pub Marzo: Creación y crecimiento de equipos para productos de datos"
+      ]
+    },
+    {
+      "event_id": "285405789",
+      "title": "The Data Pub Abril: We're back 2.0!",
+      "date": "2022-04-28",
+      "start_datetime": "2022-04-28T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/285405789/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Edmundo Molina"
+      ],
+      "session_evidence": [
+        "Incertidumbre radical"
+      ]
+    },
+    {
+      "event_id": "286013745",
+      "title": "The Data Pub Mayo: Considera Julia, un brillante futuro para la ciencia de datos",
+      "date": "2022-05-26",
+      "start_datetime": "2022-05-26T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/286013745/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Miguel Raz Guzmán"
+      ],
+      "session_evidence": [
+        "Considera Julia, un brillante futuro para la ciencia de datos"
+      ]
+    },
+    {
+      "event_id": "286623333",
+      "title": "The Data Pub Junio: El uso de Ciencia de Datos en política pública",
+      "date": "2022-06-23",
+      "start_datetime": "2022-06-23T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/286623333/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Adolfo de Unánue Tiscareño"
+      ],
+      "session_evidence": [
+        "El uso de Ciencia de Datos en política pública"
+      ]
+    },
+    {
+      "event_id": "287208054",
+      "title": "Data Pub Julio: Identifying Legislative Communities using Contact Graphs",
+      "date": "2022-07-28",
+      "start_datetime": "2022-07-28T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/287208054/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "James Syme"
+      ],
+      "session_evidence": [
+        "Identifying Legislative Communities of Interest Using Contact Graphs (Charla en idioma inglés)"
+      ]
+    },
+    {
+      "event_id": "287873923",
+      "title": "Data Pub Agosto: Edición especial con Hacking Health Mexico, I.A. en la salud",
+      "date": "2022-08-25",
+      "start_datetime": "2022-08-25T18:30:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/287873923/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "María de Lourdes Martínez Villaseñor",
+        "Alejandro Alayola Sansores"
+      ],
+      "session_evidence": [
+        "Inteligencia Artificial, ética y cuidado del adulto mayor",
+        "La importancia de la Inteligencia Artificial en la enseñanza de las ciencias de la salud"
+      ]
+    },
+    {
+      "event_id": "288624957",
+      "title": "Data Pub Septiembre: Hacking Health Mexico, Deep Learning en salud.",
+      "date": "2022-09-29",
+      "start_datetime": "2022-09-29T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/288624957/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alfonso Gastélum Strozzi"
+      ],
+      "session_evidence": [
+        "Uso de Deep Learning para resolver problemas en salud"
+      ]
+    },
+    {
+      "event_id": "289279649",
+      "title": "Data Pub Octubre: Cultura Data Driven para una eficiente estrategia de datos",
+      "date": "2022-10-27",
+      "start_datetime": "2022-10-27T19:00:00-05:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/289279649/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Dante Tellez"
+      ],
+      "session_evidence": [
+        "Cultura Data Driven para una eficiente estrategia de datos"
+      ]
+    },
+    {
+      "event_id": "289778122",
+      "title": "Data Pub Noviembre: Estado y futuro de la Inteligencia Artificial en México",
+      "date": "2022-11-23",
+      "start_datetime": "2022-11-23T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/289778122/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "León Palafox"
+      ],
+      "session_evidence": [
+        "Estado y futuro de la Inteligencia Artificial en México"
+      ]
+    },
+    {
+      "event_id": "291052514",
+      "title": "Data Pub Enero: Ciencia de Datos Multi-Industria",
+      "date": "2023-01-25",
+      "start_datetime": "2023-01-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/291052514/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "José Gustavo Fuentes"
+      ],
+      "session_evidence": [
+        "Ciencia de Datos Multi-Industria (mis cicatrices y consejos para la práctica)"
+      ]
+    },
+    {
+      "event_id": "291693761",
+      "title": "Data Pub Febrero: Reinforcement Learning, desde videojuegos hasta salud pública",
+      "date": "2023-02-22",
+      "start_datetime": "2023-02-22T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/291693761/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Fernanda A. Durand"
+      ],
+      "session_evidence": [
+        "Reinforcement Learning: desde videojuegos hasta salud pública."
+      ]
+    },
+    {
+      "event_id": "292875985",
+      "title": "Data Pub Abril: Ciencia de Datos para la planeación de ciudades sostenibles",
+      "date": "2023-04-26",
+      "start_datetime": "2023-04-26T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/292875985/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Roberto Ponce"
+      ],
+      "session_evidence": [
+        "Ciencia de Datos para la planeación de ciudades sostenibles"
+      ]
+    },
+    {
+      "event_id": "294441567",
+      "title": "Data Pub Junio: El Stack Moderno de Ingeniería de Datos",
+      "date": "2023-07-05",
+      "start_datetime": "2023-07-05T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/294441567/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Carlos Alberto Haro"
+      ],
+      "session_evidence": [
+        "El Stack Moderno de Ingeniería de Datos"
+      ]
+    },
+    {
+      "event_id": "295515370",
+      "title": "Data Pub Agosto: Dr. Charlatan's Snake Oil o El peligro de las narrativas falsas",
+      "date": "2023-08-30",
+      "start_datetime": "2023-08-30T20:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/295515370/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Oliver López-Corona"
+      ],
+      "session_evidence": [
+        "Dr. Charlatan's Snake Oil Data o El peligro de las narrativas falsas"
+      ]
+    },
+    {
+      "event_id": "296847536",
+      "title": "Data Pub Octubre: Ciencia de Datos y Crimen Organizado",
+      "date": "2023-11-01",
+      "start_datetime": "2023-11-01T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/296847536/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Fernanda Sobrino Macias"
+      ],
+      "session_evidence": [
+        "Ciencia de Datos y Crimen Organizado"
+      ]
+    },
+    {
+      "event_id": "298681493",
+      "title": "Data Pub Enero: Publicidad mediante IA y análisis de correlación canónica",
+      "date": "2024-01-31",
+      "start_datetime": "2024-01-31T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/298681493/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Hugo Pimentel"
+      ],
+      "session_evidence": [
+        "Eficacia de la creatividad en la industria publicitaria mediante IA y el Análisis de Correlación Canónica."
+      ]
+    },
+    {
+      "event_id": "299239582",
+      "title": "Data Pub Febrero: Generalizando modelos de Visión Computacional",
+      "date": "2024-02-28",
+      "start_datetime": "2024-02-28T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/299239582/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Carlos López"
+      ],
+      "session_evidence": [
+        "Adaptación de Dominio - Generalizando modelos de Visión Computacional"
+      ]
+    },
+    {
+      "event_id": "300443920",
+      "title": "Data Pub Abril: Construyendo MLOps, de Startup a Unicornio",
+      "date": "2024-04-24",
+      "start_datetime": "2024-04-24T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/300443920/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Oscar Armas"
+      ],
+      "session_evidence": [
+        "Construyendo MLOps, de Startup a Unicornio"
+      ]
+    },
+    {
+      "event_id": "301041360",
+      "title": "Data Pub Mayo: Virtualización y Contenedores en Cómputo Científico",
+      "date": "2024-05-29",
+      "start_datetime": "2024-05-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/301041360/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Hermilo Cortés González"
+      ],
+      "session_evidence": [
+        "Virtualización y Contenedores en Cómputo Científico"
+      ]
+    },
+    {
+      "event_id": "301686739",
+      "title": "Data Pub Junio: Optimización de portafolios de inversión con Python",
+      "date": "2024-06-26",
+      "start_datetime": "2024-06-26T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/301686739/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Ismael Medina Muñoz"
+      ],
+      "session_evidence": [
+        "Optimización de portafolios de inversión con Python"
+      ]
+    },
+    {
+      "event_id": "302389948",
+      "title": "Data Pub Julio: Entendiendo las limitaciones de la resiliencia comunitaria",
+      "date": "2024-07-29",
+      "start_datetime": "2024-07-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/302389948/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "José Ramirez-Marquez"
+      ],
+      "session_evidence": [
+        "Entendiendo las limitaciones de la resiliencia comunitaria"
+      ]
+    },
+    {
+      "event_id": "302874514",
+      "title": "Data Pub Agosto: Introducción a la Inteligencia Artificial Generativa",
+      "date": "2024-08-28",
+      "start_datetime": "2024-08-28T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/302874514/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Javier Luraschi"
+      ],
+      "session_evidence": [
+        "Data Pub Agosto: Introducción a la Inteligencia Artificial Generativa"
+      ]
+    },
+    {
+      "event_id": "303534797",
+      "title": "Data Pub Septiembre: Aplicaciones financieras de los Autoencoders",
+      "date": "2024-09-25",
+      "start_datetime": "2024-09-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/303534797/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Gerardo Hernandez del Valle"
+      ],
+      "session_evidence": [
+        "Data Pub Septiembre: Aplicaciones financieras de los Autoencoders"
+      ]
+    },
+    {
+      "event_id": "304051496",
+      "title": "Data Pub Octubre: Ciencia de datos para PYMES",
+      "date": "2024-10-30",
+      "start_datetime": "2024-10-30T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/304051496/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Jose Manuel Barrera"
+      ],
+      "session_evidence": [
+        "Data Pub Octubre: Ciencia de datos para PYMES"
+      ]
+    },
+    {
+      "event_id": "304462001",
+      "title": "Data Pub Noviembre: Diseño de aplicaciones con Large Language Models (LLMs)",
+      "date": "2024-11-27",
+      "start_datetime": "2024-11-27T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/304462001/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Adolfo De Unánue"
+      ],
+      "session_evidence": [
+        "Data Pub Noviembre: Diseño de aplicaciones con Large Language Models (LLMs)"
+      ]
+    },
+    {
+      "event_id": "305725636",
+      "title": "Data Pub Enero: Predicciones de riesgo global (2° lugar Factored Datathon 2024)",
+      "date": "2025-01-29",
+      "start_datetime": "2025-01-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/305725636/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "César Arroyo Cárdenas"
+      ],
+      "session_evidence": [
+        "Predicciones de riesgo global: Segundo lugar del Factored Datathon 2024"
+      ]
+    },
+    {
+      "event_id": "306155338",
+      "title": "Data Pub Febrero: ML Informed Financial Assistance to Prevent Homelessness",
+      "date": "2025-02-27",
+      "start_datetime": "2025-02-27T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/306155338/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Kasun Amarasinghe"
+      ],
+      "session_evidence": [
+        "ML Informed Financial Assistance to Prevent Homelessness"
+      ]
+    },
+    {
+      "event_id": "306706829",
+      "title": "Data Pub Marzo: Before jumping to Large Language Models",
+      "date": "2025-03-27",
+      "start_datetime": "2025-03-27T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/306706829/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Liliana Millán Núñez"
+      ],
+      "session_evidence": [
+        "Before jumping to Large Language Models"
+      ]
+    },
+    {
+      "event_id": "307168945",
+      "title": "Data Pub Abril: Responsible AI to Benefit Society, Use Cases and Lessons Learned",
+      "date": "2025-04-24",
+      "start_datetime": "2025-04-24T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/307168945/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Kit Rodolfa"
+      ],
+      "session_evidence": [
+        "Responsible AI to Benefit Society, Use Cases and Lessons Learned"
+      ]
+    },
+    {
+      "event_id": "308576232",
+      "title": "Data Pub Junio: Sinapsis - Transformando la Implementación de la IA",
+      "date": "2025-06-25",
+      "start_datetime": "2025-06-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/308576232/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Natalia Osorio"
+      ],
+      "session_evidence": [
+        "Sinapsis - Transformando la Implementación de la IA"
+      ]
+    },
+    {
+      "event_id": "309399047",
+      "title": "Data Pub Julio: Modelar con intención, decisiones que transforman",
+      "date": "2025-07-30",
+      "start_datetime": "2025-07-30T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/309399047/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Mauricio Porte"
+      ],
+      "session_evidence": [
+        "Modelar con intención, decisiones que transforman"
+      ]
+    },
+    {
+      "event_id": "310362200",
+      "title": "Data Pub Agosto: ¿Puede la GenIA razonar? Un enfoque lógico-matemático",
+      "date": "2025-08-21",
+      "start_datetime": "2025-08-21T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/310362200/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Alfonso Ruiz"
+      ],
+      "session_evidence": [
+        "¿Puede la GenIA razonar? Un enfoque lógico-matemático"
+      ]
+    },
+    {
+      "event_id": "311027455",
+      "title": "Data Pub Septiembre: Integración de Rust y Python con PyO3",
+      "date": "2025-09-24",
+      "start_datetime": "2025-09-24T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/311027455/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Hermilio Cortés"
+      ],
+      "session_evidence": [
+        "Integración de Rust y Python con PyO3"
+      ]
+    },
+    {
+      "event_id": "311481364",
+      "title": "Data Pub Octubre: Motor de crédito impulsado por IA en Bankaya",
+      "date": "2025-10-29",
+      "start_datetime": "2025-10-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/311481364/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Francys Lanza García"
+      ],
+      "session_evidence": [
+        "Motor de crédito impulsado por IA en Bankaya"
+      ]
+    },
+    {
+      "event_id": "312082041",
+      "title": "Data Pub Noviembre: ML para fortalecer decisiones de negocio",
+      "date": "2025-12-03",
+      "start_datetime": "2025-12-03T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/312082041/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Joel Menéndez Ramírez"
+      ],
+      "session_evidence": [
+        "ML para fortalecer decisiones de negocio"
+      ]
+    },
+    {
+      "event_id": "312943510",
+      "title": "Data Pub Enero: Building trustworthy AI products that scale",
+      "date": "2026-01-29",
+      "start_datetime": "2026-01-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/312943510/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Andrew Dumit"
+      ],
+      "session_evidence": [
+        "Building trustworthy AI products that scale"
+      ]
+    },
+    {
+      "event_id": "313303117",
+      "title": "Data Pub Febrero: La personalidad jurídica de la IA",
+      "date": "2026-02-25",
+      "start_datetime": "2026-02-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/313303117/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Luis Raúl González Romo"
+      ],
+      "session_evidence": [
+        "La personalidad jurídica de la IA"
+      ]
+    },
+    {
+      "event_id": "313843763",
+      "title": "Data Pub Marzo: Fundamentos que mueven millones, una lección de humildad técnica",
+      "date": "2026-03-25",
+      "start_datetime": "2026-03-25T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/313843763/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Diego Halffter"
+      ],
+      "session_evidence": [
+        "Fundamentos que mueven millones: una lección de humildad técnica"
+      ]
+    },
+    {
+      "event_id": "314758353",
+      "title": "Data Pub Mayo: La importancia de NLP tradicional en la era de la IA generativa",
+      "date": "2026-05-27",
+      "start_datetime": "2026-05-27T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/314758353/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Carlos Vargas"
+      ],
+      "session_evidence": [
+        "La importancia de NLP tradicional en la era de la IA generativa"
+      ]
+    },
+    {
+      "event_id": "315795851",
+      "title": "Data Pub Julio: El científico de datos en la era de la IA generativa",
+      "date": "2026-07-29",
+      "start_datetime": "2026-07-29T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/315795851/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Emilio Herreman"
+      ],
+      "session_evidence": [
+        "El científico de datos en la era de la IA generativa"
+      ]
+    },
+    {
+      "event_id": "316589287",
+      "title": "Data Pub Septiembre 2026",
+      "date": "2026-09-30",
+      "start_datetime": "2026-09-30T18:30:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/316589287/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Diana Nadia Tamayo Celada"
+      ],
+      "session_evidence": [
+        "Text to SQL: de la ficción a la realidad en el contexto de agentes conversacionales"
+      ]
+    },
+    {
+      "event_id": "316979242",
+      "title": "Post AI Data Stack: ¿Qué cambió en la era de GPT? 🤖🍻",
+      "date": "2026-10-21",
+      "start_datetime": "2026-10-21T19:00:00-06:00",
+      "timezone": "America/Mexico_City",
+      "source_url": "https://www.meetup.com/thedatapub/events/316979242/",
+      "retrieved_at_utc": "2026-11-12T02:21:43.832Z",
+      "speakers": [
+        "Carlos Alberto Haro"
+      ],
+      "session_evidence": [
+        "Post AI Data Stack: ¿Qué cambió en la era de GPT?"
+      ]
+    }
+  ]
+}
