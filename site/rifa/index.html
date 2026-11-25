@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-3zz+/jsxIMpcx8VWHm6XVVYi4g7ufkLqrNIy5Sxz6Oo='; style-src 'sha256-JI/a5SrxDmTAPt2T87q4iGE2Mtb7yr1ph/09BFizRxY='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-6TvMXv8K+VVxCpshI0vzW+K7zd8c3iQKn0+oVnfxWpc='; style-src 'sha256-mnxv+VivCzdk4/TeHWwdCMKDzEYkB18yrf6+btq7eO8='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>La tómbola · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -19,7 +19,7 @@ header{display:flex;align-items:center;justify-content:space-between;gap:10px;bo
 h1{font:700 clamp(2.4rem,8vw,5.6rem)/.98 Georgia,serif;letter-spacing:-.045em;margin:.55em 0 .13em}
 h2{font:700 1.5rem/1.2 Georgia,serif;margin:0 0 .75rem}
 .subtitle{margin:0 0 1.5rem;color:var(--muted)}
-.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px;align-items:start}
+.layout{max-width:660px}
 .card{padding:clamp(15px,3vw,25px);border:2px solid var(--edge);background:var(--panel);box-shadow:5px 5px 0 #121e23}
 .stage{background:#202f36;text-align:center}
 .art{width:min(100%,340px);height:auto;display:block;margin:4px auto 8px;image-rendering:pixelated}
@@ -48,7 +48,16 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 .coupon-close:focus-visible{outline-color:#203337}
 @keyframes unfold{from{transform:scale(.82,.25);opacity:0}to{transform:scale(1);opacity:1}}
 @media(prefers-reduced-motion:reduce){.coupon{animation:none}}
-@media(max-width:680px){.layout{grid-template-columns:1fr}.stage{grid-row:2}.showtime .stage{grid-row:1}.art{max-width:240px}}
+.showtime{max-width:none;padding:clamp(8px,2vw,24px)}
+.showtime>header,.showtime>h1,.showtime>.subtitle,.showtime>footer{display:none}
+.showtime .layout{max-width:1160px;margin:auto}
+.stage{position:relative;min-block-size:calc(100dvh - 48px);display:grid;justify-items:center;align-content:center;gap:.6em}
+.stage h2{margin:0 44px;font-size:clamp(1.6rem,5vw,3.5rem)}
+.stage .art{width:min(76vw,49dvh,610px);margin:0 auto}
+.stage .output{position:absolute;width:1px;height:1px;min-height:0;overflow:hidden;clip-path:inset(50%);padding:0;border:0}
+.stage #draw{font-size:clamp(1rem,2.6vw,1.7rem);padding:.55em 1.15em;margin-top:.2em}
+.pencil{position:absolute;right:10px;top:10px;display:grid;place-items:center;width:44px;min-height:44px;padding:0;box-shadow:none}
+@media(max-height:520px) and (orientation:landscape){.stage .art{width:min(41dvh,240px)}}
 @media(prefers-reduced-motion:reduce){.spinning{animation:none}}
 </style>
 </head>
@@ -58,15 +67,17 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <h1>La tómbola</h1>
 <p class="subtitle">Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.</p>
 <div class="layout">
-<section class="card" aria-labelledby="control">
+<section id="editor" class="card" aria-labelledby="control">
 <h2 id="control">La lista de la noche</h2>
 <div id="entry"><label for="roster">Pega una columna de folios</label>
-<textarea id="roster" placeholder="A001&#10;A002&#10;A003" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" aria-describedby="rule"></textarea>
+<textarea id="roster" autofocus placeholder="A001&#10;A002&#10;A003" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" aria-describedby="rule"></textarea>
 <p class="small" id="rule">Un folio por persona presente. Usa letras, números, guiones o guiones bajos. No pegues nombres ni correos.</p></div>
 <p role="status" id="count">0 folios</p>
-<div class="btns"><button id="lock" type="button" disabled>Cerrar lista</button><button id="draw" type="button" disabled>Girar tómbola</button><button id="reset" class="secondary" type="button" hidden>Borrar y empezar de nuevo</button></div>
+<div class="btns"><button id="lock" type="button" disabled>Cerrar lista</button></div>
 </section>
-<section class="card stage" aria-labelledby="stage-title"><h2 id="stage-title">El folio ganador</h2>
+<section id="stage" class="card stage" aria-labelledby="stage-title" hidden>
+<h2 id="stage-title">La tómbola</h2>
+<button id="edit" class="secondary pencil" type="button" aria-label="Editar lista de folios" title="Editar lista de folios"><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M2 11l8.4-8.4 3 3L5 14H2zm9.4-9.4l1.2-1.2 3 3-1.2 1.2z"/></svg></button>
 <svg class="art" viewBox="0 0 96 94" aria-hidden="true" shape-rendering="crispEdges">
 <path fill="#121f25" d="M13 80h70v8H13z"/><path fill="#74513e" d="M30 69h36v8h10v7H20v-7h10z"/><path fill="#9b7050" d="M26 77h44v3H26z"/>
 <path fill="#15262d" d="M21 34h54v20H21z"/>
@@ -81,7 +92,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <path fill="#8d674b" d="M9 28h7v2H9zm72 4h8v2h-8zM12 56h4v2h-4zm70 3h3v3h-3z"/>
 </svg>
 <output id="result" class="output" aria-live="polite">Aún sin sortear</output>
-<p id="remaining" class="small"></p>
+<button id="draw" type="button" disabled>Girar tómbola</button>
 </section>
 </div>
 <footer class="small">La página se carga de internet, pero tus folios y el resultado se quedan en memoria en esta pestaña. Al recargar, se borran.</footer>
@@ -97,56 +108,72 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <script>
 "use strict";
 const el = id => document.getElementById(id);
-const roster = el("roster"), count = el("count"), lock = el("lock"), draw = el("draw");
-const result = el("result"), wheel = el("wheel"), reset = el("reset");
-const coupon = el("coupon-modal"), couponFolio = el("coupon-folio");
-el("coupon-close").addEventListener("click",()=>coupon.close());
-coupon.addEventListener("close",()=>{couponFolio.textContent="";(draw.disabled?reset:draw).focus()});
-let pool = [], total = 0, busy = false, drawn = 0, closed = false, timer = null;
+const roster=el("roster"), count=el("count"), lock=el("lock"), draw=el("draw"), edit=el("edit");
+const editor=el("editor"), stage=el("stage"), app=el("app"), result=el("result"), wheel=el("wheel");
+const coupon=el("coupon-modal"), couponFolio=el("coupon-folio");
+const winners=new Set();
+let pool=[], busy=false, timer=null;
 function parse() {
-  const rows = roster.value.split(/\r?\n/).map(x => x.trim()).filter(Boolean);
-  return {rows, bad: rows.filter(x=>!/^[-_A-Za-z0-9]{1,24}$/.test(x)).length,
-    repeats: rows.length - new Set(rows.map(x => x.toUpperCase())).size};
+  const rows=roster.value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
+  const eligible=rows.filter(x=>!winners.has(x.toUpperCase()));
+  return {eligible, ignored:rows.length-eligible.length,
+    bad:eligible.filter(x=>!/^[-_A-Za-z0-9]{1,24}$/.test(x)).length,
+    repeats:eligible.length-new Set(eligible.map(x=>x.toUpperCase())).size};
 }
 function update() {
-  const {rows,bad,repeats} = parse();
-  count.textContent = rows.length + (rows.length===1 ? " folio" : " folios") + (bad ? " · "+bad+" con formato inválido" : "") + (repeats ? " · "+repeats+" repetidos" : "");
-  lock.disabled = closed || !rows.length || !!bad || !!repeats;
+  const {eligible,ignored,bad,repeats}=parse();
+  count.textContent=eligible.length+(eligible.length===1?" folio elegible":" folios elegibles")
+    +(ignored?" · "+ignored+(ignored===1?" ganador anterior excluido":" ganadores anteriores excluidos"):"")
+    +(bad?" · "+bad+" con formato inválido":"")+(repeats?" · "+repeats+" repetidos":"");
+  lock.disabled=!eligible.length||!!bad||!!repeats;
 }
-roster.addEventListener("input",update);
+function showEditor(focus) {
+  stage.hidden=true; editor.hidden=false; app.classList.remove("showtime");
+  roster.value=pool.join("\n");pool=[];update();
+  if(focus)roster.focus({preventScroll:true});
+}
 function clearSession() {
-  clearTimeout(timer); timer=null;if(coupon.open)coupon.close();couponFolio.textContent="";pool=[];roster.value="";closed=false;busy=false;drawn=0;total=0;
-  draw.disabled=true;draw.textContent="Girar tómbola";reset.disabled=false;lock.hidden=false;reset.hidden=true;
-  el("entry").hidden=false;el("app").classList.remove("showtime");wheel.classList.remove("spinning");
-  result.textContent="Aún sin sortear";el("remaining").textContent="";update();
+  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();
+  if(coupon.open)coupon.close();couponFolio.textContent="";
+  edit.disabled=false;draw.disabled=true;result.textContent="Aún sin sortear";
+  wheel.classList.remove("spinning");showEditor(false);
 }
+el("coupon-close").addEventListener("click",()=>coupon.close());
+coupon.addEventListener("close",()=>{
+  couponFolio.textContent="";
+  if(!stage.hidden)(draw.disabled?edit:draw).focus({preventScroll:true});
+});
+roster.addEventListener("input",update);
 addEventListener("pagehide",clearSession);
-addEventListener("pageshow", event=>{if(event.persisted)clearSession()});
+addEventListener("pageshow",event=>{if(event.persisted)clearSession()});
 update();
 lock.addEventListener("click",()=>{
-  const {rows,bad,repeats} = parse();
-  if(closed || !rows.length || bad || repeats) return;
-  pool=rows;total=pool.length;closed=true;roster.value="";el("entry").hidden=true;
-  lock.hidden=true;reset.hidden=false;draw.disabled=false;el("app").classList.add("showtime");
-  count.textContent="Lista cerrada: "+total+(total===1?" folio.":" folios.");
-  draw.focus();
+  const {eligible,bad,repeats}=parse();
+  if(editor.hidden||!eligible.length||bad||repeats)return;
+  pool=eligible;roster.value="";editor.hidden=true;stage.hidden=false;app.classList.add("showtime");
+  result.textContent=winners.size?"Lista actualizada":"Lista cerrada";
+  wheel.classList.remove("spinning");
+  draw.disabled=false;draw.textContent=winners.size?"Sacar otro folio":"Girar tómbola";
+  draw.focus({preventScroll:true});
 });
+edit.addEventListener("click",()=>{if(!busy&&!stage.hidden&&!coupon.open)showEditor(true)});
 draw.addEventListener("click",()=>{
-  if (!closed || busy || !pool.length) return;
-  if (drawn && !confirm("¿El folio anterior no pudo reclamar? Si continúas, no volverá a salir.")) return;
-  busy=true;draw.disabled=true;reset.disabled=true;wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
-  const word=new Uint32Array(1), bound=Math.floor(2**32/pool.length)*pool.length;
-  do crypto.getRandomValues(word); while(word[0]>=bound);
+  if(stage.hidden||busy||coupon.open||!pool.length)return;
+  if(winners.size&&!confirm("¿El folio anterior no pudo reclamar? Si continúas, no volverá a salir."))return;
+  busy=true;draw.disabled=true;edit.disabled=true;wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
+  const word=new Uint32Array(1),bound=Math.floor(2**32/pool.length)*pool.length;
+  do crypto.getRandomValues(word);while(word[0]>=bound);
   result.textContent="Girando…";
   timer=setTimeout(()=>{
+    timer=null;
     if(!busy||!pool.length)return;
-    const selected=pool.splice(word[0]%pool.length,1)[0];drawn++;
-    result.textContent=selected;el("remaining").textContent=pool.length+" sin seleccionar de "+total+".";
-    busy=false;reset.disabled=false;draw.disabled=!pool.length;draw.textContent="Sacar otro folio";
+    const selected=pool.splice(word[0]%pool.length,1)[0];
+    winners.add(selected.toUpperCase());result.textContent="Sorteo terminado";
+    busy=false;edit.disabled=false;draw.disabled=!pool.length;
+    draw.textContent=pool.length?"Sacar otro folio":"No quedan folios";
     couponFolio.textContent=selected;coupon.showModal();
   },matchMedia("(prefers-reduced-motion: reduce)").matches?0:6000);
 });
-reset.addEventListener("click",()=>{if(!busy&&confirm("¿Borrar todos los folios y el resultado?")) {clearSession();roster.focus()}});
 </script>
 </body>
 </html>
