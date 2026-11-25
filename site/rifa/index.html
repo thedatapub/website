@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-yI0UFyrBY5jDpRg3sCcRBOA8C3i/vdU9ia2QkNiBFJM='; style-src 'sha256-hDvUrAgorgsOBvL9YC5qKgM1B2i5jej+POhfCY1/WLI='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-9spL/ypBSBElnFTUWYjV9orJaFLaadF6PfYKcNJ22eM='; style-src 'sha256-xY4iYxoLUSAyPJsr/gAyYVslxiD5JCZlKkKabAVYXOI='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -18,6 +18,18 @@ header{display:flex;align-items:center;justify-content:space-between;gap:10px;bo
 .tag{color:var(--muted);text-align:right}
 h1{font:700 clamp(2.4rem,8vw,5.6rem)/.98 Georgia,serif;letter-spacing:-.045em;margin:.55em 0 .13em}
 h2{font:700 1.5rem/1.2 Georgia,serif;margin:0 0 .75rem}
+.prize-config{margin:1rem 0;padding:.8rem;border:1px solid var(--edge);min-width:0}
+.prize-config legend{font-weight:700}
+.prize-config input{background:#16262d;color:var(--ink);font:1rem system-ui;border:2px solid var(--edge);padding:.5em;margin:.2em 0 .55em}
+.prize-config input:focus-visible{outline:3px solid #fff5cb;outline-offset:2px}
+.prize-config input[type=number]{display:block;width:6em}
+.prize-config input[type=text]{display:block;width:100%}
+.prize-config input[readonly]{color:var(--muted)}
+.prize-name{overflow-wrap:anywhere}
+.coupon-prize{font:700 clamp(1rem,3vw,2.1rem)/1.3 Georgia,serif;margin:.2em 0 .8em}
+.winner-ticket{display:block;width:100%;min-height:44px;padding:.28em;text-align:left;box-shadow:none;border:1px solid transparent;background:transparent;color:var(--ink);font:inherit;overflow-wrap:anywhere}
+.winner-ticket:hover{color:var(--gold);border-color:var(--edge)}
+.winners-board .prize-name{display:block;color:var(--muted);margin-top:.2em;font:400 .85rem/1.35 system-ui,sans-serif}
 .subtitle{margin:0 0 1.5rem;color:var(--muted)}
 .layout{max-width:660px}
 .card{padding:clamp(15px,3vw,25px);border:2px solid var(--edge);background:var(--panel);box-shadow:5px 5px 0 #121e23}
@@ -73,7 +85,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <main id="app">
 <header><span class="brand"><svg width="26" height="28" viewBox="0 0 13 14" aria-hidden="true" shape-rendering="crispEdges"><path fill="#efb369" d="M2 5h8v2h3v5h-3v2H2zm8 3v3h2V8z"/><path fill="#f5e7cb" d="M1 4h2V2h2V0h4v2h2v3H1z"/><path stroke="#7e4928" d="M4 7v5m3-5v5"/></svg>The Data Pub</span><span class="tag">Noche de rifa</span></header>
 <h1>Sorteo</h1>
-<p class="subtitle">Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.</p>
+<p class="subtitle">Configura los folios y los premios antes de empezar.</p>
 <div class="layout">
 <section id="editor" class="card" aria-labelledby="control">
 <h2 id="control">La lista de la noche</h2>
@@ -81,6 +93,13 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <textarea id="roster" autofocus placeholder="A001&#10;A002&#10;A003" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" aria-describedby="rule"></textarea>
 <p class="small" id="rule">Un folio por persona presente. Usa letras, números, guiones o guiones bajos. No pegues nombres ni correos.</p></div>
 <p role="status" id="count">0 folios</p>
+<fieldset class="prize-config"><legend>Premios</legend>
+<label for="prize-count">Número de premios</label>
+<input type="number" id="prize-count" min="1" max="12" step="1" value="1" aria-describedby="prize-help">
+<p class="small" id="prize-help">Se sortean en este orden. Los premios ya entregados no se pueden cambiar.</p>
+<div id="prize-fields"></div>
+<p id="prize-validation" class="small" role="status"></p>
+</fieldset>
 <div class="btns"><button id="lock" type="button" disabled>Cerrar lista</button></div>
 </section>
 <section id="stage" class="card stage" aria-labelledby="stage-title" hidden>
@@ -110,11 +129,12 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 </div>
 <footer class="small">La página se carga de internet, pero tus folios y el resultado se quedan en memoria en esta pestaña. Al recargar, se borran.</footer>
 </main>
-<dialog id="coupon-modal" class="coupon-modal" aria-labelledby="coupon-title" aria-describedby="coupon-folio">
+<dialog id="coupon-modal" class="coupon-modal" aria-labelledby="coupon-title" aria-describedby="coupon-folio coupon-prize">
   <div class="coupon">
     <p class="coupon-kicker">The Data Pub · Noche de rifa</p>
     <h2 id="coupon-title">Ganador</h2>
     <strong id="coupon-folio" class="coupon-folio"></strong>
+    <p id="coupon-prize" class="coupon-prize prize-name"></p>
     <button id="coupon-close" class="coupon-close" type="button" autofocus>Cerrar boleto</button>
   </div>
 </dialog>
@@ -125,8 +145,48 @@ const roster=el("roster"), count=el("count"), lock=el("lock"), draw=el("draw"), 
 const editor=el("editor"), stage=el("stage"), app=el("app"), result=el("result"), wheel=el("wheel");
 const coupon=el("coupon-modal"), couponFolio=el("coupon-folio");
 const winners=new Set();
+const prizeCount=el("prize-count"), prizeFields=el("prize-fields"), couponPrize=el("coupon-prize");
+const defaultPrize="Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.";
+let prizes=[defaultPrize], draft=[defaultPrize];
+function prizeLimit(){return Math.max(1,winners.size)}
+function prizeQuantity(){
+  const n=prizeCount.valueAsNumber;
+  return Number.isInteger(n)&&n>=prizeLimit()&&n<=12?n:0;
+}
+function renderPrizes(){
+  prizeCount.min=String(prizeLimit());
+  prizeFields.replaceChildren();
+  for(let i=0;i<prizeQuantity();i++){
+    const label=document.createElement("label"), input=document.createElement("input");
+    input.type="text";input.id="prize-"+(i+1);input.maxLength=120;
+    input.value=i<winners.size?prizes[i]:(draft[i]||"");
+    input.autocomplete="off";input.readOnly=i<winners.size;
+    label.htmlFor=input.id;label.textContent="Premio "+(i+1)+(input.readOnly?" (entregado)":"");
+    input.addEventListener("input",()=>{draft[i]=input.value;update()});
+    prizeFields.append(label,input);
+  }
+}
+function configuredPrizes(){
+  const n=prizeQuantity();
+  if(!n)return null;
+  const entries=Array.from({length:n},(_,i)=>(i<winners.size?prizes[i]:draft[i]||"").trim());
+  return entries.every(name=>name.length>0&&name.length<=120)?entries:null;
+}
+function setDrawState(){
+  const done=winners.size>=prizes.length;
+  draw.disabled=done||!pool.length;
+  draw.textContent=done?"Sorteo terminado":!pool.length?"No quedan folios":winners.size?"Sacar otro folio":"Girar tómbola";
+  result.textContent=done?"Ya se entregaron todos los premios.":!pool.length?"No quedan folios elegibles.":winners.size?"Siguiente premio listo.":"Lista cerrada.";
+}
 const board=el("winners-board"), winnersList=el("winners-list"), winnersEmpty=el("winners-empty");
-let pool=[], busy=false, timer=null;
+let pool=[], busy=false, timer=null, ticketSource=null;
+function showTicket(folio,prize,source=null){
+  if(coupon.open)return;
+  ticketSource=source;couponFolio.textContent=folio;couponPrize.textContent=prize;coupon.showModal();
+}
+function lockWinnerButtons(locked){
+  for(const button of winnersList.querySelectorAll("button"))button.disabled=locked;
+}
 function parse() {
   const rows=roster.value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
   const eligible=rows.filter(x=>!winners.has(x.toUpperCase()));
@@ -139,41 +199,47 @@ function update() {
   count.textContent=eligible.length+(eligible.length===1?" folio elegible":" folios elegibles")
     +(ignored?" · "+ignored+(ignored===1?" ganador anterior excluido":" ganadores anteriores excluidos"):"")
     +(bad?" · "+bad+" con formato inválido":"")+(repeats?" · "+repeats+" repetidos":"");
-  lock.disabled=!eligible.length||!!bad||!!repeats;
+  const validPrizes=configuredPrizes();
+  el("prize-validation").textContent=!prizeQuantity()?"Indica entre "+prizeLimit()+" y 12 premios.":!validPrizes?"Completa la descripción de cada premio.":"";
+  lock.disabled=!!bad||!!repeats||!validPrizes||(!eligible.length&&!winners.size);
 }
 function showEditor(focus) {
   stage.hidden=true;board.hidden=true;editor.hidden=false; app.classList.remove("showtime");
-  roster.value=pool.join("\n");pool=[];update();
+  roster.value=pool.join("\n");pool=[];draft=prizes.slice();prizeCount.value=String(prizes.length);renderPrizes();update();
   if(focus)roster.focus({preventScroll:true});
 }
 function clearSession() {
-  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
-  if(coupon.open)coupon.close();couponFolio.textContent="";
+  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();prizes=[defaultPrize];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
+  if(coupon.open)coupon.close();couponFolio.textContent="";couponPrize.textContent="";
   edit.disabled=false;draw.disabled=true;result.textContent="Aún sin sortear";
   wheel.classList.remove("spinning");showEditor(false);
 }
 el("coupon-close").addEventListener("click",()=>coupon.close());
 coupon.addEventListener("close",()=>{
-  couponFolio.textContent="";
-  if(!stage.hidden)(draw.disabled?edit:draw).focus({preventScroll:true});
+  couponFolio.textContent="";couponPrize.textContent="";
+  const source=ticketSource;ticketSource=null;
+  if(!stage.hidden)(source?.isConnected?source:draw.disabled?edit:draw).focus({preventScroll:true});
 });
 roster.addEventListener("input",update);
+prizeCount.addEventListener("input",()=>{renderPrizes();update()});
+renderPrizes();
 addEventListener("pagehide",clearSession);
 addEventListener("pageshow",event=>{if(event.persisted)clearSession()});
 update();
 lock.addEventListener("click",()=>{
   const {eligible,bad,repeats}=parse();
-  if(editor.hidden||!eligible.length||bad||repeats)return;
+  const configured=configuredPrizes();
+  if(editor.hidden||lock.disabled||bad||repeats||!configured)return;
+  prizes=configured;
   pool=eligible;roster.value="";editor.hidden=true;stage.hidden=false;board.hidden=false;app.classList.add("showtime");
-  result.textContent=winners.size?"Lista actualizada":"Lista cerrada";
+  setDrawState();
   wheel.classList.remove("spinning");
-  draw.disabled=false;draw.textContent=winners.size?"Sacar otro folio":"Girar tómbola";
-  draw.focus({preventScroll:true});
+  (draw.disabled?edit:draw).focus({preventScroll:true});
 });
 edit.addEventListener("click",()=>{if(!busy&&!stage.hidden&&!coupon.open)showEditor(true)});
 draw.addEventListener("click",()=>{
-  if(stage.hidden||busy||coupon.open||!pool.length)return;
-  busy=true;draw.disabled=true;edit.disabled=true;wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
+  if(stage.hidden||busy||coupon.open||!pool.length||winners.size>=prizes.length)return;
+  busy=true;draw.disabled=true;edit.disabled=true;lockWinnerButtons(true);wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
   const word=new Uint32Array(1),bound=Math.floor(2**32/pool.length)*pool.length;
   do crypto.getRandomValues(word);while(word[0]>=bound);
   result.textContent="Girando…";
@@ -181,13 +247,15 @@ draw.addEventListener("click",()=>{
     timer=null;
     if(!busy||!pool.length)return;
     const selected=pool.splice(word[0]%pool.length,1)[0];
-    winners.add(selected.toUpperCase());
-    const item=document.createElement("li");item.textContent=selected;winnersList.append(item);
+    const prize=prizes[winners.size];winners.add(selected.toUpperCase());
+    const item=document.createElement("li"), ticket=document.createElement("button"), note=document.createElement("span");
+    ticket.type="button";ticket.className="winner-ticket";ticket.textContent=selected;
+    ticket.setAttribute("aria-label","Reabrir boleto de "+selected+": "+prize);
+    ticket.addEventListener("click",()=>{if(!busy&&!stage.hidden)showTicket(selected,prize,ticket)});
+    note.className="prize-name";note.textContent=prize;ticket.append(note);item.append(ticket);winnersList.append(item);
     winnersList.hidden=false;winnersEmpty.hidden=true;winnersList.scrollTop=winnersList.scrollHeight;
-    result.textContent="Sorteo terminado";
-    busy=false;edit.disabled=false;draw.disabled=!pool.length;
-    draw.textContent=pool.length?"Sacar otro folio":"No quedan folios";
-    couponFolio.textContent=selected;coupon.showModal();
+    busy=false;edit.disabled=false;lockWinnerButtons(false);setDrawState();
+    showTicket(selected,prize);
   },matchMedia("(prefers-reduced-motion: reduce)").matches?0:6000);
 });
 </script>
