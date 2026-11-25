@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-WooJXBMK98bbEXUHSJ0xpJEqJxsvNrNW2wngzKiDXbg='; style-src 'sha256-+9ddFhMEXpcyrVq49A0PnqDKpdWE8BOpL60lcV/u7q4='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-PPsNtgi3zgvCymHWTz/asczvhRAIFNYOTNXLfe7bJfI='; style-src 'sha256-+9ddFhMEXpcyrVq49A0PnqDKpdWE8BOpL60lcV/u7q4='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -100,7 +100,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <fieldset class="prize-config"><legend>Premios</legend>
 <label for="prize-count">Número de premios</label>
 <input type="number" id="prize-count" min="1" max="12" step="1" value="1" aria-describedby="prize-help">
-<p class="small" id="prize-help">Se sortean en este orden. Los premios entregados o pendientes de resorteo no se pueden cambiar.</p>
+<p class="small" id="prize-help">Se sortean en este orden. Si dejas un nombre en blanco, se usará «Premio» seguido de su número. Los premios entregados o pendientes de resorteo no se pueden cambiar.</p>
 <div id="prize-fields"></div>
 <p id="prize-validation" class="small" role="status"></p>
 </fieldset>
@@ -159,8 +159,8 @@ const editor=el("editor"), stage=el("stage"), app=el("app"), result=el("result")
 const coupon=el("coupon-modal"), couponFolio=el("coupon-folio");
 const winners=new Set(), awards=new Set(), fixedPrizes=new Set();
 const prizeCount=el("prize-count"), prizeFields=el("prize-fields"), couponPrize=el("coupon-prize");
-const defaultPrize="Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.";
-let prizes=[defaultPrize], draft=[defaultPrize];
+let prizes=[""], draft=[""];
+const prizeName=i=>prizes[i]||("Premio "+(i+1));
 function prizeLimit(){return Math.max(1,...Array.from(fixedPrizes,i=>i+1))}
 function nextPrize(){
   const queued=prizes.findIndex((_,i)=>fixedPrizes.has(i)&&!awards.has(i));
@@ -176,7 +176,7 @@ function renderPrizes(){
   for(let i=0;i<prizeQuantity();i++){
     const label=document.createElement("label"), input=document.createElement("input");
     input.type="text";input.id="prize-"+(i+1);input.maxLength=120;
-    input.value=fixedPrizes.has(i)?prizes[i]:(draft[i]||"");
+    input.value=fixedPrizes.has(i)?prizeName(i):(draft[i]||"");
     input.autocomplete="off";input.readOnly=fixedPrizes.has(i);
     label.htmlFor=input.id;label.textContent="Premio "+(i+1)+(input.readOnly?(awards.has(i)?" (entregado)":" (pendiente de resorteo)"):"");
     input.addEventListener("input",()=>{draft[i]=input.value;update()});
@@ -187,7 +187,7 @@ function configuredPrizes(){
   const n=prizeQuantity();
   if(!n)return null;
   const entries=Array.from({length:n},(_,i)=>(fixedPrizes.has(i)?prizes[i]:draft[i]||"").trim());
-  return entries.every(name=>name.length>0&&name.length<=120)?entries:null;
+  return entries.every(name=>name.length<=120)?entries:null;
 }
 function setDrawState(){
   const index=nextPrize(), done=index<0, redo=!done&&fixedPrizes.has(index);
@@ -217,7 +217,7 @@ function update() {
     +(ignored?" · "+ignored+(ignored===1?" ganador anterior excluido":" ganadores anteriores excluidos"):"")
     +(bad?" · "+bad+" con formato inválido":"")+(repeats?" · "+repeats+" repetidos":"");
   const validPrizes=configuredPrizes();
-  el("prize-validation").textContent=!prizeQuantity()?"Indica entre "+prizeLimit()+" y 12 premios.":!validPrizes?"Completa la descripción de cada premio.":"";
+  el("prize-validation").textContent=!prizeQuantity()?"Indica entre "+prizeLimit()+" y 12 premios.":!validPrizes?"Usa hasta 120 caracteres por nombre.":"";
   lock.disabled=!!bad||!!repeats||!validPrizes||(!eligible.length&&!winners.size);
 }
 function showEditor(focus) {
@@ -226,7 +226,7 @@ function showEditor(focus) {
   if(focus)roster.focus({preventScroll:true});
 }
 function clearSession() {
-  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();awards.clear();fixedPrizes.clear();prizes=[defaultPrize];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
+  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();awards.clear();fixedPrizes.clear();prizes=[""];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
   if(coupon.open)coupon.close();couponFolio.textContent="";couponPrize.textContent="";
   edit.disabled=false;draw.disabled=true;draw.removeAttribute("aria-busy");result.textContent="Aún sin sortear";
   wheel.classList.remove("spinning");showEditor(false);
@@ -265,7 +265,7 @@ draw.addEventListener("click",()=>{
     timer=null;
     if(!busy||!pool.length)return;
     const selected=pool.splice(word[0]%pool.length,1)[0];
-    const prize=prizes[index];winners.add(selected.toUpperCase());awards.add(index);fixedPrizes.add(index);
+    const prize=prizeName(index);winners.add(selected.toUpperCase());awards.add(index);fixedPrizes.add(index);
     const item=document.createElement("li"), ticket=document.createElement("button"), note=document.createElement("span"), cancel=document.createElement("button");
     ticket.type="button";ticket.className="winner-ticket";ticket.textContent=selected;
     ticket.setAttribute("aria-label","Reabrir boleto de "+selected+": "+prize);
