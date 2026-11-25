@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-6TvMXv8K+VVxCpshI0vzW+K7zd8c3iQKn0+oVnfxWpc='; style-src 'sha256-mnxv+VivCzdk4/TeHWwdCMKDzEYkB18yrf6+btq7eO8='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>La tómbola · The Data Pub</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-6TvMXv8K+VVxCpshI0vzW+K7zd8c3iQKn0+oVnfxWpc='; style-src 'sha256-vJSe/svtb5rpAngKJqLKecfCRIgOqRAEZZa8IoQVFTs='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
 *{box-sizing:border-box}
@@ -53,18 +53,18 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 .showtime .layout{max-width:1160px;margin:auto}
 .stage{position:relative;min-block-size:calc(100dvh - 48px);display:grid;justify-items:center;align-content:center;gap:.6em}
 .stage h2{margin:0 44px;font-size:clamp(1.6rem,5vw,3.5rem)}
-.stage .art{width:min(76vw,49dvh,610px);margin:0 auto}
+.stage .art{width:min(92vw,62dvh,760px,100%);margin:0 auto}
 .stage .output{position:absolute;width:1px;height:1px;min-height:0;overflow:hidden;clip-path:inset(50%);padding:0;border:0}
 .stage #draw{font-size:clamp(1rem,2.6vw,1.7rem);padding:.55em 1.15em;margin-top:.2em}
 .pencil{position:absolute;right:10px;top:10px;display:grid;place-items:center;width:44px;min-height:44px;padding:0;box-shadow:none}
-@media(max-height:520px) and (orientation:landscape){.stage .art{width:min(41dvh,240px)}}
+@media(max-height:520px) and (orientation:landscape){.stage .art{width:min(51dvh,280px,100%)}}
 @media(prefers-reduced-motion:reduce){.spinning{animation:none}}
 </style>
 </head>
 <body>
 <main id="app">
 <header><span class="brand"><svg width="26" height="28" viewBox="0 0 13 14" aria-hidden="true" shape-rendering="crispEdges"><path fill="#efb369" d="M2 5h8v2h3v5h-3v2H2zm8 3v3h2V8z"/><path fill="#f5e7cb" d="M1 4h2V2h2V0h4v2h2v3H1z"/><path stroke="#7e4928" d="M4 7v5m3-5v5"/></svg>The Data Pub</span><span class="tag">Noche de rifa</span></header>
-<h1>La tómbola</h1>
+<h1>Sorteo</h1>
 <p class="subtitle">Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.</p>
 <div class="layout">
 <section id="editor" class="card" aria-labelledby="control">
@@ -76,7 +76,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <div class="btns"><button id="lock" type="button" disabled>Cerrar lista</button></div>
 </section>
 <section id="stage" class="card stage" aria-labelledby="stage-title" hidden>
-<h2 id="stage-title">La tómbola</h2>
+<h2 id="stage-title">Sorteo</h2>
 <button id="edit" class="secondary pencil" type="button" aria-label="Editar lista de folios" title="Editar lista de folios"><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M2 11l8.4-8.4 3 3L5 14H2zm9.4-9.4l1.2-1.2 3 3-1.2 1.2z"/></svg></button>
 <svg class="art" viewBox="0 0 96 94" aria-hidden="true" shape-rendering="crispEdges">
 <path fill="#121f25" d="M13 80h70v8H13z"/><path fill="#74513e" d="M30 69h36v8h10v7H20v-7h10z"/><path fill="#9b7050" d="M26 77h44v3H26z"/>
