@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-t/g32xfzhNvYOXMdMw9M5nzVn1auXPXpxTxI3WH+4T4='; style-src 'sha256-ZidoeD5B+0ClEj4YFjPtOtp9p6+nTw3fJl/IngxLqH8='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<title>La tómbola · The Data Pub</title>
+<style>
+:root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
+*{box-sizing:border-box}
+body{margin:0;background:repeating-linear-gradient(0deg,#19282e 0 42px,#1d2d34 42px 44px);color:var(--ink);font:16px/1.55 system-ui,sans-serif}
+main{padding:24px 18px 48px;max-width:1020px;margin:auto}
+header{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:2px solid var(--edge);padding-bottom:14px}
+.brand,.tag{font:700 .84rem/1.35 ui-monospace,monospace;letter-spacing:.09em;color:var(--gold);text-transform:uppercase}
+.brand{display:flex;gap:10px;align-items:center}
+.tag{color:var(--muted);text-align:right}
+h1{font:700 clamp(2.4rem,8vw,5.6rem)/.98 Georgia,serif;letter-spacing:-.045em;margin:.55em 0 .13em}
+h2{font:700 1.5rem/1.2 Georgia,serif;margin:0 0 .75rem}
+.subtitle{margin:0 0 1.5rem;color:var(--muted)}
+.layout{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px;align-items:start}
+.card{padding:clamp(15px,3vw,25px);border:2px solid var(--edge);background:var(--panel);box-shadow:5px 5px 0 #121e23}
+.stage{background:#202f36;text-align:center}
+.art{width:min(100%,340px);height:auto;display:block;margin:4px auto 8px;image-rendering:pixelated}
+#wheel{transform-origin:48px 44px;transform-box:view-box}
+.spinning{animation:turn 6s cubic-bezier(.14,.64,.32,1) forwards}
+@keyframes turn{to{transform:rotate(2160deg)}}
+.output{border:1px solid var(--edge);background:#18272d;padding:9px;min-height:4.3rem;display:grid;place-content:center;color:var(--gold);overflow-wrap:anywhere;font:700 clamp(1.2rem,4vw,2.3rem)/1.2 ui-monospace,monospace}
+p{margin:.55rem 0}.small{font-size:.86rem;color:var(--muted)}label{font-weight:700}
+textarea{display:block;width:100%;min-height:9rem;margin:.55rem 0;padding:10px;background:#16262d;border:2px solid var(--edge);color:var(--ink);font:1rem/1.4 ui-monospace,monospace;resize:vertical}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+button{cursor:pointer;border:2px solid var(--gold);padding:9px 14px;background:var(--gold);color:#15252b;font:700 1rem system-ui;min-height:44px;box-shadow:3px 3px 0 #0f1b21}
+button.secondary{background:transparent;color:var(--gold)}
+button:disabled{opacity:.55;cursor:not-allowed}
+a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid #fff5cb;outline-offset:3px}
+footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
+[hidden]{display:none!important}
+@media(max-width:680px){.layout{grid-template-columns:1fr}.stage{grid-row:2}.showtime .stage{grid-row:1}.art{max-width:240px}}
+@media(prefers-reduced-motion:reduce){.spinning{animation:none}}
+</style>
+</head>
+<body>
+<main id="app">
+<header><span class="brand"><svg width="26" height="28" viewBox="0 0 13 14" aria-hidden="true" shape-rendering="crispEdges"><path fill="#efb369" d="M2 5h8v2h3v5h-3v2H2zm8 3v3h2V8z"/><path fill="#f5e7cb" d="M1 4h2V2h2V0h4v2h2v3H1z"/><path stroke="#7e4928" d="M4 7v5m3-5v5"/></svg>The Data Pub</span><span class="tag">Noche de rifa</span></header>
+<h1>La tómbola</h1>
+<p class="subtitle">Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.</p>
+<div class="layout">
+<section class="card" aria-labelledby="control">
+<h2 id="control">La lista de la noche</h2>
+<div id="entry"><label for="roster">Pega una columna de folios</label>
+<textarea id="roster" placeholder="A001&#10;A002&#10;A003" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" aria-describedby="rule"></textarea>
+<p class="small" id="rule">Un folio por persona presente. Usa letras, números, guiones o guiones bajos. No pegues nombres ni correos.</p></div>
+<p role="status" id="count">0 folios</p>
+<div class="btns"><button id="lock" type="button" disabled>Cerrar lista</button><button id="draw" type="button" disabled>Girar tómbola</button><button id="reset" class="secondary" type="button" hidden>Borrar y empezar de nuevo</button></div>
+</section>
+<section class="card stage" aria-labelledby="stage-title"><h2 id="stage-title">El folio ganador</h2>
+<svg class="art" viewBox="0 0 96 94" aria-hidden="true" shape-rendering="crispEdges">
+<path fill="#121f25" d="M13 80h70v8H13z"/><path fill="#74513e" d="M30 69h36v8h10v7H20v-7h10z"/><path fill="#9b7050" d="M26 77h44v3H26z"/>
+<path fill="#15262d" d="M21 34h54v20H21z"/>
+<g id="wheel"><path fill="#0f2026" d="M37 13h22v5h10v5h5v10h5v22h-5v10h-5v5H59v5H37v-5H27v-5h-5V55h-5V33h5V23h5v-5h10z"/>
+<path fill="#d6a366" d="M37 17h22v5h10v8h5v28h-5v8H59v5H37v-5H27v-8h-5V30h5v-8h10z"/>
+<path fill="#67443a" d="M39 22h18v4h9v7h4v22h-4v7h-9v4H39v-4h-9v-7h-4V33h4v-7h9z"/>
+<path fill="#ab5940" d="M48 44V22h9v4h9v7h4v11zm0 0v22h-9v-4h-9v-7h-4V44z"/>
+<path fill="#3b6265" d="M48 44l18-18v7h4v11l-22 1zm0 0L30 62v-7h-4V44z"/>
+<path fill="#d99d64" d="M47 22h2v44h-2zM26 43h44v2H26z"/><path stroke="#d99d64" d="M33 29l30 30m0-30L33 59"/>
+<path fill="#f8e4bd" d="M43 39h10v10H43z"/><path fill="#a95c42" d="M46 42h4v4h-4z"/></g>
+<path fill="#17272e" d="M42 9h12v6h-3v3h-6v-3h-3z"/><path fill="#f2bb76" d="M44 8h8v6h-2v3h-4v-3h-2z"/>
+<path fill="#8d674b" d="M9 28h7v2H9zm72 4h8v2h-8zM12 56h4v2h-4zm70 3h3v3h-3z"/>
+</svg>
+<output id="result" class="output" aria-live="polite">Aún sin sortear</output>
+<p id="remaining" class="small"></p>
+</section>
+</div>
+<footer class="small">La página se carga de internet, pero tus folios y el resultado se quedan en memoria en esta pestaña. Al recargar, se borran.</footer>
+</main>
+<script>
+"use strict";
+const el = id => document.getElementById(id);
+const roster = el("roster"), count = el("count"), lock = el("lock"), draw = el("draw");
+const result = el("result"), wheel = el("wheel"), reset = el("reset");
+let pool = [], total = 0, busy = false, drawn = 0, closed = false, timer = null;
+function parse() {
+  const rows = roster.value.split(/\r?\n/).map(x => x.trim()).filter(Boolean);
+  return {rows, bad: rows.filter(x=>!/^[-_A-Za-z0-9]{1,24}$/.test(x)).length,
+    repeats: rows.length - new Set(rows.map(x => x.toUpperCase())).size};
+}
+function update() {
+  const {rows,bad,repeats} = parse();
+  count.textContent = rows.length + (rows.length===1 ? " folio" : " folios") + (bad ? " · "+bad+" con formato inválido" : "") + (repeats ? " · "+repeats+" repetidos" : "");
+  lock.disabled = closed || !rows.length || !!bad || !!repeats;
+}
+roster.addEventListener("input",update);
+function clearSession() {
+  clearTimeout(timer); timer=null;pool=[];roster.value="";closed=false;busy=false;drawn=0;total=0;
+  draw.disabled=true;draw.textContent="Girar tómbola";reset.disabled=false;lock.hidden=false;reset.hidden=true;
+  el("entry").hidden=false;el("app").classList.remove("showtime");wheel.classList.remove("spinning");
+  result.textContent="Aún sin sortear";el("remaining").textContent="";update();
+}
+addEventListener("pagehide",clearSession);
+addEventListener("pageshow", event=>{if(event.persisted)clearSession()});
+update();
+lock.addEventListener("click",()=>{
+  const {rows,bad,repeats} = parse();
+  if(closed || !rows.length || bad || repeats) return;
+  pool=rows;total=pool.length;closed=true;roster.value="";el("entry").hidden=true;
+  lock.hidden=true;reset.hidden=false;draw.disabled=false;el("app").classList.add("showtime");
+  count.textContent="Lista cerrada: "+total+(total===1?" folio.":" folios.");
+  draw.focus();
+});
+draw.addEventListener("click",()=>{
+  if (!closed || busy || !pool.length) return;
+  if (drawn && !confirm("¿El folio anterior no pudo reclamar? Si continúas, no volverá a salir.")) return;
+  busy=true;draw.disabled=true;reset.disabled=true;wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
+  const word=new Uint32Array(1), bound=Math.floor(2**32/pool.length)*pool.length;
+  do crypto.getRandomValues(word); while(word[0]>=bound);
+  result.textContent="Girando…";
+  timer=setTimeout(()=>{
+    if(!busy||!pool.length)return;
+    const selected=pool.splice(word[0]%pool.length,1)[0];drawn++;
+    result.textContent=selected;el("remaining").textContent=pool.length+" sin seleccionar de "+total+".";
+    busy=false;reset.disabled=false;draw.disabled=!pool.length;draw.textContent="Sacar otro folio";
+  },matchMedia("(prefers-reduced-motion: reduce)").matches?0:6000);
+});
+reset.addEventListener("click",()=>{if(!busy&&confirm("¿Borrar todos los folios y el resultado?")) {clearSession();roster.focus()}});
+</script>
+</body>
+</html>
