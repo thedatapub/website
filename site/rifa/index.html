@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-6TvMXv8K+VVxCpshI0vzW+K7zd8c3iQKn0+oVnfxWpc='; style-src 'sha256-vJSe/svtb5rpAngKJqLKecfCRIgOqRAEZZa8IoQVFTs='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-yI0UFyrBY5jDpRg3sCcRBOA8C3i/vdU9ia2QkNiBFJM='; style-src 'sha256-hDvUrAgorgsOBvL9YC5qKgM1B2i5jej+POhfCY1/WLI='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -50,8 +50,16 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 @media(prefers-reduced-motion:reduce){.coupon{animation:none}}
 .showtime{max-width:none;padding:clamp(8px,2vw,24px)}
 .showtime>header,.showtime>h1,.showtime>.subtitle,.showtime>footer{display:none}
-.showtime .layout{max-width:1160px;margin:auto}
+.showtime .layout{max-width:1520px;margin:auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(190px,23%);gap:clamp(10px,2vw,22px);align-items:start}
+.winners-board{min-width:0;background:#202f36;padding:clamp(14px,2vw,25px)}
+.winners-board h2{color:var(--gold);font-size:clamp(1.6rem,3vw,2.3rem)}
+.winners-board ol{margin:.75rem 0 0;padding:0 0 0 1.8em;max-height:min(58dvh,560px);overflow:auto;scrollbar-gutter:stable}
+.winners-board li{padding:.5em .3em;overflow-wrap:anywhere;border-bottom:1px solid var(--edge);font:700 clamp(1rem,2vw,1.5rem)/1.25 ui-monospace,monospace}
+.winners-board li::marker{color:var(--gold)}
+.winners-board ol:focus-visible{outline:3px solid #fff5cb;outline-offset:3px}
+@media(max-width:750px){.showtime .layout{grid-template-columns:minmax(0,1fr)}.winners-board ol{max-height:16rem}}
 .stage{position:relative;min-block-size:calc(100dvh - 48px);display:grid;justify-items:center;align-content:center;gap:.6em}
+@media(max-width:750px){.stage{min-block-size:auto}}
 .stage h2{margin:0 44px;font-size:clamp(1.6rem,5vw,3.5rem)}
 .stage .art{width:min(92vw,62dvh,760px,100%);margin:0 auto}
 .stage .output{position:absolute;width:1px;height:1px;min-height:0;overflow:hidden;clip-path:inset(50%);padding:0;border:0}
@@ -94,6 +102,11 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <output id="result" class="output" aria-live="polite">Aún sin sortear</output>
 <button id="draw" type="button" disabled>Girar tómbola</button>
 </section>
+<aside id="winners-board" class="card winners-board" aria-labelledby="winners-title" hidden>
+  <h2 id="winners-title">Ganadores</h2>
+  <p id="winners-empty" class="small">Todavía no hay ganadores.</p>
+  <ol id="winners-list" tabindex="0" aria-label="Folios ganadores en orden de sorteo" hidden></ol>
+</aside>
 </div>
 <footer class="small">La página se carga de internet, pero tus folios y el resultado se quedan en memoria en esta pestaña. Al recargar, se borran.</footer>
 </main>
@@ -112,6 +125,7 @@ const roster=el("roster"), count=el("count"), lock=el("lock"), draw=el("draw"), 
 const editor=el("editor"), stage=el("stage"), app=el("app"), result=el("result"), wheel=el("wheel");
 const coupon=el("coupon-modal"), couponFolio=el("coupon-folio");
 const winners=new Set();
+const board=el("winners-board"), winnersList=el("winners-list"), winnersEmpty=el("winners-empty");
 let pool=[], busy=false, timer=null;
 function parse() {
   const rows=roster.value.split(/\r?\n/).map(x=>x.trim()).filter(Boolean);
@@ -128,12 +142,12 @@ function update() {
   lock.disabled=!eligible.length||!!bad||!!repeats;
 }
 function showEditor(focus) {
-  stage.hidden=true; editor.hidden=false; app.classList.remove("showtime");
+  stage.hidden=true;board.hidden=true;editor.hidden=false; app.classList.remove("showtime");
   roster.value=pool.join("\n");pool=[];update();
   if(focus)roster.focus({preventScroll:true});
 }
 function clearSession() {
-  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();
+  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
   if(coupon.open)coupon.close();couponFolio.textContent="";
   edit.disabled=false;draw.disabled=true;result.textContent="Aún sin sortear";
   wheel.classList.remove("spinning");showEditor(false);
@@ -150,7 +164,7 @@ update();
 lock.addEventListener("click",()=>{
   const {eligible,bad,repeats}=parse();
   if(editor.hidden||!eligible.length||bad||repeats)return;
-  pool=eligible;roster.value="";editor.hidden=true;stage.hidden=false;app.classList.add("showtime");
+  pool=eligible;roster.value="";editor.hidden=true;stage.hidden=false;board.hidden=false;app.classList.add("showtime");
   result.textContent=winners.size?"Lista actualizada":"Lista cerrada";
   wheel.classList.remove("spinning");
   draw.disabled=false;draw.textContent=winners.size?"Sacar otro folio":"Girar tómbola";
@@ -159,7 +173,6 @@ lock.addEventListener("click",()=>{
 edit.addEventListener("click",()=>{if(!busy&&!stage.hidden&&!coupon.open)showEditor(true)});
 draw.addEventListener("click",()=>{
   if(stage.hidden||busy||coupon.open||!pool.length)return;
-  if(winners.size&&!confirm("¿El folio anterior no pudo reclamar? Si continúas, no volverá a salir."))return;
   busy=true;draw.disabled=true;edit.disabled=true;wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
   const word=new Uint32Array(1),bound=Math.floor(2**32/pool.length)*pool.length;
   do crypto.getRandomValues(word);while(word[0]>=bound);
@@ -168,7 +181,10 @@ draw.addEventListener("click",()=>{
     timer=null;
     if(!busy||!pool.length)return;
     const selected=pool.splice(word[0]%pool.length,1)[0];
-    winners.add(selected.toUpperCase());result.textContent="Sorteo terminado";
+    winners.add(selected.toUpperCase());
+    const item=document.createElement("li");item.textContent=selected;winnersList.append(item);
+    winnersList.hidden=false;winnersEmpty.hidden=true;winnersList.scrollTop=winnersList.scrollHeight;
+    result.textContent="Sorteo terminado";
     busy=false;edit.disabled=false;draw.disabled=!pool.length;
     draw.textContent=pool.length?"Sacar otro folio":"No quedan folios";
     couponFolio.textContent=selected;coupon.showModal();
