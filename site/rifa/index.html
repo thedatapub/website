@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-9spL/ypBSBElnFTUWYjV9orJaFLaadF6PfYKcNJ22eM='; style-src 'sha256-xY4iYxoLUSAyPJsr/gAyYVslxiD5JCZlKkKabAVYXOI='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-4yANrjOLDCO5qsRMCuvOhsodfNBK7UwzAEPA4OCIi+Q='; style-src 'sha256-HCDaQUe7kdZ9LUryYbshJ8WjfcdCrkp4auU5H5AMp4M='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -28,6 +28,8 @@ h2{font:700 1.5rem/1.2 Georgia,serif;margin:0 0 .75rem}
 .prize-name{overflow-wrap:anywhere}
 .coupon-prize{font:700 clamp(1rem,3vw,2.1rem)/1.3 Georgia,serif;margin:.2em 0 .8em}
 .winner-ticket{display:block;width:100%;min-height:44px;padding:.28em;text-align:left;box-shadow:none;border:1px solid transparent;background:transparent;color:var(--ink);font:inherit;overflow-wrap:anywhere}
+.void-winner{min-height:44px;padding:.32em .55em;margin:.2em 0;background:transparent;color:var(--muted);border:1px solid var(--edge);box-shadow:none;font:600 .75rem system-ui}
+.void-winner:hover{color:var(--gold);border-color:var(--gold)}
 .winner-ticket:hover{color:var(--gold);border-color:var(--edge)}
 .winners-board .prize-name{display:block;color:var(--muted);margin-top:.2em;font:400 .85rem/1.35 system-ui,sans-serif}
 .subtitle{margin:0 0 1.5rem;color:var(--muted)}
@@ -96,7 +98,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <fieldset class="prize-config"><legend>Premios</legend>
 <label for="prize-count">Número de premios</label>
 <input type="number" id="prize-count" min="1" max="12" step="1" value="1" aria-describedby="prize-help">
-<p class="small" id="prize-help">Se sortean en este orden. Los premios ya entregados no se pueden cambiar.</p>
+<p class="small" id="prize-help">Se sortean en este orden. Los premios entregados o pendientes de resorteo no se pueden cambiar.</p>
 <div id="prize-fields"></div>
 <p id="prize-validation" class="small" role="status"></p>
 </fieldset>
@@ -144,11 +146,15 @@ const el = id => document.getElementById(id);
 const roster=el("roster"), count=el("count"), lock=el("lock"), draw=el("draw"), edit=el("edit");
 const editor=el("editor"), stage=el("stage"), app=el("app"), result=el("result"), wheel=el("wheel");
 const coupon=el("coupon-modal"), couponFolio=el("coupon-folio");
-const winners=new Set();
+const winners=new Set(), awards=new Set(), fixedPrizes=new Set();
 const prizeCount=el("prize-count"), prizeFields=el("prize-fields"), couponPrize=el("coupon-prize");
 const defaultPrize="Un lugar en el track de GenIA Aplicada del Colegio de Matemáticas Bourbaki.";
 let prizes=[defaultPrize], draft=[defaultPrize];
-function prizeLimit(){return Math.max(1,winners.size)}
+function prizeLimit(){return Math.max(1,...Array.from(fixedPrizes,i=>i+1))}
+function nextPrize(){
+  const queued=prizes.findIndex((_,i)=>fixedPrizes.has(i)&&!awards.has(i));
+  return queued>=0?queued:prizes.findIndex((_,i)=>!awards.has(i));
+}
 function prizeQuantity(){
   const n=prizeCount.valueAsNumber;
   return Number.isInteger(n)&&n>=prizeLimit()&&n<=12?n:0;
@@ -159,9 +165,9 @@ function renderPrizes(){
   for(let i=0;i<prizeQuantity();i++){
     const label=document.createElement("label"), input=document.createElement("input");
     input.type="text";input.id="prize-"+(i+1);input.maxLength=120;
-    input.value=i<winners.size?prizes[i]:(draft[i]||"");
-    input.autocomplete="off";input.readOnly=i<winners.size;
-    label.htmlFor=input.id;label.textContent="Premio "+(i+1)+(input.readOnly?" (entregado)":"");
+    input.value=fixedPrizes.has(i)?prizes[i]:(draft[i]||"");
+    input.autocomplete="off";input.readOnly=fixedPrizes.has(i);
+    label.htmlFor=input.id;label.textContent="Premio "+(i+1)+(input.readOnly?(awards.has(i)?" (entregado)":" (pendiente de resorteo)"):"");
     input.addEventListener("input",()=>{draft[i]=input.value;update()});
     prizeFields.append(label,input);
   }
@@ -169,14 +175,14 @@ function renderPrizes(){
 function configuredPrizes(){
   const n=prizeQuantity();
   if(!n)return null;
-  const entries=Array.from({length:n},(_,i)=>(i<winners.size?prizes[i]:draft[i]||"").trim());
+  const entries=Array.from({length:n},(_,i)=>(fixedPrizes.has(i)?prizes[i]:draft[i]||"").trim());
   return entries.every(name=>name.length>0&&name.length<=120)?entries:null;
 }
 function setDrawState(){
-  const done=winners.size>=prizes.length;
+  const index=nextPrize(), done=index<0, redo=!done&&fixedPrizes.has(index);
   draw.disabled=done||!pool.length;
-  draw.textContent=done?"Sorteo terminado":!pool.length?"No quedan folios":winners.size?"Sacar otro folio":"Girar tómbola";
-  result.textContent=done?"Ya se entregaron todos los premios.":!pool.length?"No quedan folios elegibles.":winners.size?"Siguiente premio listo.":"Lista cerrada.";
+  draw.textContent=done?"Sorteo terminado":!pool.length?"No quedan folios":redo?"Resortear premio":winners.size?"Sacar otro folio":"Girar tómbola";
+  result.textContent=done?"Ya se entregaron todos los premios.":!pool.length?"No quedan folios elegibles.":redo?"Premio pendiente de resorteo.":winners.size?"Siguiente premio listo.":"Lista cerrada.";
 }
 const board=el("winners-board"), winnersList=el("winners-list"), winnersEmpty=el("winners-empty");
 let pool=[], busy=false, timer=null, ticketSource=null;
@@ -209,7 +215,7 @@ function showEditor(focus) {
   if(focus)roster.focus({preventScroll:true});
 }
 function clearSession() {
-  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();prizes=[defaultPrize];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
+  clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();awards.clear();fixedPrizes.clear();prizes=[defaultPrize];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
   if(coupon.open)coupon.close();couponFolio.textContent="";couponPrize.textContent="";
   edit.disabled=false;draw.disabled=true;result.textContent="Aún sin sortear";
   wheel.classList.remove("spinning");showEditor(false);
@@ -238,7 +244,8 @@ lock.addEventListener("click",()=>{
 });
 edit.addEventListener("click",()=>{if(!busy&&!stage.hidden&&!coupon.open)showEditor(true)});
 draw.addEventListener("click",()=>{
-  if(stage.hidden||busy||coupon.open||!pool.length||winners.size>=prizes.length)return;
+  const index=nextPrize();
+  if(stage.hidden||busy||coupon.open||!pool.length||index<0)return;
   busy=true;draw.disabled=true;edit.disabled=true;lockWinnerButtons(true);wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
   const word=new Uint32Array(1),bound=Math.floor(2**32/pool.length)*pool.length;
   do crypto.getRandomValues(word);while(word[0]>=bound);
@@ -247,12 +254,21 @@ draw.addEventListener("click",()=>{
     timer=null;
     if(!busy||!pool.length)return;
     const selected=pool.splice(word[0]%pool.length,1)[0];
-    const prize=prizes[winners.size];winners.add(selected.toUpperCase());
-    const item=document.createElement("li"), ticket=document.createElement("button"), note=document.createElement("span");
+    const prize=prizes[index];winners.add(selected.toUpperCase());awards.add(index);fixedPrizes.add(index);
+    const item=document.createElement("li"), ticket=document.createElement("button"), note=document.createElement("span"), cancel=document.createElement("button");
     ticket.type="button";ticket.className="winner-ticket";ticket.textContent=selected;
     ticket.setAttribute("aria-label","Reabrir boleto de "+selected+": "+prize);
     ticket.addEventListener("click",()=>{if(!busy&&!stage.hidden)showTicket(selected,prize,ticket)});
-    note.className="prize-name";note.textContent=prize;ticket.append(note);item.append(ticket);winnersList.append(item);
+    cancel.type="button";cancel.className="void-winner";cancel.textContent="Anular ganador";
+    cancel.setAttribute("aria-label","Anular ganador "+selected+" del premio "+prize);
+    cancel.addEventListener("click",()=>{
+      if(busy||stage.hidden||coupon.open||!item.isConnected)return;
+      if(!confirm("¿Anular el folio "+selected+"? Ese folio no volverá a participar y su premio quedará pendiente de resorteo."))return;
+      awards.delete(index);item.remove();
+      const empty=!awards.size;winnersList.hidden=empty;winnersEmpty.hidden=!empty;
+      setDrawState();(draw.disabled?edit:draw).focus({preventScroll:true});
+    });
+    note.className="prize-name";note.textContent=prize;ticket.append(note);item.append(ticket,cancel);winnersList.append(item);
     winnersList.hidden=false;winnersEmpty.hidden=true;winnersList.scrollTop=winnersList.scrollHeight;
     busy=false;edit.disabled=false;lockWinnerButtons(false);setDrawState();
     showTicket(selected,prize);
