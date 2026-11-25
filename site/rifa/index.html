@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-4yANrjOLDCO5qsRMCuvOhsodfNBK7UwzAEPA4OCIi+Q='; style-src 'sha256-HCDaQUe7kdZ9LUryYbshJ8WjfcdCrkp4auU5H5AMp4M='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-CqbAv+0t2lR3jnmXaDKlrQTRplhAYtT2/n5BpGlSpUw='; style-src 'sha256-HCDaQUe7kdZ9LUryYbshJ8WjfcdCrkp4auU5H5AMp4M='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -121,7 +121,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 <path fill="#8d674b" d="M9 28h7v2H9zm72 4h8v2h-8zM12 56h4v2h-4zm70 3h3v3h-3z"/>
 </svg>
 <output id="result" class="output" aria-live="polite">Aún sin sortear</output>
-<button id="draw" type="button" disabled>Girar tómbola</button>
+<button id="draw" type="button" disabled>Girar</button>
 </section>
 <aside id="winners-board" class="card winners-board" aria-labelledby="winners-title" hidden>
   <h2 id="winners-title">Ganadores</h2>
@@ -181,7 +181,6 @@ function configuredPrizes(){
 function setDrawState(){
   const index=nextPrize(), done=index<0, redo=!done&&fixedPrizes.has(index);
   draw.disabled=done||!pool.length;
-  draw.textContent=done?"Sorteo terminado":!pool.length?"No quedan folios":redo?"Resortear premio":winners.size?"Sacar otro folio":"Girar tómbola";
   result.textContent=done?"Ya se entregaron todos los premios.":!pool.length?"No quedan folios elegibles.":redo?"Premio pendiente de resorteo.":winners.size?"Siguiente premio listo.":"Lista cerrada.";
 }
 const board=el("winners-board"), winnersList=el("winners-list"), winnersEmpty=el("winners-empty");
@@ -217,7 +216,7 @@ function showEditor(focus) {
 function clearSession() {
   clearTimeout(timer);timer=null;busy=false;pool=[];winners.clear();awards.clear();fixedPrizes.clear();prizes=[defaultPrize];draft=prizes.slice();winnersList.replaceChildren();winnersList.hidden=true;winnersEmpty.hidden=false;
   if(coupon.open)coupon.close();couponFolio.textContent="";couponPrize.textContent="";
-  edit.disabled=false;draw.disabled=true;result.textContent="Aún sin sortear";
+  edit.disabled=false;draw.disabled=true;draw.removeAttribute("aria-busy");result.textContent="Aún sin sortear";
   wheel.classList.remove("spinning");showEditor(false);
 }
 el("coupon-close").addEventListener("click",()=>coupon.close());
@@ -246,7 +245,7 @@ edit.addEventListener("click",()=>{if(!busy&&!stage.hidden&&!coupon.open)showEdi
 draw.addEventListener("click",()=>{
   const index=nextPrize();
   if(stage.hidden||busy||coupon.open||!pool.length||index<0)return;
-  busy=true;draw.disabled=true;edit.disabled=true;lockWinnerButtons(true);wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
+  busy=true;draw.setAttribute("aria-busy","true");edit.disabled=true;lockWinnerButtons(true);wheel.classList.remove("spinning");void wheel.getBoundingClientRect();wheel.classList.add("spinning");
   const word=new Uint32Array(1),bound=Math.floor(2**32/pool.length)*pool.length;
   do crypto.getRandomValues(word);while(word[0]>=bound);
   result.textContent="Girando…";
@@ -270,7 +269,7 @@ draw.addEventListener("click",()=>{
     });
     note.className="prize-name";note.textContent=prize;ticket.append(note);item.append(ticket,cancel);winnersList.append(item);
     winnersList.hidden=false;winnersEmpty.hidden=true;winnersList.scrollTop=winnersList.scrollHeight;
-    busy=false;edit.disabled=false;lockWinnerButtons(false);setDrawState();
+    busy=false;draw.removeAttribute("aria-busy");edit.disabled=false;lockWinnerButtons(false);setDrawState();
     showTicket(selected,prize);
   },matchMedia("(prefers-reduced-motion: reduce)").matches?0:6000);
 });
