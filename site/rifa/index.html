@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-CqbAv+0t2lR3jnmXaDKlrQTRplhAYtT2/n5BpGlSpUw='; style-src 'sha256-HCDaQUe7kdZ9LUryYbshJ8WjfcdCrkp4auU5H5AMp4M='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-39Kxp7LHvnkOnIQev8U2E//aFq2KU+4hxWkAVAS+csM='; style-src 'sha256-+9ddFhMEXpcyrVq49A0PnqDKpdWE8BOpL60lcV/u7q4='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -75,6 +75,8 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 .stage{position:relative;min-block-size:calc(100dvh - 48px);display:grid;justify-items:center;align-content:center;gap:.6em}
 @media(max-width:750px){.stage{min-block-size:auto}}
 .stage h2{margin:0 44px;font-size:clamp(1.6rem,5vw,3.5rem)}
+.stage-meta{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.28em .75em;margin:0;color:var(--muted);font-size:clamp(.78rem,1.35vw,1rem)}
+.eligible-count{border:1px solid var(--edge);border-radius:3px;color:var(--gold);padding:.18em .48em;font-weight:700}
 .stage .art{width:min(92vw,62dvh,760px,100%);margin:0 auto}
 .stage .output{position:absolute;width:1px;height:1px;min-height:0;overflow:hidden;clip-path:inset(50%);padding:0;border:0}
 .stage #draw{font-size:clamp(1rem,2.6vw,1.7rem);padding:.55em 1.15em;margin-top:.2em}
@@ -85,7 +87,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 </head>
 <body>
 <main id="app">
-<header><span class="brand"><svg width="26" height="28" viewBox="0 0 13 14" aria-hidden="true" shape-rendering="crispEdges"><path fill="#efb369" d="M2 5h8v2h3v5h-3v2H2zm8 3v3h2V8z"/><path fill="#f5e7cb" d="M1 4h2V2h2V0h4v2h2v3H1z"/><path stroke="#7e4928" d="M4 7v5m3-5v5"/></svg>The Data Pub</span><span class="tag">Noche de rifa</span></header>
+<header><span class="brand"><svg width="26" height="28" viewBox="0 0 13 14" aria-hidden="true" shape-rendering="crispEdges"><path fill="#efb369" d="M2 5h8v2h3v5h-3v2H2zm8 3v3h2V8z"/><path fill="#f5e7cb" d="M1 4h2V2h2V0h4v2h2v3H1z"/><path stroke="#7e4928" d="M4 7v5m3-5v5"/></svg>The Data Pub</span><span class="tag"><time datetime="2026-11-25">25 de noviembre de 2026</time></span></header>
 <h1>Sorteo</h1>
 <p class="subtitle">Configura los folios y los premios antes de empezar.</p>
 <div class="layout">
@@ -106,6 +108,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 </section>
 <section id="stage" class="card stage" aria-labelledby="stage-title" hidden>
 <h2 id="stage-title">Sorteo</h2>
+<p class="stage-meta"><time datetime="2026-11-25">25 de noviembre de 2026</time><span id="eligible-count" class="eligible-count">0 participantes elegibles</span></p>
 <button id="edit" class="secondary pencil" type="button" aria-label="Editar lista de folios" title="Editar lista de folios"><svg viewBox="0 0 16 16" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M2 11l8.4-8.4 3 3L5 14H2zm9.4-9.4l1.2-1.2 3 3-1.2 1.2z"/></svg></button>
 <svg class="art" viewBox="0 0 96 94" aria-hidden="true" shape-rendering="crispEdges">
 <path fill="#121f25" d="M13 80h70v8H13z"/><path fill="#74513e" d="M30 69h36v8h10v7H20v-7h10z"/><path fill="#9b7050" d="M26 77h44v3H26z"/>
@@ -133,7 +136,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 </main>
 <dialog id="coupon-modal" class="coupon-modal" aria-labelledby="coupon-title" aria-describedby="coupon-folio coupon-prize">
   <div class="coupon">
-    <p class="coupon-kicker">The Data Pub · Noche de rifa</p>
+    <p class="coupon-kicker">The Data Pub · <time datetime="2026-11-25">25 de noviembre de 2026</time></p>
     <h2 id="coupon-title">Ganador</h2>
     <strong id="coupon-folio" class="coupon-folio"></strong>
     <p id="coupon-prize" class="coupon-prize prize-name"></p>
@@ -181,6 +184,7 @@ function configuredPrizes(){
 function setDrawState(){
   const index=nextPrize(), done=index<0, redo=!done&&fixedPrizes.has(index);
   draw.disabled=done||!pool.length;
+  el("eligible-count").textContent=pool.length+(pool.length===1?" participante elegible":" participantes elegibles");
   result.textContent=done?"Ya se entregaron todos los premios.":!pool.length?"No quedan folios elegibles.":redo?"Premio pendiente de resorteo.":winners.size?"Siguiente premio listo.":"Lista cerrada.";
 }
 const board=el("winners-board"), winnersList=el("winners-list"), winnersEmpty=el("winners-empty");
