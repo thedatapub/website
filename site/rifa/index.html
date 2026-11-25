@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-t/g32xfzhNvYOXMdMw9M5nzVn1auXPXpxTxI3WH+4T4='; style-src 'sha256-ZidoeD5B+0ClEj4YFjPtOtp9p6+nTw3fJl/IngxLqH8='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-3zz+/jsxIMpcx8VWHm6XVVYi4g7ufkLqrNIy5Sxz6Oo='; style-src 'sha256-JI/a5SrxDmTAPt2T87q4iGE2Mtb7yr1ph/09BFizRxY='; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>La tómbola · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -36,6 +36,18 @@ button:disabled{opacity:.55;cursor:not-allowed}
 a:focus-visible,button:focus-visible,textarea:focus-visible{outline:3px solid #fff5cb;outline-offset:3px}
 footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 [hidden]{display:none!important}
+.coupon-modal{background:transparent;color:var(--ink);border:0;padding:12px;width:min(92vw,1120px);max-width:none;max-height:95dvh;overflow:auto}
+.coupon-modal::backdrop{background:#0b1519ed}
+.coupon{background:#f4dfb3;color:#203337;border:8px solid #b26b3e;outline:2px solid #f4dfb3;outline-offset:-13px;padding:clamp(19px,6vw,80px);position:relative;text-align:center;box-shadow:inset 0 0 0 3px #382e28;animation:unfold .48s cubic-bezier(.16,1,.3,1) both}
+.coupon::before,.coupon::after{content:"";position:absolute;width:22px;height:34px;top:50%;background:#162227;transform:translateY(-50%)}
+.coupon::before{left:-8px}.coupon::after{right:-8px}
+.coupon-kicker{color:#704027;letter-spacing:.14em;font:700 clamp(.8rem,2vw,1.15rem)/1.4 ui-monospace,monospace;text-transform:uppercase}
+.coupon h2{margin:.5em 0;font-size:clamp(2rem,6vw,5rem)}
+.coupon-folio{display:block;padding:.18em 0;border-block:2px dashed #996846;margin:.18em 0 .35em;min-width:0;overflow-wrap:anywhere;font:900 clamp(2.7rem,10vw,9rem)/1.1 ui-monospace,monospace}
+.coupon-close{background:#203337;color:#fff4d5;border-color:#203337}
+.coupon-close:focus-visible{outline-color:#203337}
+@keyframes unfold{from{transform:scale(.82,.25);opacity:0}to{transform:scale(1);opacity:1}}
+@media(prefers-reduced-motion:reduce){.coupon{animation:none}}
 @media(max-width:680px){.layout{grid-template-columns:1fr}.stage{grid-row:2}.showtime .stage{grid-row:1}.art{max-width:240px}}
 @media(prefers-reduced-motion:reduce){.spinning{animation:none}}
 </style>
@@ -74,11 +86,22 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
 </div>
 <footer class="small">La página se carga de internet, pero tus folios y el resultado se quedan en memoria en esta pestaña. Al recargar, se borran.</footer>
 </main>
+<dialog id="coupon-modal" class="coupon-modal" aria-labelledby="coupon-title" aria-describedby="coupon-folio">
+  <div class="coupon">
+    <p class="coupon-kicker">The Data Pub · Noche de rifa</p>
+    <h2 id="coupon-title">¡Folio ganador!</h2>
+    <strong id="coupon-folio" class="coupon-folio"></strong>
+    <button id="coupon-close" class="coupon-close" type="button" autofocus>Cerrar boleto</button>
+  </div>
+</dialog>
 <script>
 "use strict";
 const el = id => document.getElementById(id);
 const roster = el("roster"), count = el("count"), lock = el("lock"), draw = el("draw");
 const result = el("result"), wheel = el("wheel"), reset = el("reset");
+const coupon = el("coupon-modal"), couponFolio = el("coupon-folio");
+el("coupon-close").addEventListener("click",()=>coupon.close());
+coupon.addEventListener("close",()=>{couponFolio.textContent="";(draw.disabled?reset:draw).focus()});
 let pool = [], total = 0, busy = false, drawn = 0, closed = false, timer = null;
 function parse() {
   const rows = roster.value.split(/\r?\n/).map(x => x.trim()).filter(Boolean);
@@ -92,7 +115,7 @@ function update() {
 }
 roster.addEventListener("input",update);
 function clearSession() {
-  clearTimeout(timer); timer=null;pool=[];roster.value="";closed=false;busy=false;drawn=0;total=0;
+  clearTimeout(timer); timer=null;if(coupon.open)coupon.close();couponFolio.textContent="";pool=[];roster.value="";closed=false;busy=false;drawn=0;total=0;
   draw.disabled=true;draw.textContent="Girar tómbola";reset.disabled=false;lock.hidden=false;reset.hidden=true;
   el("entry").hidden=false;el("app").classList.remove("showtime");wheel.classList.remove("spinning");
   result.textContent="Aún sin sortear";el("remaining").textContent="";update();
@@ -120,6 +143,7 @@ draw.addEventListener("click",()=>{
     const selected=pool.splice(word[0]%pool.length,1)[0];drawn++;
     result.textContent=selected;el("remaining").textContent=pool.length+" sin seleccionar de "+total+".";
     busy=false;reset.disabled=false;draw.disabled=!pool.length;draw.textContent="Sacar otro folio";
+    couponFolio.textContent=selected;coupon.showModal();
   },matchMedia("(prefers-reduced-motion: reduce)").matches?0:6000);
 });
 reset.addEventListener("click",()=>{if(!busy&&confirm("¿Borrar todos los folios y el resultado?")) {clearSession();roster.focus()}});
