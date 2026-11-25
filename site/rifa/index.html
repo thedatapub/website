@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-9tHpmNb1zA4m/1m3PGzs/6JZFjhY8Rq930i1kJRNOuc='; style-src 'sha256-2dPBUrNHAx7h18m1yxLSpzBAFEgjGuvaAYWJ6lkL1H8='; img-src data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-9tHpmNb1zA4m/1m3PGzs/6JZFjhY8Rq930i1kJRNOuc='; style-src 'sha256-ApbqPos9SfLpAtHZRtyLPUo/EUs6z/i5XwhQJuJ7Irw='; img-src data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Sorteo · The Data Pub</title>
 <style>
 :root{color-scheme:dark;--navy:#19282e;--panel:#253942;--ink:#f8ecd5;--muted:#deceb4;--gold:#f2bb76;--edge:#4c6467;--rust:#a95739}
@@ -29,7 +29,6 @@ h2{font:700 1.5rem/1.2 Georgia,serif;margin:0 0 .75rem}
 #sponsor-options label{display:flex;align-items:center;gap:.55em;min-height:44px;font-weight:400}
 #sponsor-options input{accent-color:var(--gold);height:1.15em;width:1.15em;margin:0}
 .coupon-sponsors{border-top:1px dashed #9b744b;padding-top:.6em;margin:0 auto .8em}
-.coupon-sponsors h3{margin:0 0 .4em;color:#4a392a;font:700 .7rem/1.3 ui-monospace,monospace;letter-spacing:.11em;text-transform:uppercase}
 .coupon-sponsor-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:.45em}
 .coupon-sponsor-badge{display:grid;place-items:center;max-width:100%;width:clamp(210px,47vw,310px);padding:.2em 0}
 .coupon-sponsor-badge img{display:block;width:100%;height:auto}
@@ -154,8 +153,7 @@ footer{border-top:1px solid var(--edge);margin-top:22px;padding-top:10px}
     <h2 id="coupon-title">Ganador</h2>
     <strong id="coupon-folio" class="coupon-folio"></strong>
     <p id="coupon-prize" class="coupon-prize prize-name"></p>
-    <section id="coupon-sponsors" class="coupon-sponsors" aria-labelledby="coupon-sponsors-title" hidden>
-      <h3 id="coupon-sponsors-title">Con el apoyo de</h3>
+    <section id="coupon-sponsors" class="coupon-sponsors" aria-label="Patrocinadores" hidden>
       <div id="coupon-sponsor-logos" class="coupon-sponsor-logos"></div>
     </section>
   </div>
